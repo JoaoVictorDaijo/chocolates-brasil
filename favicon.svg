@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Chocolates premiados">
+  <defs>
+    <linearGradient id="choco" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b5746"/>
+      <stop offset="1" stop-color="#5a4a3a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8c98f"/>
+      <stop offset=".55" stop-color="#c2983a"/>
+      <stop offset="1" stop-color="#a8743c"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="#2f5d49"/>
+  <rect x="40" y="40" width="176" height="176" rx="34" fill="url(#choco)"/>
+  <path d="M128 60 L144.5 105.4 L192.7 107 L154.6 136.7 L168 183 L128 156 L88 183 L101.4 136.7 L63.3 107 L111.5 105.4 Z"
+        fill="url(#gold)" stroke="#8a5e2e" stroke-width="2" stroke-linejoin="round"/>
+</svg>

@@ -696,6 +696,14 @@ const FRAUNCES = fs.existsSync(path.join(__dirname, 'fonts/fraunces.woff2'))
   ? `data:font/woff2;base64,${fs.readFileSync(path.join(__dirname, 'fonts/fraunces.woff2')).toString('base64')}`
   : '';
 
+// Favicon embedded (self-contained): SVG para navegadores modernos + PNG de fallback
+const FAVICON_SVG = fs.existsSync(path.join(__dirname, 'favicon.svg'))
+  ? `data:image/svg+xml;base64,${fs.readFileSync(path.join(__dirname, 'favicon.svg')).toString('base64')}`
+  : '';
+const FAVICON_PNG = fs.existsSync(path.join(__dirname, 'favicon-180.png'))
+  ? `data:image/png;base64,${fs.readFileSync(path.join(__dirname, 'favicon-180.png')).toString('base64')}`
+  : '';
+
 // ---- Medalheira (medal tally) — the signature element ----
 const MEDAL_ORDER = { g: 0, s: 1, b: 2, o: 3 };
 const MEDAL_LABEL = { g: 'Ouro', s: 'Prata', b: 'Bronze', o: 'Distinção' };
@@ -907,7 +915,10 @@ function shell(titleStr, mainInner, otherLink) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2f5d49">
 <title>${titleStr}</title>
+${FAVICON_SVG ? `<link rel="icon" type="image/svg+xml" href="${FAVICON_SVG}">` : ''}
+${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel="alternate icon" type="image/png" href="${FAVICON_PNG}">` : ''}
 <style>
   @font-face{font-family:'Fraunces';src:url(${FRAUNCES}) format('woff2');font-weight:300 900;font-style:normal;font-display:swap}
   :root{
