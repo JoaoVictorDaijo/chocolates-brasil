@@ -1,0 +1,494 @@
+{
+ "Miroh! Chocolate Makers": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2022",
+   "l": "Bronze",
+   "p": "70% cacau da Fazenda Camboa BA"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2021",
+   "l": "Prata",
+   "p": "Chocolate ao Leite 42%"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2023",
+   "l": "Prata",
+   "p": "Chocolate ao leite 42% cacau"
+  }
+ ],
+ "Cacau do Céu": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2020",
+   "l": "Menção",
+   "p": "barra 60% spicy"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2023",
+   "l": "Prata",
+   "p": "Ao leite 40% com flor de sal"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2024",
+   "l": "Bronze",
+   "p": "Chocolate ao leite 40% Cacau com Nibs e Melado de Cana"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2025",
+   "l": "Prata",
+   "p": "Chocolate Branco Maracujá"
+  }
+ ],
+ "Luisa Abram": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2019",
+   "l": "Bronze",
+   "p": "barra Rio Juruá 70%"
+  }
+ ],
+ "Negro Doce": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2018",
+   "l": "Bronze",
+   "p": "barra 70% cacau de Medicilândia"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2019",
+   "l": "Prata",
+   "p": "barra 70% cacau do Espírito Santo"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2019",
+   "l": "Bronze",
+   "p": "categoria Milk Bean to Bar para a barra 45%"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2020",
+   "l": "Bronze",
+   "p": "categoria Milk Bean to Bar para a barra 50% cacau"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2020",
+   "l": "Ouro",
+   "p": "categoria Milk chocolate bars with inclusions or pieces para a barra Caramel Crush"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2021",
+   "l": "Bronze",
+   "p": "barra de chocolate branco"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2024",
+   "l": "Bronze",
+   "p": "Negro Doce 70% selo amarelo – Bahia"
+  }
+ ],
+ "Almadoré Chocolate de Origem": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2020",
+   "l": "Prata",
+   "p": "Chocolate ao leite 50%"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2021",
+   "l": "Bronze",
+   "p": "Chocolate ao leite 50%"
+  }
+ ],
+ "Baianí Chocolates": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2019",
+   "l": "Bronze",
+   "p": "70% Vintage"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2019",
+   "l": "Bronze",
+   "p": "57% Dark Milk"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2020",
+   "l": "Bronze",
+   "p": "70% Torra Ousada"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2021",
+   "l": "Bronze",
+   "p": "65% com with Caipirinha"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2023",
+   "l": "Bronze",
+   "p": "65% com with Caipirinha"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2024",
+   "l": "Bronze",
+   "p": "65% Crocante de maracujá"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2025",
+   "l": "Bronze",
+   "p": "chocolate 70% cacau varietal BN34"
+  }
+ ],
+ "Mission Chocolate": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2017",
+   "l": "Bronze",
+   "p": "barra São Paulo 75%"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2018",
+   "l": "Bronze",
+   "p": "barra Porto Rico 70%"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2018",
+   "l": "Bronze",
+   "p": "barra Puerto Rico 72%"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2018",
+   "l": "Ouro",
+   "p": "barra 70% Fazenda Camboa"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2019",
+   "l": "Ouro",
+   "p": "barra 70% Fazenda Camboa"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2019",
+   "l": "Prata",
+   "p": "barra Biomas do Brasil 70% cacau com Goiabada"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2019",
+   "l": "Bronze",
+   "p": "barra Pão de Mel"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2020",
+   "l": "Ouro",
+   "p": "barra 70% cacau do Pará"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2020",
+   "l": "Bronze",
+   "p": "Doce de leite + Brazilian Sea Salt"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2021",
+   "l": "Ouro",
+   "p": "Two Rivers"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2021",
+   "l": "Bronze",
+   "p": "Two Rivers"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2022",
+   "l": "Bronze",
+   "p": "Amazzonia 85%"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2022",
+   "l": "Prata",
+   "p": "barra 70% cacau do Pará"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2025",
+   "l": "Bronze",
+   "p": "Chocolate ao leite cremoso"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2025",
+   "l": "Bronze",
+   "p": "chocolate Rosas"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2026",
+   "l": "Ouro",
+   "p": "Chocolate ao leite"
+  }
+ ],
+ "Chocolat du Jour": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2015",
+   "l": "Bronze",
+   "p": "Choco Chaud"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2019",
+   "l": "Bronze",
+   "p": "Croquant Truffle"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2021",
+   "l": "Bronze",
+   "p": "Nibs & 70% Chocolate Bar"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2022",
+   "l": "Bronze",
+   "p": "Nougat Noir Croquant Bar"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2021",
+   "l": "Ouro",
+   "p": "Caramel Scotch Bonbon"
+  }
+ ],
+ "Kaê Chocolates": [
+  {
+   "c": "ICA Américas",
+   "y": "2021",
+   "l": "Prata",
+   "p": "64% com Cupuaçu"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2023",
+   "l": "Bronze",
+   "p": "64% com Cupuaçu"
+  }
+ ],
+ "Mestiço Chocolates": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2018",
+   "l": "Prata",
+   "p": "barra 62% Cacau com Café"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2019",
+   "l": "Bronze",
+   "p": "barra 72% Forastero"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2021",
+   "l": "Bronze",
+   "p": "barra 59% ao Leite"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2022",
+   "l": "Prata",
+   "p": "72% Cachaça & Amburana"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2024",
+   "l": "Bronze",
+   "p": "37% Doce de Leite & Honeycomb"
+  }
+ ],
+ "Ju Arléo Chocolates": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2023",
+   "l": "Bronze",
+   "p": "Chocolate intenso 55% cacau ao leite com café"
+  }
+ ],
+ "Benevides Chocolates": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2024",
+   "l": "Bronze",
+   "p": "43% cacau ao leite com rapadura e flor de sal"
+  }
+ ],
+ "Nugali Chocolates": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2025",
+   "l": "Ouro",
+   "p": "Dragée Cocoa Nibs"
+  }
+ ],
+ "Pretiosus Chocolate Artesanal": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2024",
+   "l": "Bronze",
+   "p": "Chocolate 45% cacau ao leite"
+  }
+ ],
+ "ZAAD Chocolates": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2025",
+   "l": "Bronze",
+   "p": "70% Dark with cupuaçu"
+  }
+ ],
+ "Raros Fazedores de Chocolate": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2022",
+   "l": "Bronze",
+   "p": "70% cacau"
+  }
+ ],
+ "Cacau Dourado Chocolates": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2025",
+   "l": "Prata",
+   "p": "Chocolate intenso 70% cacau"
+  }
+ ],
+ "Kalapa Chocolate": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2025",
+   "l": "Bronze",
+   "p": "Castanha Baru e Cumaru – Embalo Crocante"
+  }
+ ],
+ "Pé de Chocolate": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2023",
+   "l": "Prata",
+   "p": "52% dark milk Itariri"
+  }
+ ],
+ "Labarr Chocolate de Origem": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2022",
+   "l": "Bronze",
+   "p": "42% Ao leite"
+  }
+ ],
+ "Aya Chocolates": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2024",
+   "l": "Prata",
+   "p": "Chocolate branco Tangerina com lichia"
+  },
+  {
+   "c": "Academy of Chocolate",
+   "y": "2025",
+   "l": "Bronze",
+   "p": "Chocolate 62% Cumaru"
+  }
+ ],
+ "Pepe Chocolates": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2020",
+   "l": "Bronze",
+   "p": "Barra 53% cacau"
+  }
+ ],
+ "Monjolo Chocolates": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2026",
+   "l": "Bronze",
+   "p": "70% cacau do Pará (Medicilândia)"
+  }
+ ],
+ "Casa Lasevicius": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2017",
+   "l": "Bronze",
+   "p": "(produto não informado)"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2018",
+   "l": "Bronze",
+   "p": "barra 42% cacau catongo"
+  },
+  {
+   "c": "ICA Américas",
+   "y": "2019",
+   "l": "Prata",
+   "p": "barra Tchai da Amazônia"
+  },
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2020",
+   "l": "Bronze",
+   "p": "barra ao leite 40%"
+  }
+ ],
+ "Prawer Chocolates": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2025",
+   "l": "Bronze",
+   "p": "Brazil Caramélisé"
+  }
+ ],
+ "Magian Cacao": [
+  {
+   "c": "Bean to Bar Brasil",
+   "y": "2022",
+   "l": "Bronze",
+   "p": "45% cacau de Belmonte (BA)"
+  }
+ ],
+ "Priscyla França Chocolates": [
+  {
+   "c": "Academy of Chocolate",
+   "y": "2021",
+   "l": "Bronze",
+   "p": "Pé de Moleque"
+  }
+ ]
+}

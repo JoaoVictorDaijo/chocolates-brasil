@@ -1,0 +1,19 @@
+# Saída gerada (recriável com `node gerar.js`)
+marcas.json
+site-cloudflare.zip
+
+# Rascunhos e backups
+*.v1.js
+*.v1.html
+*Copy.html
+pdf_p2.png
+logos/incoming/
+
+# Sessão do Claude Code / utilitário local (dados pessoais — fora do repo)
+*.jsonl
+*.jsonl.bak
+migrar-sessao.sh
+
+# Node / SO
+node_modules/
+.DS_Store
