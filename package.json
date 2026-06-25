@@ -4,6 +4,6 @@
   "private": true,
   "description": "Diretório curado e ranqueado por prestígio das marcas brasileiras de chocolate fino premiadas — gerador self-contained.",
   "scripts": {
-    "build": "node gerar.js && mkdir -p dist && cp chocolates-brasileiros-premiados.html dist/index.html"
+    "build": "node gerar.js && mkdir -p dist && cp chocolates-brasileiros-premiados.html dist/index.html && cp og-image.png dist/og-image.png"
   }
 }

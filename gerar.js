@@ -704,6 +704,10 @@ const FAVICON_PNG = fs.existsSync(path.join(__dirname, 'favicon-180.png'))
   ? `data:image/png;base64,${fs.readFileSync(path.join(__dirname, 'favicon-180.png')).toString('base64')}`
   : '';
 
+// URL público do site (para o preview de link / Open Graph). Trocar aqui se usar domínio próprio,
+// ou definir a env var SITE_URL no build do Cloudflare.
+const SITE_URL = (process.env.SITE_URL || 'https://chocolates-brasil.pages.dev').replace(/\/+$/, '');
+
 // ---- Medalheira (medal tally) — the signature element ----
 const MEDAL_ORDER = { g: 0, s: 1, b: 2, o: 3 };
 const MEDAL_LABEL = { g: 'Ouro', s: 'Prata', b: 'Bronze', o: 'Distinção' };
@@ -897,6 +901,8 @@ AOC.forEach((m) => HOME.set(m, 'Seção 2'));
 AVPA.forEach((m) => HOME.set(m, 'Seção 3'));
 NACIONAL.forEach((m) => HOME.set(m, 'Seção 4'));
 const ALL_UNIQUE = [...t1, ...t2, ...AOC, ...AVPA, ...NACIONAL];
+const TOTAL_AWARDS = ALL_UNIQUE.reduce((s, m) => s + ((m.awards || []).length), 0);
+const OG_DESC = `As marcas brasileiras de chocolate fino mais premiadas — ${ALL_UNIQUE.length} marcas e ${TOTAL_AWARDS} prêmios verificados (ICA, Academy of Chocolate, AVPA e nacionais), ranqueadas por um índice de prestígio.`;
 const unifiedRanked = [...ALL_UNIQUE].sort((a, b) => strengthAll(b) - strengthAll(a));
 function crossStripHtml(pred, primaryArr) {
   const inPrimary = new Set(primaryArr);
@@ -919,6 +925,22 @@ function shell(titleStr, mainInner, otherLink) {
 <title>${titleStr}</title>
 ${FAVICON_SVG ? `<link rel="icon" type="image/svg+xml" href="${FAVICON_SVG}">` : ''}
 ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel="alternate icon" type="image/png" href="${FAVICON_PNG}">` : ''}
+<meta name="description" content="${esc(OG_DESC)}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chocolates Brasileiros Premiados">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Chocolates Brasileiros Premiados">
+<meta property="og:description" content="${esc(OG_DESC)}">
+<meta property="og:url" content="${SITE_URL}/">
+<meta property="og:image" content="${SITE_URL}/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Chocolates Brasileiros Premiados — diretório ranqueado por prestígio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chocolates Brasileiros Premiados">
+<meta name="twitter:description" content="${esc(OG_DESC)}">
+<meta name="twitter:image" content="${SITE_URL}/og-image.png">
 <style>
   @font-face{font-family:'Fraunces';src:url(${FRAUNCES}) format('woff2');font-weight:300 900;font-style:normal;font-display:swap}
   :root{
