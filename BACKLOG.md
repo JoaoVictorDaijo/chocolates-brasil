@@ -6,46 +6,32 @@ Tarefas pendentes e ideias. Atualizar conforme avança.
 
 ## 🔜 Próximos passos
 
-### 1. Ícone da página (favicon)
-Desenhar um favicon coerente com a identidade visual (verde cabruca + serif Fraunces).
+### 1. Interface — trazer informações-chave para o topo
+O site ficou longo e o que está no rodapé se perde (legenda das medalhas, "como foi
+feito", créditos). Trazer para perto do topo o essencial — em especial a **legenda** e
+o card **"Como o índice de prestígio é calculado"** (que já agrada). A definir na
+conversa de design: o que sobe, para onde, e o que pode virar algo recolhível.
 
-- **Ideias de conceito:** barra de chocolate estilizada · fruto/amêndoa de cacau · a
-  estrela ★ da "barra-assinatura" · monograma "CB".
-- **Formatos a gerar:** SVG (nítido em qualquer tela), PNG 32×32 (aba do navegador) e
-  180×180 (`apple-touch-icon`, atalho no celular).
-- **Onde plugar:** no `gerar.js`, dentro do `<head>` da função `shell()`, adicionar a
-  tag `<link rel="icon" ...>`.
-
-### 2. Adicionar o ícone na Cloudflare Pages
-Depende de como o favicon for embutido (decidir na tarefa 1):
-
-- **Recomendado — embutido como data URI** (`<link rel="icon" href="data:image/svg+xml;base64,...">`):
-  mantém o `index.html` autocontido e **não exige nada a mais no Cloudflare** — o ícone
-  viaja dentro do próprio arquivo. Só re-subir o `dist/index.html`.
-- **Alternativa — arquivo separado** (`favicon.ico`/`.png` + `<link rel="icon" href="/favicon.ico">`):
-  é preciso subir o arquivo do ícone **junto, na raiz** do upload do Cloudflare Pages
-  (mesmo nível do `index.html`) e fazer re-deploy.
-- ⚠️ O navegador costuma **cachear favicon** com força — se não aparecer após o deploy,
-  testar em aba anônima ou dar hard-refresh.
+### 2. Interface — colapsar os cards de forma elegante (desktop + mobile)
+Reduzir o comprimento da página deixando cada ficha de marca recolhível/condensada,
+com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
+(aberto/fechado), o que fica visível no card fechado, expandir-um vs expandir-todos.
 
 ### 3. Post no Reddit
-- **Hospedar** o `dist/index.html` (Netlify Drop ou Cloudflare Pages) → obter a URL.
+- **Hospedagem:** já no ar em https://chocolates-brasil.pages.dev/
 - **Tabela markdown** do top 15-20 (rank · marca · cidade · nº de medalhas · pontos).
 - **Título + TL;DR** em PT e em inglês.
 - **Subreddits:** r/chocolate (inglês, principal) · r/brasil e r/saopaulo (PT) ·
-  r/InternetIsBeautiful (só com a versão interativa hospedada).
+  r/InternetIsBeautiful (versão interativa).
 - **Enquadramento:** gratuito, sem fins lucrativos, metodologia aberta, créditos à
-  Chocólatras Online / Zélia Frangioni — para evitar a reação anti-autopromoção.
+  Chocólatras Online / Zélia Frangioni.
 - (Opcional) imagem-resumo do top 10 como thumbnail do post.
 
 ---
 
 ## 💡 Melhorias possíveis (nice-to-have)
-- **PDF compacto** (~30 págs): só a medalheira por card, sem as listas detalhadas de
-  prêmios — versão mais leve para compartilhar.
-- **Logos faltantes:** JUCOLATTE e Nicolas Chocolate do Belga ainda usam monograma —
-  trocar se achar uma fonte boa.
-- **Publicar no GitHub** (`git push`) — repo local já está pronto.
+- **PDF compacto** (~30 págs): só a medalheira por card, sem as listas detalhadas.
+- **Logos faltantes:** JUCOLATTE e Nicolas Chocolate do Belga ainda em monograma.
 
 ---
 
@@ -53,5 +39,8 @@ Depende de como o favicon for embutido (decidir na tarefa 1):
 - Documento HTML autocontido — 68 marcas, 401 prêmios, 5 competições
 - Versão em PDF (72 páginas)
 - Logo da MOA corrigida
-- Projeto inicializado no Git (commit inicial na branch `main`)
+- **Favicon** (tile de chocolate + estrela de ouro) embutido — SVG + apple-touch-icon
+- **Preview de link (Open Graph)** com imagem 1200×630 — funciona no WhatsApp, Telegram etc.
+- Projeto no **Git** + repositório **público no GitHub** (JoaoVictorDaijo/chocolates-brasil)
+- **Cloudflare Pages** com deploy automático a cada push na `main`
 - Sessão do Claude Code migrada para a pasta do projeto
