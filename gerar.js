@@ -767,9 +767,20 @@ function traitsOf(m) {
   if (/orgânic/.test(p)) traits.push('orgânica');
   return { method, scale, traits };
 }
+const TRAIT_TIP = {
+  'bean-to-bar': 'Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.',
+  'tree-to-bar': 'Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.',
+  'chocolatier': 'Parte de cobertura (couverture) pronta para criar bombons, trufas e pralinés.',
+  'micro-lote': 'Produção artesanal em pequenos lotes, com foco em qualidade e terroir.',
+  'maior escala': 'Produção em maior volume e com distribuição mais ampla.',
+  'familiar': 'Negócio de gestão familiar.',
+  'vegana': 'Ingredientes sem origem animal.',
+  'orgânica': 'Cacau e ingredientes de cultivo orgânico.',
+};
 function traitsHtml(m) {
   const t = traitsOf(m);
-  return `<div class="traits"><span class="trait t-method">${t.method}</span><span class="trait t-scale">${t.scale}</span>${t.traits.map((x) => `<span class="trait t-extra">${x}</span>`).join('')}</div>`;
+  const tip = (k) => TRAIT_TIP[k] ? ` data-tip="${TRAIT_TIP[k]}"` : '';
+  return `<div class="traits"><span class="trait t-method"${tip(t.method)}>${t.method}</span><span class="trait t-scale"${tip(t.scale)}>${t.scale}</span>${t.traits.map((x) => `<span class="trait t-extra"${tip(x)}>${x}</span>`).join('')}</div>`;
 }
 
 function cardBr(m, rank) {
@@ -1009,10 +1020,13 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
   .score small{font-size:.78em;opacity:.65;margin-left:1px}
   .pos{margin:0 0 4px;font-size:.9rem;line-height:1.5;color:#4a3a2c}
   .traits{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 11px}
-  .trait{font-family:var(--mono);font-size:.6rem;letter-spacing:.02em;padding:3px 9px;border-radius:999px;font-weight:600;white-space:nowrap}
+  .trait{font-family:var(--mono);font-size:.6rem;letter-spacing:.02em;padding:3px 9px;border-radius:999px;font-weight:600;white-space:nowrap;position:relative}
   .t-method{background:var(--cabruca);color:#eef3ee}
   .t-scale{background:var(--card2);color:var(--cabruca);border:1px solid var(--line)}
   .t-extra{background:transparent;color:var(--muted);border:1px solid var(--line)}
+  .trait[data-tip]{cursor:help}
+  .trait[data-tip]:hover::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--ink);color:#f1e6cf;padding:8px 11px;border-radius:8px;font-size:.72rem;font-weight:400;white-space:normal;width:210px;z-index:20;line-height:1.4;box-shadow:0 8px 22px rgba(0,0,0,.28);pointer-events:none}
+  .trait[data-tip]:hover::before{content:"";position:absolute;bottom:calc(100% + 2px);left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--ink);z-index:20}
 
   /* ---- Medalheira (signature) ---- */
   .medalheira{margin:12px 0 11px;padding:11px 13px;background:var(--card2);border:1px solid var(--line);border-radius:10px}
@@ -1086,6 +1100,38 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
   .two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
   @media(max-width:680px){.two{grid-template-columns:1fr}}
 
+  /* ---- Keybar (barra-chave A) ---- */
+  .keybar{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 16px;margin:-8px 0 22px}
+  .kb-legend{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-family:var(--mono);font-size:.74rem;color:var(--muted)}
+  .kb-it{display:inline-flex;align-items:center;gap:7px}
+  .kb-legend .disc{width:17px;height:17px;font-size:0}
+  .kb-star{color:var(--ouro);font-weight:700;margin-left:4px}
+  .kb-hier{margin-top:7px;font-size:.8rem;color:var(--ink);line-height:1.4}
+  .kb-hier b{color:var(--cabruca)}
+  .kb-calc{margin-top:8px}
+  .kb-calc>summary{list-style:none;cursor:pointer;color:var(--cabruca);font-weight:700;font-size:.78rem;display:inline-flex;align-items:center;gap:7px;user-select:none}
+  .kb-calc>summary::-webkit-details-marker{display:none}
+  .kb-calc>summary::before{content:'';width:0;height:0;border-left:5px solid currentColor;border-top:3.5px solid transparent;border-bottom:3.5px solid transparent;transition:transform .15s ease}
+  .kb-calc[open]>summary::before{transform:rotate(90deg)}
+
+  /* ---- Primer das competições ---- */
+  .primer-wrap{margin:0 0 26px}
+  .primer-h{font-family:var(--serif);font-weight:520;font-size:1.04rem;color:var(--ink);margin:0 0 4px}
+  .primer-sub{color:var(--muted);font-size:.82rem;margin:0 0 10px}
+  .primer{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  @media(max-width:700px){.primer{grid-template-columns:1fr}}
+  .comp{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:13px 15px}
+  .comp-nm{font-family:var(--serif);font-weight:600;color:var(--cabruca);font-size:1.02rem;margin:0 0 5px}
+  .comp-tag{display:inline-block;font-size:.67rem;color:#8a6a2e;background:#f3ead7;border:1px solid #e6d6b0;border-radius:6px;padding:1px 7px;margin-bottom:7px}
+  .comp-one{color:var(--ink);font-size:.8rem;margin:7px 0 0;line-height:1.45}
+  .comp details{margin-top:9px}
+  .comp details>summary{list-style:none;cursor:pointer;color:var(--cabruca);font-weight:700;font-size:.75rem;display:inline-flex;align-items:center;gap:7px;user-select:none}
+  .comp details>summary::-webkit-details-marker{display:none}
+  .comp details>summary::before{content:'';width:0;height:0;border-left:5px solid currentColor;border-top:3.5px solid transparent;border-bottom:3.5px solid transparent;transition:transform .15s ease}
+  .comp details[open]>summary::before{transform:rotate(90deg)}
+  .comp-more{font-size:.78rem;color:var(--muted);margin-top:8px;line-height:1.48}
+  .comp-more b{color:var(--ink)}
+
   /* ---- Footer ---- */
   footer{background:var(--cabruca-deep);color:#c9bda6;padding:44px 0 38px;margin-top:48px;font-size:.86rem}
   footer strong{color:#e9dcc1}
@@ -1094,8 +1140,8 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
   .foot-h{font-family:var(--serif);font-weight:480;font-size:1.4rem;color:#f1e6cf;margin:0;line-height:1.1}
   .foot-sub{font-size:.88rem;color:#bcae95;margin:6px 0 0;max-width:520px}
   .foot-stat{font-family:var(--mono);font-size:.73rem;color:var(--sage);margin:0;letter-spacing:.02em}
-  .foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:32px}
-  @media(max-width:780px){.foot-grid{grid-template-columns:1fr;gap:24px}.foot-top{align-items:flex-start}}
+  .foot-grid{display:grid;grid-template-columns:1fr;gap:24px;max-width:600px}
+  @media(max-width:780px){.foot-top{align-items:flex-start}}
   .foot-grid h5{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);margin:0 0 10px;font-weight:700}
   .foot-grid p{font-size:.84rem;line-height:1.56;color:#bcae95;margin:0}
   .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.74rem;color:#bcae95;font-family:var(--mono)}
@@ -1223,20 +1269,6 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
         <h5>Como foi feito</h5>
         <p>Partimos da lista curada do <a href="https://chocolatrasonline.com.br/chocomarcas/" target="_blank" rel="noopener">Chócolatras Online</a> e enriquecemos cada marca com pesquisa multi-fonte. As premiações foram verificadas preferencialmente nas <strong>páginas oficiais das competições</strong> (ICA, Academy of Chocolate, AVPA, Cocoa of Excellence) e, quando indicado, na imprensa. Marcas sem prêmio verificável ficaram de fora; divergências de medalha estão sinalizadas (⚠) em cada ficha.</p>
       </div>
-      <div>
-        <h5>O ranking</h5>
-        <p>Cada marca tem um <strong>índice de prestígio (pts)</strong> que pondera a competição (Mundial &gt; Américas &gt; Academy of Chocolate &gt; AVPA &gt; nacional) e o nível da medalha. O cálculo aberto está no topo da página.</p>
-      </div>
-      <div>
-        <h5>Legenda</h5>
-        <div class="legend">
-          <span><span class="disc g"></span> Ouro</span>
-          <span><span class="disc s"></span> Prata</span>
-          <span><span class="disc b"></span> Bronze</span>
-          <span><span class="disc o"></span> Distinção</span>
-        </div>
-        <p class="legend-note">★ barra-assinatura (chocolate com múltiplas medalhas). Cada linha da medalheira é uma competição.</p>
-      </div>
     </div>
     <p class="foot-credits">Curadoria e desenvolvimento por <strong>João Victor Daijó</strong>. Agradecimento especial a <strong>Zélia Frangioni</strong>, que mantém o <a href="https://chocolatrasonline.com.br/" target="_blank" rel="noopener">Chócolatras Online</a> — fonte e inspiração deste guia.</p>
     <p class="foot-date">Documento gerado em junho de 2026 · dados sujeitos a atualização a cada nova edição das competições.</p>
@@ -1356,17 +1388,61 @@ const mainUnified = `
     <button class="fchip" data-f="nacional">Nacional</button>
   </div>
 
-  <details class="howto">
-    <summary>Como o índice de prestígio (pts) é calculado</summary>
-    <div class="howto-body">
-      <p>Cada marca recebe um <strong>índice</strong> = (melhor medalha × 10) + soma de todas as suas medalhas. Cada medalha vale <strong>peso da competição × peso do nível</strong>:</p>
-      <div class="weights">
-        <div class="wrow"><span class="wlabel">Competição</span><span class="ctag mundial">ICA Mundial ×10</span><span class="ctag americas">ICA Américas ×3,5</span><span class="ctag aoc">Academy of Chocolate ×3</span><span class="ctag avpa">AVPA Paris ×2,5</span><span class="ctag nacional">Nacional ×1,5</span></div>
-        <div class="wrow"><span class="wlabel">Nível</span><span class="wpill"><span class="disc g"></span>Ouro 100</span><span class="wpill"><span class="disc s"></span>Prata 60</span><span class="wpill"><span class="disc b"></span>Bronze 30</span><span class="wpill"><span class="disc o"></span>Distinção 15</span></div>
-      </div>
-      <p class="howto-why">A <strong>final mundial do ICA</strong> reúne os vencedores de todas as etapas regionais do planeta — só entra quem já ganhou medalha numa etapa regional, então uma medalha lá vale muito mais. A etapa <strong>Américas</strong> do ICA leva leve vantagem sobre a Academy of Chocolate por ser mais seletiva e concentrar as melhores origens de cacau do mundo. A AVPA é restrita a chocolates feitos nos países de origem do cacau.</p>
+  <div class="keybar">
+    <div class="kb-legend">
+      <span class="kb-it"><span class="disc g"></span>Ouro</span>
+      <span class="kb-it"><span class="disc s"></span>Prata</span>
+      <span class="kb-it"><span class="disc b"></span>Bronze</span>
+      <span class="kb-it"><span class="disc o"></span>Distinção</span>
+      <span class="kb-star">★ barra-assinatura</span>
     </div>
-  </details>
+    <div class="kb-hier">Índice de prestígio: <b>ICA Mundial ×10 · Américas ×3,5 · Academy of Chocolate ×3 · AVPA Paris ×2,5 · nacional ×1,5</b></div>
+    <details class="kb-calc">
+      <summary>ver cálculo</summary>
+      <div class="howto-body">
+        <p>Cada marca recebe um <strong>índice</strong> = (melhor medalha × 10) + soma de todas as suas medalhas. Cada medalha vale <strong>peso da competição × peso do nível</strong>:</p>
+        <div class="weights">
+          <div class="wrow"><span class="wlabel">Competição</span><span class="ctag mundial">ICA Mundial ×10</span><span class="ctag americas">ICA Américas ×3,5</span><span class="ctag aoc">Academy of Chocolate ×3</span><span class="ctag avpa">AVPA Paris ×2,5</span><span class="ctag nacional">Nacional ×1,5</span></div>
+          <div class="wrow"><span class="wlabel">Nível</span><span class="wpill"><span class="disc g"></span>Ouro 100</span><span class="wpill"><span class="disc s"></span>Prata 60</span><span class="wpill"><span class="disc b"></span>Bronze 30</span><span class="wpill"><span class="disc o"></span>Distinção 15</span></div>
+        </div>
+        <p class="howto-why">A <strong>final mundial do ICA</strong> reúne os vencedores de todas as etapas regionais do planeta — só entra quem já ganhou medalha numa etapa regional, então uma medalha lá vale muito mais. A etapa <strong>Américas</strong> do ICA leva leve vantagem sobre a Academy of Chocolate por ser mais seletiva e concentrar as melhores origens de cacau do mundo. A <strong>AVPA</strong> é restrita a chocolates feitos nos países de origem do cacau, o que a torna uma vitrine natural para o terroir brasileiro.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="primer-wrap">
+    <p class="primer-h">As competições, em resumo</p>
+    <p class="primer-sub">Onde essas marcas foram premiadas — e como cada ranking é montado.</p>
+    <div class="primer">
+      <div class="comp">
+        <p class="comp-nm">ICA</p>
+        <span class="comp-tag">a mais prestigiada · 2 etapas</span>
+        <p class="comp-one">International Chocolate Awards: o circuito de maior peso. Tem a etapa regional das <strong>Américas</strong> e a <strong>final mundial</strong>.</p>
+        <details>
+          <summary>como funciona o ranking</summary>
+          <div class="comp-more">Júri às cegas, em rodadas, com medalhas <b>Ouro / Prata / Bronze</b> por categoria. Quem vence na regional disputa a <b>final mundial</b>, que reúne os campeões do planeta — por isso uma medalha mundial pesa muito mais (×10) do que a regional (×3,5).</div>
+        </details>
+      </div>
+      <div class="comp">
+        <p class="comp-nm">Academy of Chocolate</p>
+        <span class="comp-tag">Londres · independente</span>
+        <p class="comp-one">Uma das competições mais respeitadas do mundo, sediada em <strong>Londres</strong> e independente do ICA.</p>
+        <details>
+          <summary>como funciona o ranking</summary>
+          <div class="comp-more">Painel de especialistas avalia em <b>rodada única</b>, com medalhas Ouro / Prata / Bronze e o cobiçado <b>Golden Bean</b>. Forte ênfase em qualidade sensorial e em produção bean-to-bar.</div>
+        </details>
+      </div>
+      <div class="comp">
+        <p class="comp-nm">AVPA Paris</p>
+        <span class="comp-tag">chocolates de origem</span>
+        <p class="comp-one">Concurso parisiense que premia <strong>só chocolates feitos nos países de origem do cacau</strong> — vitrine natural para o terroir brasileiro.</p>
+        <details>
+          <summary>como funciona o ranking</summary>
+          <div class="comp-more">Júri de profissionais em Paris concede prêmios <b>Gourmet</b> (Ouro / Prata / Bronze) por faixa. Por valorizar a transformação na origem, é uma vitrine natural para marcas brasileiras que fazem na fazenda.</div>
+        </details>
+      </div>
+    </div>
+  </div>
 
   <section class="usection">
     <div class="section-title"><h2>Reconhecimento internacional</h2><span class="count">${intlBrands.length} marcas · ICA, Academy of Chocolate &amp; AVPA</span></div>

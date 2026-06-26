@@ -92,10 +92,13 @@
   .score small{font-size:.78em;opacity:.65;margin-left:1px}
   .pos{margin:0 0 4px;font-size:.9rem;line-height:1.5;color:#4a3a2c}
   .traits{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 11px}
-  .trait{font-family:var(--mono);font-size:.6rem;letter-spacing:.02em;padding:3px 9px;border-radius:999px;font-weight:600;white-space:nowrap}
+  .trait{font-family:var(--mono);font-size:.6rem;letter-spacing:.02em;padding:3px 9px;border-radius:999px;font-weight:600;white-space:nowrap;position:relative}
   .t-method{background:var(--cabruca);color:#eef3ee}
   .t-scale{background:var(--card2);color:var(--cabruca);border:1px solid var(--line)}
   .t-extra{background:transparent;color:var(--muted);border:1px solid var(--line)}
+  .trait[data-tip]{cursor:help}
+  .trait[data-tip]:hover::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--ink);color:#f1e6cf;padding:8px 11px;border-radius:8px;font-size:.72rem;font-weight:400;white-space:normal;width:210px;z-index:20;line-height:1.4;box-shadow:0 8px 22px rgba(0,0,0,.28);pointer-events:none}
+  .trait[data-tip]:hover::before{content:"";position:absolute;bottom:calc(100% + 2px);left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--ink);z-index:20}
 
   /* ---- Medalheira (signature) ---- */
   .medalheira{margin:12px 0 11px;padding:11px 13px;background:var(--card2);border:1px solid var(--line);border-radius:10px}
@@ -169,6 +172,38 @@
   .two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
   @media(max-width:680px){.two{grid-template-columns:1fr}}
 
+  /* ---- Keybar (barra-chave A) ---- */
+  .keybar{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 16px;margin:-8px 0 22px}
+  .kb-legend{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-family:var(--mono);font-size:.74rem;color:var(--muted)}
+  .kb-it{display:inline-flex;align-items:center;gap:7px}
+  .kb-legend .disc{width:17px;height:17px;font-size:0}
+  .kb-star{color:var(--ouro);font-weight:700;margin-left:4px}
+  .kb-hier{margin-top:7px;font-size:.8rem;color:var(--ink);line-height:1.4}
+  .kb-hier b{color:var(--cabruca)}
+  .kb-calc{margin-top:8px}
+  .kb-calc>summary{list-style:none;cursor:pointer;color:var(--cabruca);font-weight:700;font-size:.78rem;display:inline-flex;align-items:center;gap:7px;user-select:none}
+  .kb-calc>summary::-webkit-details-marker{display:none}
+  .kb-calc>summary::before{content:'';width:0;height:0;border-left:5px solid currentColor;border-top:3.5px solid transparent;border-bottom:3.5px solid transparent;transition:transform .15s ease}
+  .kb-calc[open]>summary::before{transform:rotate(90deg)}
+
+  /* ---- Primer das competições ---- */
+  .primer-wrap{margin:0 0 26px}
+  .primer-h{font-family:var(--serif);font-weight:520;font-size:1.04rem;color:var(--ink);margin:0 0 4px}
+  .primer-sub{color:var(--muted);font-size:.82rem;margin:0 0 10px}
+  .primer{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  @media(max-width:700px){.primer{grid-template-columns:1fr}}
+  .comp{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:13px 15px}
+  .comp-nm{font-family:var(--serif);font-weight:600;color:var(--cabruca);font-size:1.02rem;margin:0 0 5px}
+  .comp-tag{display:inline-block;font-size:.67rem;color:#8a6a2e;background:#f3ead7;border:1px solid #e6d6b0;border-radius:6px;padding:1px 7px;margin-bottom:7px}
+  .comp-one{color:var(--ink);font-size:.8rem;margin:7px 0 0;line-height:1.45}
+  .comp details{margin-top:9px}
+  .comp details>summary{list-style:none;cursor:pointer;color:var(--cabruca);font-weight:700;font-size:.75rem;display:inline-flex;align-items:center;gap:7px;user-select:none}
+  .comp details>summary::-webkit-details-marker{display:none}
+  .comp details>summary::before{content:'';width:0;height:0;border-left:5px solid currentColor;border-top:3.5px solid transparent;border-bottom:3.5px solid transparent;transition:transform .15s ease}
+  .comp details[open]>summary::before{transform:rotate(90deg)}
+  .comp-more{font-size:.78rem;color:var(--muted);margin-top:8px;line-height:1.48}
+  .comp-more b{color:var(--ink)}
+
   /* ---- Footer ---- */
   footer{background:var(--cabruca-deep);color:#c9bda6;padding:44px 0 38px;margin-top:48px;font-size:.86rem}
   footer strong{color:#e9dcc1}
@@ -177,8 +212,8 @@
   .foot-h{font-family:var(--serif);font-weight:480;font-size:1.4rem;color:#f1e6cf;margin:0;line-height:1.1}
   .foot-sub{font-size:.88rem;color:#bcae95;margin:6px 0 0;max-width:520px}
   .foot-stat{font-family:var(--mono);font-size:.73rem;color:var(--sage);margin:0;letter-spacing:.02em}
-  .foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:32px}
-  @media(max-width:780px){.foot-grid{grid-template-columns:1fr;gap:24px}.foot-top{align-items:flex-start}}
+  .foot-grid{display:grid;grid-template-columns:1fr;gap:24px;max-width:600px}
+  @media(max-width:780px){.foot-top{align-items:flex-start}}
   .foot-grid h5{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);margin:0 0 10px;font-weight:700}
   .foot-grid p{font-size:.84rem;line-height:1.56;color:#bcae95;margin:0}
   .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.74rem;color:#bcae95;font-family:var(--mono)}
@@ -302,17 +337,61 @@
     <button class="fchip" data-f="nacional">Nacional</button>
   </div>
 
-  <details class="howto">
-    <summary>Como o índice de prestígio (pts) é calculado</summary>
-    <div class="howto-body">
-      <p>Cada marca recebe um <strong>índice</strong> = (melhor medalha × 10) + soma de todas as suas medalhas. Cada medalha vale <strong>peso da competição × peso do nível</strong>:</p>
-      <div class="weights">
-        <div class="wrow"><span class="wlabel">Competição</span><span class="ctag mundial">ICA Mundial ×10</span><span class="ctag americas">ICA Américas ×3,5</span><span class="ctag aoc">Academy of Chocolate ×3</span><span class="ctag avpa">AVPA Paris ×2,5</span><span class="ctag nacional">Nacional ×1,5</span></div>
-        <div class="wrow"><span class="wlabel">Nível</span><span class="wpill"><span class="disc g"></span>Ouro 100</span><span class="wpill"><span class="disc s"></span>Prata 60</span><span class="wpill"><span class="disc b"></span>Bronze 30</span><span class="wpill"><span class="disc o"></span>Distinção 15</span></div>
-      </div>
-      <p class="howto-why">A <strong>final mundial do ICA</strong> reúne os vencedores de todas as etapas regionais do planeta — só entra quem já ganhou medalha numa etapa regional, então uma medalha lá vale muito mais. A etapa <strong>Américas</strong> do ICA leva leve vantagem sobre a Academy of Chocolate por ser mais seletiva e concentrar as melhores origens de cacau do mundo. A AVPA é restrita a chocolates feitos nos países de origem do cacau.</p>
+  <div class="keybar">
+    <div class="kb-legend">
+      <span class="kb-it"><span class="disc g"></span>Ouro</span>
+      <span class="kb-it"><span class="disc s"></span>Prata</span>
+      <span class="kb-it"><span class="disc b"></span>Bronze</span>
+      <span class="kb-it"><span class="disc o"></span>Distinção</span>
+      <span class="kb-star">★ barra-assinatura</span>
     </div>
-  </details>
+    <div class="kb-hier">Índice de prestígio: <b>ICA Mundial ×10 · Américas ×3,5 · Academy of Chocolate ×3 · AVPA Paris ×2,5 · nacional ×1,5</b></div>
+    <details class="kb-calc">
+      <summary>ver cálculo</summary>
+      <div class="howto-body">
+        <p>Cada marca recebe um <strong>índice</strong> = (melhor medalha × 10) + soma de todas as suas medalhas. Cada medalha vale <strong>peso da competição × peso do nível</strong>:</p>
+        <div class="weights">
+          <div class="wrow"><span class="wlabel">Competição</span><span class="ctag mundial">ICA Mundial ×10</span><span class="ctag americas">ICA Américas ×3,5</span><span class="ctag aoc">Academy of Chocolate ×3</span><span class="ctag avpa">AVPA Paris ×2,5</span><span class="ctag nacional">Nacional ×1,5</span></div>
+          <div class="wrow"><span class="wlabel">Nível</span><span class="wpill"><span class="disc g"></span>Ouro 100</span><span class="wpill"><span class="disc s"></span>Prata 60</span><span class="wpill"><span class="disc b"></span>Bronze 30</span><span class="wpill"><span class="disc o"></span>Distinção 15</span></div>
+        </div>
+        <p class="howto-why">A <strong>final mundial do ICA</strong> reúne os vencedores de todas as etapas regionais do planeta — só entra quem já ganhou medalha numa etapa regional, então uma medalha lá vale muito mais. A etapa <strong>Américas</strong> do ICA leva leve vantagem sobre a Academy of Chocolate por ser mais seletiva e concentrar as melhores origens de cacau do mundo. A <strong>AVPA</strong> é restrita a chocolates feitos nos países de origem do cacau, o que a torna uma vitrine natural para o terroir brasileiro.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="primer-wrap">
+    <p class="primer-h">As competições, em resumo</p>
+    <p class="primer-sub">Onde essas marcas foram premiadas — e como cada ranking é montado.</p>
+    <div class="primer">
+      <div class="comp">
+        <p class="comp-nm">ICA</p>
+        <span class="comp-tag">a mais prestigiada · 2 etapas</span>
+        <p class="comp-one">International Chocolate Awards: o circuito de maior peso. Tem a etapa regional das <strong>Américas</strong> e a <strong>final mundial</strong>.</p>
+        <details>
+          <summary>como funciona o ranking</summary>
+          <div class="comp-more">Júri às cegas, em rodadas, com medalhas <b>Ouro / Prata / Bronze</b> por categoria. Quem vence na regional disputa a <b>final mundial</b>, que reúne os campeões do planeta — por isso uma medalha mundial pesa muito mais (×10) do que a regional (×3,5).</div>
+        </details>
+      </div>
+      <div class="comp">
+        <p class="comp-nm">Academy of Chocolate</p>
+        <span class="comp-tag">Londres · independente</span>
+        <p class="comp-one">Uma das competições mais respeitadas do mundo, sediada em <strong>Londres</strong> e independente do ICA.</p>
+        <details>
+          <summary>como funciona o ranking</summary>
+          <div class="comp-more">Painel de especialistas avalia em <b>rodada única</b>, com medalhas Ouro / Prata / Bronze e o cobiçado <b>Golden Bean</b>. Forte ênfase em qualidade sensorial e em produção bean-to-bar.</div>
+        </details>
+      </div>
+      <div class="comp">
+        <p class="comp-nm">AVPA Paris</p>
+        <span class="comp-tag">chocolates de origem</span>
+        <p class="comp-one">Concurso parisiense que premia <strong>só chocolates feitos nos países de origem do cacau</strong> — vitrine natural para o terroir brasileiro.</p>
+        <details>
+          <summary>como funciona o ranking</summary>
+          <div class="comp-more">Júri de profissionais em Paris concede prêmios <b>Gourmet</b> (Ouro / Prata / Bronze) por faixa. Por valorizar a transformação na origem, é uma vitrine natural para marcas brasileiras que fazem na fazenda.</div>
+        </details>
+      </div>
+    </div>
+  </div>
 
   <section class="usection">
     <div class="section-title"><h2>Reconhecimento internacional</h2><span class="count">57 marcas · ICA, Academy of Chocolate &amp; AVPA</span></div>
@@ -329,7 +408,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">9.320<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar premium do chef chocolatier Ricardo Campos, com ateliê em frente ao Lago Negro, em Gramado. Aposta em chocolates ao leite autorais e infusões. Artesanal, em micro-lotes.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag mundial">ICA Mundial</span><span class="tdiscs"><span class="disc s" title="3 Prata"><b>3</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="2 Prata"><b>2</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -357,7 +436,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">7.920<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de Marcela Tavares, no coração da região cacaueira de Ilhéus. Combinações ousadas com ingredientes brasileiros (queijo canastra, maracujá). Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag mundial">ICA Mundial</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="3 Prata"><b>3</b></span><span class="disc b" title="1 Bronze"><b>1</b></span><span class="disc o" title="1 Distinção"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -385,7 +464,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">7.275<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar jovem da chocolate maker Juliana, com fábrica em Cajamar (SP). Brancos e doces de leite autorais. Novato premiado, artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag mundial">ICA Mundial</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="2 Prata"><b>2</b></span></span></div></div>
@@ -413,7 +492,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">7.273<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Primeiro bean-to-bar do Ceará, da arquiteta-chocolatier Giovanna Mondardo. Foco em cacau de origem amazônica e combinações com frutas brasileiras. Artesanal, premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag mundial">ICA Mundial</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc o" title="1 Distinção"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -441,7 +520,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">7.200<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Tree-to-bar familiar de Josiane Luz Santana, erguido sobre a lavoura de cacau da própria família, no centro-sul da Bahia. Do grão à barra, artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag mundial">ICA Mundial</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span><span class="disc o" title="1 Distinção"><b>1</b></span></span></div><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -469,7 +548,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">6.615<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de Arcelia Gallardo, no Brooklin. Uma das mais premiadas do país no circuito regional, com releituras de doces brasileiros. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="7 Prata"><b>7</b></span><span class="disc b" title="5 Bronze"><b>5</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc b" title="6 Bronze"><b>6</b></span><span class="disc o" title="1 Distinção"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="4 Ouro"><b>4</b></span><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -497,7 +576,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">6.560<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Bean-to-bar da família Odlevak. Brancos e ao leite criativos, com frutas e cachaça. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc g" title="3 Ouro"><b>3</b></span><span class="disc s" title="4 Prata"><b>4</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="2 Ouro"><b>2</b></span><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div></div>
@@ -525,7 +604,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">6.445<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Referência internacional em cacau selvagem da Amazônia, colhido por comunidades ribeirinhas. Barras puras (só cacau e açúcar), premium e de origem única.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag mundial">ICA Mundial</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="4 Prata"><b>4</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="2 Ouro"><b>2</b></span><span class="disc b" title="9 Bronze"><b>9</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -553,7 +632,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">6.040<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">chocolatier</span><span class="trait t-scale">maior escala</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Parte de cobertura (couverture) pronta para criar bombons, trufas e pralinés.">chocolatier</span><span class="trait t-scale" data-tip="Produção em maior volume e com distribuição mais ampla.">maior escala</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Casa premium histórica (família Landmann) de bombons e trufas finas. Mantém linha bean-to-bar (Pratigi) com cacau da própria fazenda na Bahia. Premium, artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="3 Prata"><b>3</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="3 Prata"><b>3</b></span><span class="disc b" title="9 Bronze"><b>9</b></span></span></div></div>
@@ -581,7 +660,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">5.545<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Tree-to-bar de Juliana e Tuta Aquino, com cacau da fazenda da família (Vale do Potumuju, sul da Bahia). Uma das marcas brasileiras mais reconhecidas no exterior. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="4 Bronze"><b>4</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="2 Prata"><b>2</b></span><span class="disc b" title="3 Bronze"><b>3</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -609,7 +688,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">5.520<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Tree-to-bar de Rogério e Cláudia Kamei, com cacau da Fazenda Bonança (Itacaré). Barras fermentadas e autorais. Artesanal, premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag mundial">ICA Mundial</span><span class="tdiscs"><span class="disc o" title="3 Distinção"><b>3</b></span></span></div><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="3 Prata"><b>3</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="2 Ouro"><b>2</b></span><span class="disc s" title="2 Prata"><b>2</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="2 Bronze"><b>2</b></span></span></div></div>
@@ -637,7 +716,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">4.855<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar da chocolatier Ana Rúbia Camboim Ruzzarin, na serra gaúcha. Foco em barras ao leite com inclusões crocantes. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag mundial">ICA Mundial</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="4 Bronze"><b>4</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -665,7 +744,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">4.785<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Micro bean-to-bar de Ana Pott, com cacau de fazendas cabruca de Ilhéus. Foco em micro-lotes de origem. Artesanal, premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc g" title="2 Ouro"><b>2</b></span><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div></div>
@@ -693,7 +772,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">4.515<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de Jorge Klotz, com cacau do sul da Bahia. Barras de origem e inclusões regionais. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="4 Prata"><b>4</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -721,7 +800,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">4.515<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Tree-to-bar familiar do sul da Bahia, de produção feminina e cacau cabruca de origem única (IG Sul da Bahia). Equilibra barras premiadas e linhas acessíveis do dia a dia.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="2 Prata"><b>2</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="2 Prata"><b>2</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -749,7 +828,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">4.260<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar (chocolates finos, do grão à barra) de Leilane Benevides, no sul da Bahia. Cacau cabruca de origem, ampla gama de intensidades. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="2 Prata"><b>2</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="5 Prata"><b>5</b></span><span class="disc b" title="7 Bronze"><b>7</b></span></span></div></div>
@@ -777,7 +856,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">4.148<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">maior escala</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção em maior volume e com distribuição mais ampla.">maior escala</span></div>
   <p class="pos">Uma das pioneiras do bean-to-bar brasileiro e das mais premiadas. Produção de maior escala, com barras de origem e pralinés.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="3 Bronze"><b>3</b></span><span class="disc o" title="1 Distinção"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -805,7 +884,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">3.960<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Chocolateria bean-to-bar de Curitiba, das irmãs Schneider, com design forte e cacau brasileiro de origem. Premium, premiada dentro e fora do país.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="4 Prata"><b>4</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="5 Bronze"><b>5</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc s" title="2 Prata"><b>2</b></span></span></div></div>
@@ -833,7 +912,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">3.885<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar artesanal de Florianópolis, da chocolatier Amanda Magalhães; micro-lotes sem aditivos, com torra de cacau brasileiro. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="3 Prata"><b>3</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -861,7 +940,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">3.810<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Microfábrica bean-to-bar de Cunha (SP), dos agrônomos Cesar Frizo e Vanessa Rizzi — chocolate brasileiro puro, com mínimo de ingredientes e cacau de origem. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc o" title="2 Distinção"><b>2</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -889,7 +968,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">3.030<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">vegana</span><span class="trait t-extra">orgânica</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Ingredientes sem origem animal.">vegana</span><span class="trait t-extra" data-tip="Cacau e ingredientes de cultivo orgânico.">orgânica</span></div>
   <p class="pos">Pioneira tree-to-bar orgânica de Diego Badaró, no sul da Bahia. Certificada B Corp, vegana e kosher. Barras intensas de alta porcentagem. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="3 Prata"><b>3</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div></div>
@@ -917,7 +996,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">3.030<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Tree-to-bar de origem única da Fazenda Riachuelo (cacau forastero, sistema cabruca), com rastreabilidade total da árvore à barra. Premium, artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="5 Bronze"><b>5</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div></div>
@@ -945,7 +1024,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.940<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Micromarca bean-to-bar/tree-to-bar, com cacau de origem única de Itariri (Serra do Mar/SP) e cacau amazônico; brancos autorais. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="3 Prata"><b>3</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -973,7 +1052,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.850<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar artesanal de micro-lote, com cacau de origem do sul da Bahia e edições com inclusões regionais. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="2 Prata"><b>2</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div></div>
@@ -1001,7 +1080,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.850<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span><span class="trait t-extra">orgânica</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span><span class="trait t-extra" data-tip="Cacau e ingredientes de cultivo orgânico.">orgânica</span></div>
   <p class="pos">Pioneira do bean-to-bar no Brasil, da Claudia Schultz; chocolate orgânico de origem com cacau da agricultura familiar do Rio Xingu (PA). Premium, sustentável.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="3 Ouro"><b>3</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div></div>
@@ -1029,7 +1108,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.775<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Bean-to-bar de São Paulo, dos irmãos Lasevicius (descendentes de lituanos), com cacau de origem brasileira — destaque para o Vale do Ribeira (SP). Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc b" title="5 Bronze"><b>5</b></span></span></div></div>
@@ -1057,7 +1136,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.730<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Fábrica experimental de Curitiba que trata o chocolate como arte, com cacau selvagem amazônico de origem única e colaborações com artistas. Premium, micro-lote.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="3 Prata"><b>3</b></span></span></div></div>
@@ -1085,7 +1164,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.685<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar em micro-lotes, com cacau rastreável da Amazônia (assentamento Tuerê, PA). Sem essências nem corantes; comércio justo. Premium, artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -1113,7 +1192,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.655<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">vegana</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Ingredientes sem origem animal.">vegana</span></div>
   <p class="pos">Bean-to-bar vegana e sensorial, com cacau agroecológico direto de produtores baianos e inclusões nativas brasileiras (cupuaçu, buriti, cumaru). Artesanal, micro-lote.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="3 Prata"><b>3</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc s" title="2 Prata"><b>2</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1141,7 +1220,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.610<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar novato de Francisco Junior, com cacau de Ilhéus. Premiado já na estreia em competição. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1169,7 +1248,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.580<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Tree-to-bar de família com três gerações de cacauicultores no sul da Bahia (cabruca), com barras de origem e variantes especiais. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -1197,7 +1276,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.520<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span><span class="trait t-extra">vegana</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span><span class="trait t-extra" data-tip="Ingredientes sem origem animal.">vegana</span></div>
   <p class="pos">Bean-to-bar vegana de micro-lote, fundada por três irmãs, com cacau fino de origem e poucos ingredientes. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="5 Bronze"><b>5</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div></div>
@@ -1225,7 +1304,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.513<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar artesanal de Ariana Ribeiro. Foco em cacau fino de safra/origem única e inclusões regionais. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc o" title="1 Distinção"><b>1</b></span></span></div></div>
@@ -1253,7 +1332,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.505<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar em micro-lotes, de Marcia e Diego. Foco em cacau brasileiro de origem (Pará, Rondônia, Bahia, ES) e inclusões amazônicas. Artesanal, premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1281,7 +1360,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.400<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de micro-lote do belga Nicolas Danaux, com cacau brasileiro de origem única (Tuerê, Pará). Premium, voltado também ao mercado europeu.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1309,7 +1388,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.340<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar artesanal de micro-lotes, valorizando cacau e sabores brasileiros. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="2 Prata"><b>2</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div></div>
@@ -1337,7 +1416,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.340<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Marca familiar bean-to-bar do sul da Bahia (cacau cabruca), com barras autorais e inclusões da sociobiodiversidade (cupuaçu, baru, pequi, baunilha). Artesanal, micro-lote.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="4 Bronze"><b>4</b></span></span></div></div>
@@ -1365,7 +1444,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.295<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de micro-lote; chocolate de origem com cacau do sul da Bahia e inclusões do Cerrado. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -1393,7 +1472,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.265<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar 100% brasileiro, de micro-lote, com pouquíssimos ingredientes (70–85%) e cacau fino nacional. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1421,7 +1500,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.235<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de São Paulo, da engenheira Gislaine Gallette; 100% cacau brasileiro de origem, com forte linha de bombons. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span><span class="disc o" title="2 Distinção"><b>2</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="3 Ouro"><b>3</b></span></span></div></div>
@@ -1449,7 +1528,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.160<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Produtora familiar tree-to-bar de origem única (Fazenda Saudade), com brancos e inclusões frutadas/regionais. Artesanal, micro-lote.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="2 Prata"><b>2</b></span></span></div></div>
@@ -1477,7 +1556,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.160<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar/tree-to-bar de Pedro Dalcolmo, com cacau de origem única do Espírito Santo; a primeira fábrica de chocolate de Santa Teresa. Artesanal, micro-lote.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="2 Bronze"><b>2</b></span></span></div></div>
@@ -1505,7 +1584,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.115<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de micro-lote da pesquisadora (PhD em cacau) Luana Vieira, com barras de origem única (Pará, Bahia, ES). Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="2 Ouro"><b>2</b></span><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -1533,7 +1612,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.003<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span><span class="trait t-extra">orgânica</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span><span class="trait t-extra" data-tip="Cacau e ingredientes de cultivo orgânico.">orgânica</span></div>
   <p class="pos">Tree-to-bar orgânica de origem única (Fazenda São José, sistema Cabruca), da família Viana Lima. Premium, micro-lote.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc o" title="1 Distinção"><b>1</b></span></span></div></div>
@@ -1561,7 +1640,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.980<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar artesanal de micro-lote, com cacau da Bahia e da Amazônia e barras com inclusões. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div></div>
@@ -1586,7 +1665,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.980<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar artesanal de São Paulo, com cacau brasileiro de Linhares (ES) e Porto Seguro (BA); o chocolate como expressão artística. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div></div>
@@ -1611,7 +1690,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.425<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Torroneria e chocolateria artesanal de Adriana e Isabel Hagi. Bean-to-bar de cacau amazônico do Pará, ao lado de torrones italianos. Premium, artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -1639,7 +1718,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.350<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Tree-to-bar de origem única da Fazenda Lajedo do Ouro (família Magalhães), cacau fino em micro-lote. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="5 Bronze"><b>5</b></span></span></div></div>
@@ -1667,7 +1746,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.155<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">vegana</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Ingredientes sem origem animal.">vegana</span></div>
   <p class="pos">Bean-to-bar plant-based de Palhoça (SC), pioneira no branco vegano de castanha de caju; chocolates sem leite, glúten, açúcar nem aditivos, com cacau da Amazônia e da Bahia. Premium, inclusivo.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag americas">ICA Américas</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1692,7 +1771,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.125<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Tree-to-bar capixaba (Santa Teresa/ES), 100% natural — do cultivo agroflorestal do cacau à barra. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="2 Bronze"><b>2</b></span></span></div><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1720,7 +1799,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.080<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">chocolatier</span><span class="trait t-scale">maior escala</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Parte de cobertura (couverture) pronta para criar bombons, trufas e pralinés.">chocolatier</span><span class="trait t-scale" data-tip="Produção em maior volume e com distribuição mais ampla.">maior escala</span></div>
   <p class="pos">Chocolateria tradicional e premium de Gramado — a primeira fábrica de chocolate artesanal do Brasil (1975). Casa de pralinés e bombons que estreou linha de barras autorais.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="2 Bronze"><b>2</b></span></span></div></div>
@@ -1748,7 +1827,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">990<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Tree-to-bar de origem única da Fazenda Capela Velha (Estrada do Chocolate), do cacau da fazenda à barra. Artesanal, micro-lote.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1773,7 +1852,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">990<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Tree-to-bar pioneira no cultivo de cacau no Cerrado do Distrito Federal; foco em terroir brasileiro e sustentabilidade. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1798,7 +1877,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">990<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de Belo Horizonte (de “AMêndoa à BARra”), de Helena Avelar, Renata Penido e Izabela Garcia; barras de origem que contam o terroir do cacau baiano. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1823,7 +1902,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">990<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Marca paraense (Belém) de chocolate fino com cacau amazônico. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag aoc">Academy of Chocolate</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1848,7 +1927,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">938<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Bean-to-bar do sul da Bahia, do casal Marco e Luana Lessa, com cacau fino de produtores de Ilhéus/Uruçuca. Premium de terroir.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag avpa">AVPA Paris</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span><span class="disc o" title="3 Distinção"><b>3</b></span></span></div></div>
@@ -1876,7 +1955,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">450<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">maior escala</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção em maior volume e com distribuição mais ampla.">maior escala</span></div>
   <p class="pos">Bean-to-bar de cacau 100% brasileiro com rastreabilidade total, fundada por Ernesto Neugebauer; fábrica no coração da Amazônia. Premium acessível (não micro-lote).</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag avpa">AVPA Paris</span><span class="tdiscs"><span class="disc o" title="2 Distinção"><b>2</b></span></span></div></div>
@@ -1909,7 +1988,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">2.235<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de Florianópolis, nascida dentro de uma sorveteria; barras de origem única do Pará (Sítio Ascurra, Tuerê) e Bahia. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="4 Ouro"><b>4</b></span><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1937,7 +2016,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.988<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Bean-to-bar familiar de Porto Alegre, com barras de origem por terroir do Pará (Tuerê, Medicilândia, Uruará) e da Bahia. Premium, micro-lote.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span><span class="disc s" title="3 Prata"><b>3</b></span><span class="disc b" title="1 Bronze"><b>1</b></span><span class="disc o" title="1 Distinção"><b>1</b></span></span></div></div>
@@ -1965,7 +2044,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.845<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Tree-to-bar da Transamazônica: a família cultiva, fermenta e produz chocolate de origem única do próprio Sítio Ascurra, em Medicilândia (PA). Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="2 Ouro"><b>2</b></span><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -1993,7 +2072,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.650<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar artesanal de São Paulo, da chocolatier Paula Fernandes; barras de origem com cacau de Medicilândia (PA). Micro-lote.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc g" title="1 Ouro"><b>1</b></span></span></div></div>
@@ -2018,7 +2097,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">1.125<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de microlotes, com cacau fino de origem rastreável de pequenos produtores brasileiros, sem aditivos. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span><span class="disc b" title="3 Bronze"><b>3</b></span></span></div></div>
@@ -2046,7 +2125,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">990<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">tree-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">vegana</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Bean-to-bar e ainda cultiva o próprio cacau — da árvore à barra.">tree-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Ingredientes sem origem animal.">vegana</span></div>
   <p class="pos">Tree-to-bar baiana de chocolates de origem sem açúcar e veganos, com 100% cacau brasileiro de cultivo próprio.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc s" title="1 Prata"><b>1</b></span></span></div></div>
@@ -2071,7 +2150,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">495<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span></div>
   <p class="pos">Chocolataria artesanal e familiar de Fabiana Saramento, que une bombons de tradição a barras bean-to-bar de cacau brasileiro. Premium.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -2096,7 +2175,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">495<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar artesanal de Colombo (PR), com cacau de origem rastreável e foco em transparência e sustentabilidade.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -2121,7 +2200,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">495<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Pequena bean-to-bar capixaba, com cacau agroflorestal de origem (Espírito Santo) e cacau cerimonial. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -2146,7 +2225,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">495<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span></div>
   <p class="pos">Bean-to-bar de São Martinho (SC), de Francine Loffi e Rena Fernandes, com cacau da Bahia; chocolates acessíveis, com opções sem lactose/açúcar/glúten. Artesanal.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc b" title="1 Bronze"><b>1</b></span></span></div></div>
@@ -2171,7 +2250,7 @@
       <span class="score" title="Índice de prestígio — veja o cálculo no topo da página">248<small>pts</small></span>
     </div>
   </div>
-  <div class="traits"><span class="trait t-method">bean-to-bar</span><span class="trait t-scale">micro-lote</span><span class="trait t-extra">familiar</span><span class="trait t-extra">vegana</span></div>
+  <div class="traits"><span class="trait t-method" data-tip="Faz o chocolate do grão à barra — torra, moagem e conchagem no próprio ateliê.">bean-to-bar</span><span class="trait t-scale" data-tip="Produção artesanal em pequenos lotes, com foco em qualidade e terroir.">micro-lote</span><span class="trait t-extra" data-tip="Negócio de gestão familiar.">familiar</span><span class="trait t-extra" data-tip="Ingredientes sem origem animal.">vegana</span></div>
   <p class="pos">Bean-to-bar da cooperativa Coopessba, vegana e sem glúten/lactose, com cacau da agricultura familiar do sistema Cabruca (Sul da Bahia). Impacto social.</p>
   <div class="medalheira">
     <div class="tally"><div class="trow"><span class="ctag nacional">Nacional</span><span class="tdiscs"><span class="disc o" title="1 Distinção"><b>1</b></span></span></div></div>
@@ -2235,20 +2314,6 @@
       <div>
         <h5>Como foi feito</h5>
         <p>Partimos da lista curada do <a href="https://chocolatrasonline.com.br/chocomarcas/" target="_blank" rel="noopener">Chócolatras Online</a> e enriquecemos cada marca com pesquisa multi-fonte. As premiações foram verificadas preferencialmente nas <strong>páginas oficiais das competições</strong> (ICA, Academy of Chocolate, AVPA, Cocoa of Excellence) e, quando indicado, na imprensa. Marcas sem prêmio verificável ficaram de fora; divergências de medalha estão sinalizadas (⚠) em cada ficha.</p>
-      </div>
-      <div>
-        <h5>O ranking</h5>
-        <p>Cada marca tem um <strong>índice de prestígio (pts)</strong> que pondera a competição (Mundial &gt; Américas &gt; Academy of Chocolate &gt; AVPA &gt; nacional) e o nível da medalha. O cálculo aberto está no topo da página.</p>
-      </div>
-      <div>
-        <h5>Legenda</h5>
-        <div class="legend">
-          <span><span class="disc g"></span> Ouro</span>
-          <span><span class="disc s"></span> Prata</span>
-          <span><span class="disc b"></span> Bronze</span>
-          <span><span class="disc o"></span> Distinção</span>
-        </div>
-        <p class="legend-note">★ barra-assinatura (chocolate com múltiplas medalhas). Cada linha da medalheira é uma competição.</p>
       </div>
     </div>
     <p class="foot-credits">Curadoria e desenvolvimento por <strong>João Victor Daijó</strong>. Agradecimento especial a <strong>Zélia Frangioni</strong>, que mantém o <a href="https://chocolatrasonline.com.br/" target="_blank" rel="noopener">Chócolatras Online</a> — fonte e inspiração deste guia.</p>
