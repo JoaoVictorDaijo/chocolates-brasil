@@ -17,3 +17,12 @@ migrar-sessao.sh
 # Node / SO
 node_modules/
 .DS_Store
+
+# Mockups do brainstorming (companion visual)
+.superpowers/
+
+# Mock de design (descartável)
+mock-topo.html
+
+# Previews de design do ícone (descartáveis)
+icone-*.png

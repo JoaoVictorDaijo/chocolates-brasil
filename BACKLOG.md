@@ -39,7 +39,9 @@ com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
 - Documento HTML autocontido — 68 marcas, 401 prêmios, 5 competições
 - Versão em PDF (72 páginas)
 - Logo da MOA corrigida
-- **Favicon** (tile de chocolate + estrela de ouro) embutido — SVG + apple-touch-icon
+- **Favicon** (tablete de chocolate com ranhuras 3×3 + estrela de ouro, cantos
+  arredondados) embutido — SVG + apple-touch-icon. Alternativa com mordida na
+  diagonal (variação C1) guardada em `docs/design/favicon-c1-mordida.svg`.
 - **Preview de link (Open Graph)** com imagem 1200×630 — funciona no WhatsApp, Telegram etc.
 - Projeto no **Git** + repositório **público no GitHub** (JoaoVictorDaijo/chocolates-brasil)
 - **Cloudflare Pages** com deploy automático a cada push na `main`
