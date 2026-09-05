@@ -93,7 +93,10 @@ function realignMedals(rows, levelAt) {
  * order. When the two agree the text supplies any medal the table extractor dropped
  * (AVPA 2024 pages 5 and 7 lose the medal cell of the rows nearest the page foot).
  * When they do not, the extractor lost a whole row (2024 page 1) or the orders disagree:
- * nothing is filled and the page is reported, so the loss is never silent.
+ * the page is put back exactly as it was printed — every medal `realignMedals` moved is
+ * undone, since the cross-check that would have confirmed the repair just failed — and
+ * the page is reported. A row left without a medal is then quarantined `blank-level`,
+ * never published carrying another row's.
  */
 function fillFromText(rows, pages, levelAt) {
   const notes = [];
@@ -105,6 +108,7 @@ function fillFromText(rows, pages, levelAt) {
       && data.every((r, i) => !r.cells[levelAt] || r.cells[levelAt] === medals[i]);
     if (!aligned) {
       notes.push({ raw: `page ${page.num}: ${data.length} table rows for ${medals.length} printed medals`, reason: 'page-rows-incomplete' });
+      for (const r of rows) if (r.page === page) { r.cells = r.printed; r.dropped = false; }
       continue;
     }
     data.forEach((r, i) => { if (!r.cells[levelAt]) r.cells[levelAt] = medals[i]; });
@@ -149,6 +153,9 @@ function parsePages(pages) {
     if (rest) row.cells = rest;
     else row.reason = 'repeated-header';
   });
+  // `realignMedals` repairs the medal column in place; keep what the page printed so
+  // `fillFromText` can put a page back when its cross-check fails
+  rows.forEach((row) => { row.printed = row.cells; row.cells = row.cells.slice(); });
   realignMedals(rows, levelAt);
   const skipped = fillFromText(rows, pages, levelAt);
 

@@ -160,6 +160,21 @@ test('a page whose rows and printed medals disagree is reported, and nothing is 
   ]);
 });
 
+test('a page that fails the cross-check keeps no medal the repair had moved', () => {
+  // the repair reads the lone "Gourmet Or" row as A's medal; the text says A won Gourmet
+  // Bronze and that a second row never reached the table, so the repair must be undone
+  const rows = [HEAD, ['A', 'P1', 'Brésil', ''], ['Gourmet Or']];
+  const text = 'A P1 Brésil Gourmet Bronze\nB P2 Pérou Gourmet Or';
+  const { entries, skipped } = PAGES(rows, text);
+  assert.deepEqual(entries, []);
+  assert.ok(!entries.some((e) => e.maker === 'A'));
+  assert.deepEqual(skipped, [
+    { raw: 'page 1: 1 table rows for 2 printed medals', reason: 'page-rows-incomplete' },
+    { raw: 'A | P1 | Brésil | ', reason: 'blank-level' },
+    { raw: 'Gourmet Or', reason: 'blank-level' },
+  ]);
+});
+
 test('tables with no header at all abort loudly', () => {
   assert.throws(() => PAGES([['Palmarès 2026', '', '']]), /no table header/);
 });
