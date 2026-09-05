@@ -31,7 +31,8 @@ function validateAwardFile(f) {
   const seen = new Set();
   f.entries.forEach((e, i) => {
     const at = `entries[${i}]`;
-    if (!LEVELS[e.level]) errs.push(`${at}.level: unknown "${e.level}"`);
+    if (!e || typeof e !== 'object') { errs.push(`${at}: not an object`); return; }
+    if (!Object.hasOwn(LEVELS, e.level)) errs.push(`${at}.level: unknown "${e.level}"`);
     if (typeof e.level_raw !== 'string' || !e.level_raw) errs.push(`${at}.level_raw: missing`);
     for (const k of ['maker', 'product']) {
       if (typeof e[k] !== 'string' || !e[k].trim()) errs.push(`${at}.${k}: missing`);

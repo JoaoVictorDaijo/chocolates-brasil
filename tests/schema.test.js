@@ -30,6 +30,16 @@ test('rejects zero entries', () => {
   const f = base(); f.entries = [];
   assert.match(validateAwardFile(f)[0], /zero entries/);
 });
+test('rejects an entry that is not an object', () => {
+  for (const bad of [null, 'x']) {
+    const f = base(); f.entries = [bad];
+    assert.match(validateAwardFile(f)[0], /not an object/);
+  }
+});
+test('rejects a level named after an inherited object property', () => {
+  const f = base(); f.entries[0].level = 'constructor';
+  assert.match(validateAwardFile(f)[0], /level/);
+});
 test('accepts the extra entry fields AVPA carries', () => {
   const f = base();
   Object.assign(f.entries[0], { company: 'Nugali Chocolates LTDA', producer: 'Cacauicultor Gilmar', origin_country: 'Brésil' });
