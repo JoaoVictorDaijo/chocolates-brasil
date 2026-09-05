@@ -68,3 +68,42 @@ test('editorial prose before the first h1 is not read as results', () => {
   assert.ok(entries.every((e) => e.group && e.category));
   assert.ok(!entries.some((e) => /A Year of Bold Creativity/.test(e.product)));
 });
+
+// Small hand-written pages for the grammar's edges: the fixtures are whole real
+// pages, so the failure paths need markup built on purpose.
+const medalRow = '<h1>Plain/origin bars</h1><h2>Plain/origin dark chocolate bars</h2>'
+  + '<p><strong>Gold</strong>: Maker A (Brazil) – Bar One (90.1)</p>';
+
+test('the block name in a special tag drops wrapper quotes but keeps an apostrophe', () => {
+  const { entries, skipped } = parseIcaStrong(medalRow
+    + '<h1>&#8216;Best in competition&#8217; overall winners</h1><h2>Plain/origin dark bar categories</h2>'
+    + '<strong>Gold</strong>: Maker A (Brazil) – Bar One (90.1)<br />'
+    + '<h1>Chocolate Tasters&#8217; Special Prizes</h1><h2>Best texture</h2>'
+    + '<strong>Gold</strong>: Maker A (Brazil) – Bar One (90.1)<br />', { variant: 'new' });
+  assert.deepEqual(skipped, []);
+  assert.equal(entries.length, 1);
+  assert.deepEqual(entries[0].special, [
+    'Best in competition overall winners: Plain/origin dark bar categories',
+    'Chocolate Tasters’ Special Prizes: Best texture',
+  ]);
+});
+
+test('an unregistered h1 aborts and names the registry', () => {
+  assert.throws(() => parseIcaStrong('<h1>Some new kind of award</h1>', { variant: 'new' }),
+    /unknown ICA <h1> block heading "Some new kind of award".*data\/tools\/lib\/ica-blocks\.json/);
+});
+
+test('an unknown level label aborts', () => {
+  const html = '<h1>Plain/origin bars</h1><h2>Plain/origin dark chocolate bars</h2>'
+    + '<p><strong>Platinum</strong>: Maker A (Brazil) – Bar One (90.1)</p>';
+  assert.throws(() => parseIcaStrong(html, { variant: 'new' }), /unknown ICA level label "Platinum"/);
+});
+
+test('a block row matching no entry is quarantined, never added as an entry', () => {
+  const { entries, skipped } = parseIcaStrong(medalRow
+    + '<h1>National awards</h1><h2>Brazil</h2>'
+    + '<p><strong>Gold</strong>: Maker B (Brazil) – Bar Two (91.0)</p>', { variant: 'new' });
+  assert.equal(entries.length, 1);
+  assert.equal(entries[0].maker, 'Maker A');
+  assert.deepEqual(skipped, [{ raw: 'Gold: Maker B – Bar Two', reason: 'unjoined-block-row', block: 'National awards' }]);
+});

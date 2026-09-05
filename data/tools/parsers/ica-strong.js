@@ -9,8 +9,13 @@ const DASH = '[\\u2013\\u2014-]';
 const ENTRY = new RegExp('^\\s*([A-Za-z0-9][^:]{0,60}?)\\s*:\\s*(.+)$', 's');
 const BODY = new RegExp(`^(.*?)\\s*\\(([^()]+)\\)\\s*${DASH}\\s*(.+)$`, 's');
 
-/** The award block's name for a `special` tag: the heading without its decorative quotes. */
-function blockLabel(heading) { return clean(String(heading || '').replace(/['\u2018\u2019\u201c\u201d"]/g, '')); }
+/**
+ * The award block's name for a `special` tag: the heading without the quote pair some
+ * editions wrap the award name in ("‘Best in competition’ overall winners"). Only a
+ * leading quote and its closing partner go; an apostrophe inside a word stays
+ * ("Chocolate Tasters' Special Prizes").
+ */
+function blockLabel(heading) { return String(heading || '').replace(/^['\u2018\u201c"]\s*(.*?)\s*['\u2019\u201d"]/, '$1'); }
 
 /** Splits the trailing "+ Gold : X" runs off an entry body. */
 function splitTail(rest) {
