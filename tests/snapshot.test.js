@@ -42,3 +42,19 @@ test('a 200 that fails the validator keeps the old snapshot', async () => {
     (e) => e instanceof SnapshotError && /bad title/.test(e.message));
   assert.equal(fs.readFileSync(dest, 'utf8'), '<title>Results</title>old');
 });
+test('a fetch that rejects (an aborted timeout) is retried three times and then throws', async () => {
+  const dest = path.join(tmp(), 'x.html');
+  let calls = 0;
+  const fetchFn = async () => { calls++; const e = new Error('The operation was aborted due to timeout'); e.name = 'TimeoutError'; throw e; };
+  await assert.rejects(
+    fetchSnapshot({ url: 'https://x', dest, validate, fetchFn, sleepFn: noSleep }),
+    (e) => e instanceof SnapshotError && e.dest === dest && /timeout/i.test(e.message));
+  assert.equal(calls, 3); assert.equal(fs.existsSync(dest), false);
+});
+test('offline rejects a snapshot that fails the validator and leaves the file alone', async () => {
+  const dest = path.join(tmp(), 'x.html'); fs.writeFileSync(dest, '<title>Log in</title>');
+  await assert.rejects(
+    fetchSnapshot({ url: 'https://x', dest, offline: true, validate, fetchFn: async () => { throw new Error('fetched while offline'); }, sleepFn: noSleep }),
+    (e) => e instanceof SnapshotError && e.dest === dest && /bad title/.test(e.message));
+  assert.equal(fs.readFileSync(dest, 'utf8'), '<title>Log in</title>');
+});

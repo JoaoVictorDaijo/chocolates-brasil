@@ -16,13 +16,14 @@ const BROWSER_HEADERS = {
   'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Site': 'none', 'Upgrade-Insecure-Requests': '1',
 };
 const RETRIES = 3;
+const FETCH_TIMEOUT_MS = 30000;      // a connection the WAF accepts and then holds open must not stall the crawl
 const BACKOFF_MS = [20000, 40000];   // WAF blocks are rate-based; wait before retrying
 const PACE_MS = 2000;                // minimum gap between requests
 
 class SnapshotError extends Error { constructor(msg, dest) { super(msg); this.dest = dest; } }
 
 async function defaultFetch(url, headers) {
-  const res = await fetch(url, { headers, redirect: 'follow' });
+  const res = await fetch(url, { headers, redirect: 'follow', signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
   return { status: res.status, body: Buffer.from(await res.arrayBuffer()) };
 }
 const defaultSleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -37,7 +38,10 @@ function isBlockPage(buf) {
 async function fetchSnapshot({ url, dest, offline = false, validate = () => null, fetchFn = defaultFetch, sleepFn = defaultSleep }) {
   if (offline) {
     if (!fs.existsSync(dest)) throw new SnapshotError(`offline and no snapshot at ${dest} — save the page there by hand and re-run with --offline`, dest);
-    return fs.readFileSync(dest);
+    const buf = fs.readFileSync(dest);
+    const v = validate(buf);
+    if (v) throw new SnapshotError(`snapshot at ${dest} is not a results page (${v}) — re-save it by hand`, dest);
+    return buf;
   }
   let lastErr = 'no attempt';
   for (let attempt = 0; attempt < RETRIES; attempt++) {
