@@ -31,12 +31,12 @@ com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
 
 ## 💡 Melhorias possíveis (nice-to-have)
 - **PDF compacto** (~30 págs): só a medalheira por card, sem as listas detalhadas.
-- **Logos faltantes:** JUCOLATTE e Nicolas Chocolate do Belga ainda em monograma.
+- **Logos faltantes:** JUCOLATTE, Nicolas Chocolate do Belga, DoSemente Cacau, Velmont, Corumbau Cacau e Selah ainda em monograma.
 
 ---
 
 ## ✅ Concluído
-- Documento HTML autocontido — 68 marcas, 401 prêmios, 5 competições
+- Documento HTML autocontido — 72 marcas, 520 prêmios, 5 competições
 - Versão em PDF (72 páginas)
 - Logo da MOA corrigida
 - **Favicon** (tablete de chocolate com ranhuras 3×3 + estrela de ouro, cantos

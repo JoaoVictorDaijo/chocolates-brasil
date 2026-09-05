@@ -5,12 +5,6 @@
    "y": "2025",
    "l": "Bronze",
    "p": "42% Leite com Banana e Castanha de Caju"
-  },
-  {
-   "c": "ICA Mundial",
-   "y": "2025",
-   "l": "Prata",
-   "p": "Chocolate ao Leite com Café Blums"
   }
  ],
  "Luzz Cacau": [
@@ -37,7 +31,7 @@
   {
    "c": "Academy of Chocolate",
    "y": "2025",
-   "l": "Prata",
+   "l": "Bronze",
    "p": "Chocolate ao Leite 40% Cacau com Café"
   },
   {
@@ -151,7 +145,7 @@
   {
    "c": "Academy of Chocolate",
    "y": "2020",
-   "l": "Bronze",
+   "l": "Menção",
    "p": "Luisa Abram 81% Wild Cocoa Tocantins River (Dark Bean to Bar under 90%)"
   },
   {
@@ -246,7 +240,7 @@
    "c": "Academy of Chocolate",
    "y": "2024",
    "l": "Prata",
-   "p": "Golden Milk (2 prata - chocolate ao leite dourado/maltado)"
+   "p": "Golden Milk (branco)"
   }
  ],
  "Baianí Chocolates": [
@@ -326,7 +320,7 @@
   },
   {
    "c": "Academy of Chocolate",
-   "y": "2021",
+   "y": "2022",
    "l": "Bronze",
    "p": "Chocolate 70% com macadâmia"
   },
@@ -670,12 +664,6 @@
    "c": "Academy of Chocolate",
    "y": "2023",
    "l": "Bronze",
-   "p": "Chocolate Intenso 70% com manga"
-  },
-  {
-   "c": "Academy of Chocolate",
-   "y": "2023",
-   "l": "Bronze",
    "p": "Drágea Banoffee"
   }
  ],
@@ -725,12 +713,6 @@
    "y": "2025",
    "l": "Prata",
    "p": "Chocolate 50% Cacau ao Leite"
-  },
-  {
-   "c": "Bean to Bar Brasil",
-   "y": "2025",
-   "l": "Prata",
-   "p": "Chocolate 50% Cacau ao Leite (Micro-lote, barras de chocolate ao leite natural/de origem)"
   }
  ],
  "Kalapa Chocolate": [
@@ -823,26 +805,7 @@
    "p": "Chocolate Modaka (marca, categoria Chocolate - produzido por mulheres)"
   }
  ],
- "Cacau Dourado Chocolates": [
-  {
-   "c": "Academy of Chocolate",
-   "y": "2025",
-   "l": "Prata",
-   "p": "Chocolate 70% cacau (70% cocoa chocolate)"
-  },
-  {
-   "c": "Academy of Chocolate",
-   "y": "2025",
-   "l": "Bronze",
-   "p": "Chocolate 41% cacau ao leite (Milk chocolate 41% cocoa)"
-  },
-  {
-   "c": "Academy of Chocolate",
-   "y": "2025",
-   "l": "Bronze",
-   "p": "Chocolate 70% cacau com cupuaçu (70% cocoa chocolate with cupuaçu)"
-  }
- ],
+ "Cacau Dourado Chocolates": [],
  "Var Chocolates": [
   {
    "c": "Academy of Chocolate",
@@ -863,12 +826,6 @@
    "y": "2025",
    "l": "Prata",
    "p": "Biomes Collection: Milk Chocolate 40% cocoa with Specialty Coffee & White Chocolate with Fine Cacao Nibs"
-  },
-  {
-   "c": "Academy of Chocolate",
-   "y": "2025",
-   "l": "Bronze",
-   "p": "Biomes Collection: Dark Chocolate 60% cacao with Cupuaçu Fruit Jelly (Flavoured Dark Chocolate Bar, Bean-to-Bar)"
   }
  ],
  "Martinus Chocolates": [

@@ -31,6 +31,8 @@ function medalClass(level) {
 }
 
 // ---------------- DADOS ----------------
+// Data da última conferência dos dados nas fontes oficiais (bump a cada atualização de prêmios)
+const ATUALIZADO_EM = '4 de setembro de 2026';
 const BR = [
   // ===== TIER 1 — ICA World Final =====
   { tier: 1, logo: '01_miroh.bin', name: 'Miroh! Chocolate Makers', year: '2021', loc: 'Gramado, RS', site: 'https://www.mirohchocolate.com.br',
@@ -82,7 +84,7 @@ const BR = [
     pos: 'Referência internacional em cacau selvagem da Amazônia, colhido por comunidades ribeirinhas. Barras puras (só cacau e açúcar), premium e de origem única.',
     lines: 'Barras de cacau selvagem amazônico (Rio Juruá, Rio Acará).',
     src: 'oficial',
-    nota: 'A marca cita ainda honrarias da Academy of Chocolate e do Prêmio Bean to Bar Brasil, aqui omitidas por falta de fonte primária.',
+    nota: 'A marca cita ainda honrarias do Prêmio Bean to Bar Brasil, aqui omitidas por falta de fonte primária.',
     awards: [
       { c: 'ICA Mundial', y: '2020/21', l: 'Bronze', p: 'Dark Coconut Milk' },
       { c: 'ICA Américas', y: '2020/21', l: 'Prata', p: 'Dark Chocolate with Cupuaçu' },
@@ -286,6 +288,25 @@ const BR = [
     awards: [
       { c: 'ICA Américas', y: '2020/21', l: 'Bronze', p: 'Branco Caramelo' },
     ] },
+  { tier: 2, logo: null, name: 'DoSemente Cacau', year: 'n/d', loc: 'Varginha, MG', site: 'https://dosementecacau.com.br',
+    pos: 'Bean-to-bar artesanal de Daiana Guimarães Belarmino, no sul de Minas; associada da Bean to Bar Brasil. Micro-lotes, artesanal.',
+    lines: 'Ao leite 55% e branco caramelizado ao leite.',
+    src: 'oficial',
+    awards: [
+      { c: 'ICA Américas', y: '2026', l: 'Prata', p: 'Branco Caramelizado ao Leite' },
+      { c: 'ICA Américas', y: '2026', l: 'Bronze', p: 'Ao Leite 55%' },
+    ] },
+  { tier: 2, logo: null, name: 'Velmont', year: 'n/d', loc: 'Valinhos, SP', site: 'https://celebratevelmont.com',
+    pos: 'Bean-to-bar vendido por assinatura mensal (clube de seis barras), com cacau de produtores nomeados do sul da Bahia, como João Tavares e Pedro Magalhães. Micro-lotes, artesanal.',
+    lines: 'Ao leite de origem, brancos e intensos com infusões (hojicha, banana, Licor 43).',
+    src: 'oficial',
+    awards: [
+      { c: 'ICA Américas', y: '2026', l: 'Prata', p: 'Hojicha Razuberi' },
+      { c: 'ICA Américas', y: '2026', l: 'Prata', p: 'Golden Banana' },
+      { c: 'Academy of Chocolate', y: '2025', l: 'Prata', p: '52% ao Leite — Scavina (João Tavares)' },
+      { c: 'Academy of Chocolate', y: '2025', l: 'Bronze', p: '70% BN34 com Nibs e Licor 43 (Pedro Magalhães)' },
+      { c: 'Academy of Chocolate', y: '2025', l: 'Bronze', p: '50% ao Leite com Nuts (Pedro Magalhães)' },
+    ] },
 ];
 
 const INTL = [
@@ -390,11 +411,9 @@ const AOC = [
   { logo:'48_pedechoc.bin', name:'Pé de Chocolate', year:'2022', loc:'São Paulo, SP', site:'https://pedechocolate.com', src:'oficial',
     pos:'Micromarca bean-to-bar/tree-to-bar, com cacau de origem única de Itariri (Serra do Mar/SP) e cacau amazônico; brancos autorais. Premium.',
     lines:'Dark Milk 52% Itariri; brancos autorais (camomila com caramelo; caramelo com flor de sal).',
-    nota:'Três medalhas na Academy of Chocolate 2025 (a confirmar item a item na lista oficial).',
     awards:[
-      { c:'Academy of Chocolate', y:'2025', l:'Prata', p:'Dark Milk 52% Itariri' },
-      { c:'Academy of Chocolate', y:'2025', l:'Prata', p:'Branco Camomila com Caramelo' },
-      { c:'Academy of Chocolate', y:'2025', l:'Bronze', p:'Branco Caramelo com Flor de Sal' },
+      { c:'Academy of Chocolate', y:'2023', l:'Prata', p:'Branco Camomila com Caramelo de Mel' },
+      { c:'Academy of Chocolate', y:'2023', l:'Bronze', p:'Branco Caramelo com Flor de Sal e Fava de Baunilha' },
     ] },
   { logo:'33_majucau.bin', name:'Majucau Chocolate Brasileiro', year:'~2018', loc:'São Paulo, SP', site:'https://www.majucau.com.br', src:'oficial',
     pos:'Bean-to-bar 100% brasileiro, de micro-lote, com pouquíssimos ingredientes (70–85%) e cacau fino nacional. Premium.',
@@ -423,10 +442,9 @@ const AOC = [
   { logo:'39_var.bin', name:'Var Chocolates', year:'n/d', loc:'Ibirataia, BA', site:'https://www.instagram.com/varchocolates', src:'oficial',
     pos:'Tree-to-bar de origem única da Fazenda Lajedo do Ouro (família Magalhães), cacau fino em micro-lote. Premium.',
     lines:'Origens 35–80%; destaque 45% Cacau e inclusões (café, cupuaçu, sapucaí).',
-    nota:'Medalhas de 2024 a reconfirmar na lista oficial; a de 2025 via imprensa especializada.',
     awards:[
-      { c:'Academy of Chocolate', y:'2024', l:'Bronze', p:'70% com Cupuaçu' },
-      { c:'Academy of Chocolate', y:'2024', l:'Bronze', p:'Ao Leite 45% com Sapucaí' },
+      { c:'Academy of Chocolate', y:'2023', l:'Bronze', p:'70% com Cupuaçu' },
+      { c:'Academy of Chocolate', y:'2023', l:'Bronze', p:'Ao Leite 45% com Sapucaí' },
       { c:'Academy of Chocolate', y:'2025', l:'Bronze', p:'45% ao Leite com Café' },
     ] },
   { logo:'40_bemcacao.bin', name:'Bem Cacao Chocolates', year:'~2015', loc:'Ilhéus, BA', site:'https://www.instagram.com/bemcacao', src:'oficial',
@@ -443,7 +461,6 @@ const AOC = [
     lines:'Origens 37–100%; destaques 52% ao leite de cabra e Branco 35% com Maracujá.',
     awards:[
       { c:'Academy of Chocolate', y:'2025', l:'Bronze', p:'Branco 35% com Maracujá' },
-      { c:'Academy of Chocolate', y:'2025', l:'Bronze', p:'Linha ao Leite' },
       { c:'Academy of Chocolate', y:'2024', l:'Bronze', p:'52% ao Leite de Cabra' },
     ] },
   { logo:'42_monjolo.bin', name:'Monjolo Chocolates', year:'~2019', loc:'Campinas, SP', site:'https://www.monjolochocolatebar.com.br', src:'oficial',
@@ -524,7 +541,19 @@ const AOC = [
   { logo:'73_gaudens.bin', name:'Gaudens Chocolate', year:'2012', loc:'Belém, PA', site:'https://gaudens.com.br', src:'imprensa',
     pos:'Marca paraense (Belém) de chocolate fino com cacau amazônico. Artesanal.',
     lines:'Barras de cacau amazônico de origem.',
-    awards:[ { c:'Academy of Chocolate', y:'2022', l:'Bronze', p:'Barra de cacau amazônico' } ] },
+    awards:[
+      { c:'Academy of Chocolate', y:'2023', l:'Bronze', p:'Cripioca 53% ao Leite' },
+      { c:'Academy of Chocolate', y:'2023', l:'Bronze', p:'Cripioca de Cupuaçu ao Leite' },
+    ] },
+  { logo:null, name:'Corumbau Cacau', year:'n/d', loc:'Itamaraju, BA', site:'https://corumbaucacau.com.br', src:'oficial',
+    pos:'Chocolate de origem do extremo sul da Bahia (Corumbau/Itamaraju), com cacau nativo da região; artesanal, sem conservantes.',
+    lines:'Ao leite 55% com cupuaçu; branco torrado com pé-de-moleque.',
+    nota:'Pódio no concurso de melhor chocolate artesanal do Chocolat Bahia 2026 confirmado pela imprensa (Cacau & Chocolate).',
+    awards:[
+      { c:'Academy of Chocolate', y:'2025', l:'Prata', p:'Branco Torrado com Pé-de-Moleque' },
+      { c:'Academy of Chocolate', y:'2025', l:'Bronze', p:'55% ao Leite com Cupuaçu' },
+      { c:'Chocolat Festival Bahia', y:'2026', l:'Pódio', p:'Concurso Melhor Chocolate Artesanal (intenso 70% e ao leite)' },
+    ] },
 ];
 
 // ===== Brasileiras premiadas FORA do ICA — AVPA Paris =====
@@ -546,6 +575,16 @@ const AVPA = [
       { c:'AVPA Paris', y:'2024', l:'Medalha Gourmet', p:'Ao Leite 35%' },
       { c:'AVPA Paris', y:'2024', l:'Medalha Gourmet', p:'70% com Nibs de Cacau Crocante' },
     ] },
+  { logo:null, name:'Selah Chocolate de Origem', year:'2015', loc:'Pedra Azul (Domingos Martins), ES', site:'https://www.instagram.com/selahchocolate', src:'oficial',
+    pos:'Bean-to-bar de Pedro Henrique Goulart Rezende e Rafaela Modolo nas montanhas capixabas, com fábrica e loja na Rota do Lagarto; cacau fino de várias regiões do Brasil.',
+    lines:'Intensos 70%, ao leite puro e brancos com frutas e especiarias.',
+    highlight:'Primeira marca brasileira distinguida na categoria “ao leite puro” da AVPA Paris (2026).',
+    nota:'Cacau Fest Brasil 2025 confirmado pela imprensa regional (Pedra Azul News, ES Brasil).',
+    awards:[
+      { c:'AVPA Paris', y:'2026', l:'Diploma Gourmet', p:'Ao Leite', star:true },
+      { c:'Cacau Fest Brasil', y:'2025', l:'Ouro', p:'Ao Leite' },
+      { c:'Cacau Fest Brasil', y:'2025', l:'Prata', p:'Intenso 70%' },
+    ] },
 ];
 
 // ===== Prêmios nacionais (Bean to Bar Brasil, CNA) — encontrados no audit =====
@@ -556,10 +595,8 @@ const NAC_NEW = [
     nota:'Prêmios nacionais confirmados pela imprensa especializada (Chócolatras Online).',
     awards:[
       { c:'Bean to Bar Brasil', y:'2022', l:'Ouro', p:'70% São Félix do Xingu (PA)', star:true },
-      { c:'Bean to Bar Brasil', y:'2025', l:'Ouro', p:'70% São Félix do Xingu (PA)', star:true },
       { c:'Bean to Bar Brasil', y:'2022', l:'Ouro', p:'70% ao Leite' },
       { c:'Bean to Bar Brasil', y:'2022', l:'Bronze', p:'40% ao Leite (São Félix do Xingu/PA)' },
-      { c:'Bean to Bar Brasil', y:'2025', l:'Bronze', p:'40% ao Leite (São Félix do Xingu/PA)' },
     ] },
   { logo:'57_invento.bin', name:'Invento Chocolates', year:'2022', loc:'Florianópolis, SC', site:'https://www.inventochocolates.com.br', src:'oficial',
     pos:'Bean-to-bar de Florianópolis, nascida dentro de uma sorveteria; barras de origem única do Pará (Sítio Ascurra, Tuerê) e Bahia. Artesanal.',
@@ -830,12 +867,12 @@ function cardIntl(m, rank) {
 </article>`;
 }
 
-// Merge de prêmios adicionais verificados nas auditorias (patch.json + patch2.json)
+// Merge de prêmios adicionais verificados nas auditorias (awards-patch*.json)
 {
   const _norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
   const _by = new Map([...BR, ...NAC_NEW, ...AOC, ...AVPA].map((m) => [_norm(m.name), m]));
   let added = 0;
-  for (const pf of ['awards-patch.json', 'awards-patch2.json']) {
+  for (const pf of ['awards-patch.json', 'awards-patch2.json', 'awards-patch3.json']) {
     try {
       const PATCH = JSON.parse(fs.readFileSync(path.join(__dirname, pf), 'utf8'));
       for (const [nm, extra] of Object.entries(PATCH)) {
@@ -1250,7 +1287,7 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
       <div class="field-discs">${FIELD_DISCS}</div>
       <p class="field-cap">${FIELD_TOTAL} medalhas e distinções internacionais mapeadas em ${ALL_MAKERS.length} marcas</p>
     </div>
-    <p class="mast-meta">${TOTAL_BR} marcas brasileiras · ${t1.length + t2.length} no ICA · ${AOC.length} na Academy of Chocolate · ${AVPA.length} na AVPA Paris · ${NACIONAL.length} em prêmios nacionais</p>
+    <p class="mast-meta">${TOTAL_BR} marcas brasileiras · ${t1.length + t2.length} no ICA · ${AOC.length} na Academy of Chocolate · ${AVPA.length} na AVPA Paris · ${NACIONAL.length} em prêmios nacionais · dados atualizados em ${ATUALIZADO_EM}</p>
     ${otherLink ? `<p class="viewswitch">${otherLink}</p>` : ''}
   </div>
 </header>
@@ -1271,7 +1308,7 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
       </div>
     </div>
     <p class="foot-credits">Curadoria e desenvolvimento por <strong>João Victor Daijó</strong>. Agradecimento especial a <strong>Zélia Frangioni</strong>, que mantém o <a href="https://chocolatrasonline.com.br/" target="_blank" rel="noopener">Chócolatras Online</a> — fonte e inspiração deste guia.</p>
-    <p class="foot-date">Documento gerado em junho de 2026 · dados sujeitos a atualização a cada nova edição das competições.</p>
+    <p class="foot-date">Última atualização dos dados: ${ATUALIZADO_EM} · sujeitos a revisão a cada nova edição das competições.</p>
   </div>
 </footer>
 <script>

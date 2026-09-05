@@ -8,7 +8,7 @@ fino (bean-to-bar / tree-to-bar / chocolatier), com prêmios verificados e fonte
 autocontido** (logos e fonte embutidos em base64): abre direto no navegador e pode ser
 compartilhado sem dependências.
 
-**68 marcas · 401 prêmios · 5 competições** (ICA Mundial, ICA Américas, Academy of
+**72 marcas · 520 prêmios · 5 competições** (ICA Mundial, ICA Américas, Academy of
 Chocolate, AVPA Paris e prêmios nacionais).
 
 ## Como funciona o ranking
