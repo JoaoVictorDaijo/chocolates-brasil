@@ -96,9 +96,12 @@ function parseIcaStrong(html, { variant = 'new' } = {}) {
       else { lastRow = { ...row, blockHeading: group, qualifier }; blockRows.push(lastRow); }
     }
   }
-  // join non-category award blocks onto their category entry
+  // Join non-category award blocks onto their category entry. A recognition shares
+  // `entries` with the medals but is never a join target: it is an award of its own,
+  // not the medal a block row qualifies, so a page that prints its recognitions before
+  // the categories must still hang the block row on the medal — or quarantine it.
   for (const r of blockRows) {
-    const hit = entries.find((e) => key(e.maker) === key(r.maker) && key(e.product) === key(r.product));
+    const hit = entries.find((e) => e.level !== 'recognition' && key(e.maker) === key(r.maker) && key(e.product) === key(r.product));
     if (!hit) { skipped.push({ raw: `${r.level_raw}: ${r.maker} – ${r.product}`, reason: 'unjoined-block-row', block: r.blockHeading }); continue; }
     const tag = `${blockLabel(r.blockHeading)}: ${r.qualifier || r.category || r.level_raw}`;
     if (!hit.special.includes(tag)) hit.special.push(tag);

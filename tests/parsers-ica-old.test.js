@@ -94,3 +94,29 @@ test('a recognition inside an award block is an entry, and a following + run joi
     ['recognition', 'Maker B', ['+ Special: Biome']],
   ]);
 });
+
+// A recognition shares `entries` with the medals, so it is reachable by the block join
+// on any page that prints its recognitions before the categories. No fixture does
+// (2017 prints "Special awards" last), so the order needs markup built on purpose.
+test('a recognition is never the target of a block-row join', () => {
+  const recognitionBlock = '<h1>Special awards</h1><h2>Triple MMM Special Award</h2>'
+    + '<p><strong>2018 Americas MMM</strong>: Maker A (Brazil) – Bar One</p>';
+  const nationalBlock = '<h1>National awards</h1><h2>Plain/origin dark chocolate bars</h2>'
+    + '<p><strong>Gold – Brazil</strong>: Maker A (Brazil) – Bar One</p>';
+  const medal = '<h1>Plain/origin bars</h1><h2>Plain/origin dark chocolate bars</h2>'
+    + '<p><strong>Silver</strong>: Maker A (Brazil) – Bar One</p>';
+
+  const { entries, skipped } = parseIcaStrong(recognitionBlock + medal + nationalBlock, { variant: 'old' });
+  assert.deepEqual(skipped, []);
+  assert.deepEqual(entries.map((e) => [e.level, e.special]), [
+    ['recognition', []],
+    ['silver', ['National awards: Gold – Brazil']],
+  ]);
+
+  // With no medal for that product the national row is quarantined, not folded into the recognition.
+  const alone = parseIcaStrong(recognitionBlock + nationalBlock, { variant: 'old' });
+  assert.deepEqual(alone.entries.map((e) => [e.level, e.special]), [['recognition', []]]);
+  assert.deepEqual(alone.skipped, [
+    { raw: 'Gold – Brazil: Maker A – Bar One', reason: 'unjoined-block-row', block: 'National awards' },
+  ]);
+});
