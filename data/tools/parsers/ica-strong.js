@@ -49,7 +49,7 @@ function parseBody(text) {
  */
 function parseIcaStrong(html, { variant = 'new' } = {}) {
   const entries = []; const skipped = []; const groups = [];
-  let group = null; let category = null; let mode = null;
+  let group = null; let category = null; let mode = null; let lastRow = null;
   const blockRows = [];
   const parts = html.split(/(<h[12][^>]*>[\s\S]*?<\/h[12]>)/i);
   for (const part of parts) {
@@ -71,8 +71,7 @@ function parseIcaStrong(html, { variant = 'new' } = {}) {
       const text = clean(strip(raw));
       if (!text) continue;
       if (/^\+\s*(Gold|Silver|Bronze|Special)\s*:/.test(text)) {           // standalone "+ Gold : X" paragraph
-        const last = mode === 'medal' ? entries[entries.length - 1] : blockRows[blockRows.length - 1];
-        if (last) last.special.push(...splitTail(' ' + text).specials);
+        if (lastRow) lastRow.special.push(...splitTail(' ' + text).specials);
         continue;
       }
       const m = text.match(ENTRY);
@@ -89,8 +88,12 @@ function parseIcaStrong(html, { variant = 'new' } = {}) {
       const row = { level, level_raw: label, ...b, category, group, special: [], flags: b.flags };
       if (qualifier) row.special.push(qualifier);
       row.special.push(...specials);
-      if (mode === 'medal') entries.push(row);
-      else blockRows.push({ ...row, blockHeading: group, qualifier });
+      // An award block's rows are qualifiers on a medal the same product already won,
+      // so they are joined rather than listed. A recognition is not a qualifier — the
+      // Triple MMM and Bean-to-bar Chocolatier prizes are awarded outside the category
+      // scoring — so it stays an entry of its own, keeping its label in `level_raw`.
+      if (mode === 'medal' || level === 'recognition') { entries.push(row); lastRow = row; }
+      else { lastRow = { ...row, blockHeading: group, qualifier }; blockRows.push(lastRow); }
     }
   }
   // join non-category award blocks onto their category entry
