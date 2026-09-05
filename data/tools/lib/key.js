@@ -7,11 +7,13 @@
  * Definition: docs/superpowers/specs/2026-09-04-canonical-awards-data-design.md §3.
  */
 function key(s) {
-  return String(s || '')
-    .toLowerCase()
-    .normalize('NFD').replace(/\p{M}/gu, '')
-    .replace(/[‐-―−]/g, '-')
+  return foldDashes(String(s || '').toLowerCase().normalize('NFD').replace(/\p{M}/gu, ''))
     .replace(/[^\p{L}\p{N}]/gu, '');
 }
 
-module.exports = { key };
+/** Folds every Unicode dash (U+2010–U+2015, U+2212) to ASCII `-`. */
+function foldDashes(s) {
+  return String(s || '').replace(/[‐-―−]/g, '-');
+}
+
+module.exports = { key, foldDashes };

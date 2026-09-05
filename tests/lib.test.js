@@ -33,6 +33,12 @@ test('mapLevel handles every published wording', () => {
   assert.equal(mapLevel('ica', 'Bronze'), 'bronze');
   assert.equal(mapLevel('ica', '2018 Americas MMM'), 'recognition');
   assert.equal(mapLevel('ica', '2017 World Gold M.M.M'), 'recognition');
+  assert.equal(mapLevel('ica', '2017 Americas Bean-to-bar Chocolatier'), 'recognition');
+  assert.equal(mapLevel('ica', '2017 Americas Biome-to-bar Recognition'), 'recognition');
+  // Scraped labels vary in dash and spacing; fragment matching must absorb both.
+  assert.equal(mapLevel('ica', '2017 Americas Bean\u2013to\u2013bar Chocolatier'), 'recognition');
+  assert.equal(mapLevel('ica', '2017 Americas Bean-to-bar\u00a0 Chocolatier'), 'recognition');
+  assert.equal(mapLevel('ica', 'Barbados'), null);
   assert.equal(mapLevel('avpa', 'Gourmet Or'), 'gourmet-gold');
   assert.equal(mapLevel('avpa', 'Diplôme Gourmet'), 'gourmet-diploma');
   assert.equal(mapLevel('avpa', 'Médaille Gourmet'), 'gourmet-medal');

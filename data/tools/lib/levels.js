@@ -1,6 +1,6 @@
 'use strict';
 
-const { key } = require('./key.js');
+const { key, foldDashes } = require('./key.js');
 
 const LEVELS = {
   'gold': { disc: 'g', scored: true, places: true },
@@ -26,13 +26,19 @@ const ALIASES = {
 };
 
 // ICA non-medal labels: any label containing one of these fragments is a recognition.
+// Tested against the label with dashes folded and whitespace runs collapsed, so the
+// hyphen and spacing variants the source prints all resolve; the fragments keep the
+// punctuation "M.M.M" needs, which a matching key would strip.
 const ICA_RECOGNITION = [/\bmmm\b/i, /m\.m\.m/i, /recognition/i, /bean-to-bar chocolatier/i, /biome-to-bar/i];
 
 function mapLevel(source, raw) {
   const k = key(raw);
   const hit = (ALIASES[source] || {})[k];
   if (hit) return hit;
-  if (source === 'ica' && ICA_RECOGNITION.some((re) => re.test(raw))) return 'recognition';
+  if (source === 'ica') {
+    const label = foldDashes(raw).replace(/\s+/g, ' ');
+    if (ICA_RECOGNITION.some((re) => re.test(label))) return 'recognition';
+  }
   return null;
 }
 
