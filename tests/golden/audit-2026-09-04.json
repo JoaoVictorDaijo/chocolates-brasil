@@ -1,0 +1,3381 @@
+{
+  "exported": "2026-09-05",
+  "rows": [
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-world",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate ao Leite com Café Blum's"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-world",
+      "edition": "2025",
+      "level": "silver",
+      "n": 2,
+      "p": "42% Leite com Banana e Castanha de Caju"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "gold",
+      "n": 1,
+      "p": "Chocolate ao Leite com Café Blum's"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-world",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate ao Leite com Café Blum's"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-world",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Drágea de Café"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "42% Leite com Banana e Castanha de Caju"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-americas",
+      "edition": "2021",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate ao Leite 42%"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate ao leite 42% cacau"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate ao Leite com Café Blum's"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 1,
+      "p": "45% ao Leite, Banana e Castanha de Caju"
+    },
+    {
+      "brand": "Miroh! Chocolate Makers",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 2,
+      "p": "Bombom de Cupuaçu com Cumaru"
+    },
+    {
+      "brand": "Luzz Cacau",
+      "competition": "ica-world",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "52% Ao Leite"
+    },
+    {
+      "brand": "Luzz Cacau",
+      "competition": "ica-world",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Doce de Leite com Coco"
+    },
+    {
+      "brand": "Luzz Cacau",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate 62% Com Café"
+    },
+    {
+      "brand": "Luzz Cacau",
+      "competition": "ica-world",
+      "edition": "2024",
+      "level": "finalist",
+      "n": 1,
+      "p": "Chocolate 62% Com Café"
+    },
+    {
+      "brand": "Luzz Cacau",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "62% com Pitanga"
+    },
+    {
+      "brand": "Luzz Cacau",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Branco 36% com Gengibre"
+    },
+    {
+      "brand": "Luzz Cacau",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 3,
+      "p": "Branco 36% com Doce de Leite e Coco"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-world",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "40% com Queijo Canastra e Doce de Leite"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-world",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate Branco Maracujá"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate ao Leite 40% Cacau com Café"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate Branco de Maracujá"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "commended",
+      "n": 1,
+      "p": "barra 60% spicy"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Ao leite 40% com flor de sal"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate ao leite 40% Cacau com Nibs e Melado de Cana"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate Branco Maracujá"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 1,
+      "p": "Intenso 80% Cacau Catongo"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 1,
+      "p": "Ao Leite 40%"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 2,
+      "p": "Intenso com Especiarias Suaves"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 3,
+      "p": "Ao Leite com Queijo Canastra e Doce de Leite"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 4,
+      "p": "Branco com Maracujá Liofilizado"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 2,
+      "p": "Branco e ao Leite com Queijo Azul"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "40% com Queijo Canastra e Doce de Leite"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 2,
+      "p": "Ao Leite 50% com Infusão de Laranja"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 3,
+      "p": "Ao Leite 40% com Queijo Canastra e Doce de Leite"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "Branco Caramelizado com Nibs e Flor de Sal"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 2,
+      "p": "Intenso 80% Cacau Catongo"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 3,
+      "p": "Branco de Morango Liofilizado com Pistache"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Intenso 74% com Cardamomo"
+    },
+    {
+      "brand": "Cacau do Céu",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Ao Leite 50% com Amêndoas e Flor de Sal"
+    },
+    {
+      "brand": "MOA Chocolates",
+      "competition": "ica-world",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "70% Com Cupuaçu"
+    },
+    {
+      "brand": "MOA Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "gold",
+      "n": 1,
+      "p": "70% Com Cupuaçu"
+    },
+    {
+      "brand": "MOA Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "70% com Cupuaçu (Vegano)"
+    },
+    {
+      "brand": "MOA Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Branco com Açaí e Nibs (White Chocolate with Açaí and Nibs / Flavoured White Chocolate Bar)"
+    },
+    {
+      "brand": "MOA Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "recognition",
+      "n": 1,
+      "p": "70% com Cupuaçu (Vegano)"
+    },
+    {
+      "brand": "MOA Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Drágeas de Café com Chocolate 60%"
+    },
+    {
+      "brand": "JUCOLATTE",
+      "competition": "ica-world",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "33% Doce de Leite Bean to Bar"
+    },
+    {
+      "brand": "JUCOLATTE",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "40% Avelã - Chocolate Bean to Bar (categoria barras de chocolate ao leite com recheio)"
+    },
+    {
+      "brand": "JUCOLATTE",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "35% Maracujá com Morango - Bean to Bar (categoria barras de chocolate branco com inclusões)"
+    },
+    {
+      "brand": "JUCOLATTE",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate Branco 33% Doce de Leite Bean to Bar"
+    },
+    {
+      "brand": "JUCOLATTE",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 2,
+      "p": "35% Maracujá com Morango Bean to Bar"
+    },
+    {
+      "brand": "JUCOLATTE",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate 33% Milho"
+    },
+    {
+      "brand": "JUCOLATTE",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "33% Doce de Leite"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "ica-world",
+      "edition": "2020-21",
+      "level": "bronze",
+      "n": 1,
+      "p": "Dark Coconut Milk"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "ica-americas",
+      "edition": "2020-21",
+      "level": "silver",
+      "n": 1,
+      "p": "Dark Chocolate with Cupuaçu"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "ica-americas",
+      "edition": "2020-21",
+      "level": "silver",
+      "n": 2,
+      "p": "Dark Milk Chocolate"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "ica-americas",
+      "edition": "2020-21",
+      "level": "silver",
+      "n": 3,
+      "p": "White Chocolate with Açaí"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "silver",
+      "n": 1,
+      "p": "70% Wild Cocoa Juruá River"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "gold",
+      "n": 1,
+      "p": "Luisa Abram 70% Wild Cocoa Jurua River (Rio Juruá 70%)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2018",
+      "level": "bronze",
+      "n": 1,
+      "p": "Wild Cocoa 70% Rio Acará (Dark Bean to Bar under 80%)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2018",
+      "level": "bronze",
+      "n": 2,
+      "p": "Wild Cocoa 81% Rio Purus (Dark Bean to Bar 80% and over)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "Luisa Abram Rio Jari 70 (Dark Bean to Bar under 90%)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 2,
+      "p": "Luisa Abram Rio Juruá 70 (Dark Bean to Bar under 90%)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "gold",
+      "n": 1,
+      "p": "Luisa Abram 70% Wild Cocoa Tocantins River (Dark Bean to Bar under 90%)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "commended",
+      "n": 1,
+      "p": "Luisa Abram 81% Wild Cocoa Tocantins River (Dark Bean to Bar under 90%)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "gold",
+      "n": 2,
+      "p": "Luisa Abram Milk Chocolate (Milk Bean to Bar)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "bronze",
+      "n": 1,
+      "p": "Luisa Abram Extra Creamy White Chocolate (White Bean to Bar)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "bronze",
+      "n": 2,
+      "p": "Luisa Abram Extra Creamy White Chocolate with Brazil Nuts Crunch (White Bean to Bar Flavoured)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% Cassiporé (Dark Bean to Bar under 90%)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 2,
+      "p": "81% Acará (Dark Bean to Bar under 90%)"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "70% Rio Juruá"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "Branco Extra Cremoso"
+    },
+    {
+      "brand": "Luisa Abram",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Branco com Crocante de Castanha-do-Pará"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "ica-world",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Negro Doce Crocante de Café"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Crocante de café"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "categoria Milk Bean to Bar para a barra 45%"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "bronze",
+      "n": 1,
+      "p": "categoria Milk Bean to Bar para a barra 50% cacau"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "ica-americas",
+      "edition": "2020",
+      "level": "gold",
+      "n": 1,
+      "p": "categoria Milk chocolate bars with inclusions or pieces para a barra Caramel Crush"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "barra de chocolate branco"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Negro Doce 70% selo amarelo – Bahia"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Bergamorta (branco)"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Lascas de Coco (branco)"
+    },
+    {
+      "brand": "Negro Doce",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "70% Blend Brasil"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "gold",
+      "n": 1,
+      "p": "Branco com Maracujá"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "gold",
+      "n": 2,
+      "p": "Pirapop ao Leite"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Doce de Leite Branco"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "60% com Cachaça"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 3,
+      "p": "Branco Abacaxi com Coco"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "gold",
+      "n": 3,
+      "p": "Pirapop - Chocolate ao Leite (Caramel Popcorn / Pipoca Crocante)"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 4,
+      "p": "Chocolate Branco Abacaxi com Coco"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate 60% com Laranja e Amendoas"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 2,
+      "p": "Chocolate Branco Caramelizado com Toffee"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "gold",
+      "n": 1,
+      "p": "Malted Milk Chocolate (Chocolate ao Leite Cacau Maltado) - categoria Milk Bean To Bar"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "gold",
+      "n": 1,
+      "p": "Chocolate ao Leite com Cumaru (Flavoured Milk Chocolate Bar)"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate ao Leite com Especiarias"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Chocolate ao Leite com Pistache e Flor de Sal"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Golden Milk (branco)"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "White Magnolia Leatherwood Hazel (ganache)"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "Parmesan Basil Cashew (bombom)"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 2,
+      "p": "Branco Café com Leite"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Baked Tea Sesame (ganache)"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Branco com Azeite de Avocado e Limão Siciliano"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "Branco com Açaí e Hibisco"
+    },
+    {
+      "brand": "Odle Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 3,
+      "p": "Branco com Abacaxi e Pedaços de Coco"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "ica-americas",
+      "edition": "2016",
+      "level": "silver",
+      "n": 1,
+      "p": "ChocoDamia (trufa de macadâmia)"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "ica-americas",
+      "edition": "2016",
+      "level": "silver",
+      "n": 2,
+      "p": "ChocoAmandes (trufa de amêndoa)"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2016",
+      "level": "silver",
+      "n": 1,
+      "p": "Bombom de Caramelo com Flor de Sal"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2016",
+      "level": "silver",
+      "n": 2,
+      "p": "Trufa de Cachaça"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "ica-americas",
+      "edition": "2016",
+      "level": "bronze",
+      "n": 1,
+      "p": "Trufa Noir"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "ica-americas",
+      "edition": "2016",
+      "level": "bronze",
+      "n": 2,
+      "p": "Bombom de Caramelo com Flor de Sal Au Lait"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "ica-americas",
+      "edition": "2016",
+      "level": "silver",
+      "n": 3,
+      "p": "ChocoAmandes"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2017",
+      "level": "bronze",
+      "n": 1,
+      "p": "Bean to Bar Pratigi 53% (Dark Bean to Bar under 80%)"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2017",
+      "level": "bronze",
+      "n": 2,
+      "p": "Bean to Bar Pratigi 70% (Dark Bean to Bar under 80%)"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2017",
+      "level": "bronze",
+      "n": 3,
+      "p": "Bean to Bar Pratigi 45% (Milk Bean to Bar)"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2017",
+      "level": "silver",
+      "n": 1,
+      "p": "Macadamia chocolate (Nut based Filled Chocolates)"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2018",
+      "level": "bronze",
+      "n": 1,
+      "p": "Bean to Bar Pratigi 45% (Bars - Tree to Bar)"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2018",
+      "level": "bronze",
+      "n": 2,
+      "p": "Organic Chocolate 60% (Bars - Tree to Bar)"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2015",
+      "level": "bronze",
+      "n": 1,
+      "p": "Choco Chaud"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "Croquant Truffle"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "Nibs & 70% Chocolate Bar"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 1,
+      "p": "Nougat Noir Croquant Bar"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "ica-americas",
+      "edition": "2021",
+      "level": "gold",
+      "n": 1,
+      "p": "Caramel Scotch Bonbon"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 2,
+      "p": "Nougat au Lait Croquant Bar"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "silver",
+      "n": 1,
+      "p": "Macadamia, Fleur-de-sel, Brûle"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "silver",
+      "n": 2,
+      "p": "Pistachios & White Chocolate Bar"
+    },
+    {
+      "brand": "Chocolat du Jour",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "silver",
+      "n": 3,
+      "p": "Cara-Mel"
+    },
+    {
+      "brand": "Almadoré Chocolate de Origem",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "gold",
+      "n": 1,
+      "p": "Chocolate ao Leite 50% (melhor da categoria)"
+    },
+    {
+      "brand": "Almadoré Chocolate de Origem",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "gold",
+      "n": 2,
+      "p": "Chocolate Ao Leite 50% (categoria Micro-batch / Microlote - Plain/origin milk chocolate bars, score 90.1)"
+    },
+    {
+      "brand": "Almadoré Chocolate de Origem",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate Intenso 70% (Micro-batch - Plain/origin dark chocolate bars, score 88.0)"
+    },
+    {
+      "brand": "Almadoré Chocolate de Origem",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate Branco com Framboesa (White chocolate bars with inclusions or pieces, score 86.3)"
+    },
+    {
+      "brand": "Almadoré Chocolate de Origem",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate Branco 38% (38% White Chocolate - categoria White Bean To Bar Flavoured)"
+    },
+    {
+      "brand": "Almadoré Chocolate de Origem",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate ao leite 50%"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "gold",
+      "n": 1,
+      "p": "White Chocolate – Brazilian Spices"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "ica-americas",
+      "edition": "2020-21",
+      "level": "silver",
+      "n": 1,
+      "p": "70% Dark com Café Latitude 13"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "gold",
+      "n": 1,
+      "p": "Dark Milk 57%"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2018",
+      "level": "silver",
+      "n": 1,
+      "p": "Bold Dark 70%"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "silver",
+      "n": 1,
+      "p": "56% Cáscara (Tree to Bar)"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% Trinitarios Bold Roast (Torra Ousada) - barras dark micro-batch plain/origin"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% Dark - Torrado Bold (Torra Ousada)"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 2,
+      "p": "65% Maracujá Crunch"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% Vintage"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "ica-americas",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "65% com with Caipirinha"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "65% com with Caipirinha"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "65% Crocante de maracujá"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "70% Dark — Mild Roast"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Branco com Especiarias Brasileiras"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 3,
+      "p": "Branco com Caramelo Duplo"
+    },
+    {
+      "brand": "Baianí Chocolates",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "bronze",
+      "n": 1,
+      "p": "Trinitarios 88% Special Blend"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Two Rivers"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 2,
+      "p": "Brazilian Cheese"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Wild Brasil"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Rapadura"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "Rabanada"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 3,
+      "p": "Baru 70%"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 4,
+      "p": "Arroz Doce"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Paçoca"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "bronze",
+      "n": 1,
+      "p": "Laranja 70% (Dark Bean to Bar Flavoured)"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "commended",
+      "n": 1,
+      "p": "Doce de Leite + Café (White Bean to Bar Flavoured)"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2017",
+      "level": "bronze",
+      "n": 1,
+      "p": "barra São Paulo 75%"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2018",
+      "level": "bronze",
+      "n": 1,
+      "p": "barra Porto Rico 70%"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2018",
+      "level": "bronze",
+      "n": 1,
+      "p": "barra Puerto Rico 72%"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "silver",
+      "n": 1,
+      "p": "barra Biomas do Brasil 70% cacau com Goiabada"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "barra Pão de Mel"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2020",
+      "level": "bronze",
+      "n": 1,
+      "p": "Doce de leite + Brazilian Sea Salt"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "gold",
+      "n": 1,
+      "p": "Two Rivers"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "Two Rivers"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 1,
+      "p": "Amazzonia 85%"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "chocolate Rosas"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 1,
+      "p": "Café con Ron"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 2,
+      "p": "Coquito"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "70% Vale Potumuju"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Pão de Mel"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 2,
+      "p": "Dark Batata"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 3,
+      "p": "Doce de Leite + Café + Sel"
+    },
+    {
+      "brand": "Mission Chocolate",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "Baruja"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Hidromel 77% (+ prêmio especial de fermentação)"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "Crema 45% ao Leite"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Framboesa e Limão"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "gold",
+      "n": 1,
+      "p": "59% Ao Leite Intenso"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "gold",
+      "n": 2,
+      "p": "75% Flor de Sal Intenso"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Drageado de Cupuaçu 65% Chocolate Intenso"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-world",
+      "edition": "2023",
+      "level": "finalist",
+      "n": 1,
+      "p": "Hidromel 77% (90.04)"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-world",
+      "edition": "2023",
+      "level": "finalist",
+      "n": 2,
+      "p": "Crema 45% ao leite (86.51)"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-world",
+      "edition": "2023",
+      "level": "finalist",
+      "n": 3,
+      "p": "Framboesa e Limão (84.32)"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 3,
+      "p": "Crema 45% ao leite"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2018",
+      "level": "silver",
+      "n": 1,
+      "p": "barra 62% Cacau com Café"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-americas",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "barra 59% ao Leite"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "silver",
+      "n": 1,
+      "p": "72% Cachaça & Amburana"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "37% Doce de Leite & Honeycomb"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 1,
+      "p": "Catongo Varietal Intenso 67%"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 2,
+      "p": "Branco 35%"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 1,
+      "p": "Mel & Baru 50% ao Leite"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 3,
+      "p": "Drageado Cupuaçu 65%"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "50% Mel & Baru ao Leite"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "72% Forastero Varietal"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 2,
+      "p": "37% Framboesa & Limão"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "58% Leite de Coco"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 1,
+      "p": "65% Nibs"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-bronze",
+      "n": 1,
+      "p": "Mel & Baru"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-bronze",
+      "n": 2,
+      "p": "Cachaça & Amburana"
+    },
+    {
+      "brand": "Mestiço Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-diploma",
+      "n": 1,
+      "p": "Gianduia Lá da Venda"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "Cacau em Flor 70%"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 2,
+      "p": "Dark Chocolate 70%"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Drágea de Nibs ao Leite"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2017",
+      "level": "finalist",
+      "n": 1,
+      "p": "Serra do Conduru 80%"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "White Chocolate (Plain White Chocolate Bar)"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 2,
+      "p": "Dark Chocolate 63% with Pink Peppercorn / Cacau em Flor 63% com Pimenta Rosa (Flavoured Dark Chocolate Bar)"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Milk Chocolate 45% Cocoa with Walnuts / Chocolate ao Leite com Nozes (Filled Chocolates - Nut Based)"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Cacau em Flor com Cupuaçu (Dark Chocolate Bars with Inclusions or Pieces)"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Dragée Cocoa Nibs"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 1,
+      "p": "Intenso 70% — Cacau em Flor"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 2,
+      "p": "Ao Leite 45%"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 3,
+      "p": "Intenso 70% com Crocante de Açaí"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 4,
+      "p": "Ao Leite 45% com Castanha-do-Pará"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 1,
+      "p": "Drágea de Café"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 5,
+      "p": "Drágea de Nibs de Cacau"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "Cacau em Flor 63% com Pimenta Rosa"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 3,
+      "p": "Chocolate Branco"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Drágeas de Nibs de Cacau"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 3,
+      "p": "Hot Chocolate"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-diploma",
+      "n": 1,
+      "p": "Amargo 80% Cacau — Serra do Conduru"
+    },
+    {
+      "brand": "Nugali Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-diploma",
+      "n": 2,
+      "p": "Amargo 63% Cacau — Cacau em Flor"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Ao Leite 46% Cacau (89,1)"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "Intenso 60% com Cupuaçu (88,4)"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% com Castanha de Caju e Flor de Sal"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate ao leite 38% com chá mate"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 2,
+      "p": "Chocolate 55% com laranja"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate ao leite 38% com nibs e melaço"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "silver",
+      "n": 2,
+      "p": "Chocolate ao leite 38% com chá mate"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "Gianduiotto intenso (bombons de gianduia amarga)"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 2,
+      "p": "Chocolate 70% com castanhas (caju) e flor de sal"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate ao leite com flocos de arroz e flor de sal"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate 70% com macadâmia"
+    },
+    {
+      "brand": "Cuore di Cacao",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate ao leite 46%"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Intenso 71%"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 2,
+      "p": "Cumaru — Ao Leite 55% com Cumaru"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 3,
+      "p": "Caipira — Branco com Milho"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Cupuaçu — 64% com Cupuaçu"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "gold",
+      "n": 1,
+      "p": "Kaê Cumaru - 55% com Cumaru"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Kaê Cupuaçu - 64% com Cupuaçu"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "ica-americas",
+      "edition": "2021",
+      "level": "silver",
+      "n": 1,
+      "p": "64% com Cupuaçu"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "64% com Cupuaçu"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "36% Branco com Nibs"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-gold",
+      "n": 1,
+      "p": "37% Caipira"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-silver",
+      "n": 1,
+      "p": "64% Castanha e Flor de Sal"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-bronze",
+      "n": 1,
+      "p": "64% Cupuaçu"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-bronze",
+      "n": 2,
+      "p": "64% Cafezinho"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-diploma",
+      "n": 1,
+      "p": "55% Cumaru"
+    },
+    {
+      "brand": "Kaê Chocolates",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-diploma",
+      "n": 2,
+      "p": "71% Intenso"
+    },
+    {
+      "brand": "Ju Arléo Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "36% ao Leite com Cupuaçu"
+    },
+    {
+      "brand": "Ju Arléo Chocolates",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Doce de Leite Crocante"
+    },
+    {
+      "brand": "Ju Arléo Chocolates",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "55% ao Leite com Café"
+    },
+    {
+      "brand": "Ju Arléo Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Branco com Doce de Leite Crocante"
+    },
+    {
+      "brand": "Ju Arléo Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "gold",
+      "n": 1,
+      "p": "Chocolate 36% Cacau ao Leite com Cupuaçu"
+    },
+    {
+      "brand": "Ju Arléo Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate 70% Cacau"
+    },
+    {
+      "brand": "Ju Arléo Chocolates",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate 70% Cacau com Mel de Uruçu"
+    },
+    {
+      "brand": "Ju Arléo Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate 55% Cacau ao Leite com Café"
+    },
+    {
+      "brand": "Ju Arléo Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate intenso 55% cacau ao leite com café"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Branco com Canjica Baiana"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "43% Cacau ao Leite"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "55% Cacau com Cupuaçu"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate 60% Cacau ao Leite Cappuccino"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 2,
+      "p": "Chocolate 70% Cacau"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate 60% Cacau ao Leite Cappuccino"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Chocolate 70% Cacau"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate Branco Canjica Baiana"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "Chocolate 60% Cacau ao Leite Dark Milk"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 3,
+      "p": "Chocolate 85% Cacau"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 4,
+      "p": "Chocolate 43% Cacau ao Leite com Rapadura e Flor de Sal"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate 43% Cacau ao Leite com Cumaru e Nibs"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate Branco 35% Cacau Arroz Doce"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "Chocolate 60% Cacau ao Leite Dark Milk"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate 43% Cacau ao Leite com Rapadura e Flor de Sal"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "43% cacau ao leite com rapadura e flor de sal"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 2,
+      "p": "85% Cacau"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% Cacau"
+    },
+    {
+      "brand": "Benevides Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 2,
+      "p": "Branco 35% Canjica Baiana"
+    },
+    {
+      "brand": "Utopia Tropical",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Intenso 72% — Rio Tocantins (PA)"
+    },
+    {
+      "brand": "Utopia Tropical",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "Branco 38% Cacau Selvagem — Rio Purus (AM)"
+    },
+    {
+      "brand": "Utopia Tropical",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 3,
+      "p": "Chocolate Branco 38% Manteiga de Cacau Selvagem (origem Rio Purus, Amazonas) — categoria Barras de chocolate branco simples/de origem, nota 86,5"
+    },
+    {
+      "brand": "Pretiosus Chocolate Artesanal",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Branco de Abacaxi com Coco"
+    },
+    {
+      "brand": "Pretiosus Chocolate Artesanal",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate Ao Leite 45% Cacau (categoria Micro-lote / barras de chocolate ao leite natural/de origem)"
+    },
+    {
+      "brand": "Pretiosus Chocolate Artesanal",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate Branco (categoria barras de chocolate branco puro/original)"
+    },
+    {
+      "brand": "Pretiosus Chocolate Artesanal",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate 45% cacau ao leite"
+    },
+    {
+      "brand": "Pretiosus Chocolate Artesanal",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 2,
+      "p": "70% Cacau"
+    },
+    {
+      "brand": "Pretiosus Chocolate Artesanal",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate Branco"
+    },
+    {
+      "brand": "Pretiosus Chocolate Artesanal",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 2,
+      "p": "70% com Café"
+    },
+    {
+      "brand": "Pretiosus Chocolate Artesanal",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 3,
+      "p": "Branco de Abacaxi com Coco"
+    },
+    {
+      "brand": "Velmont",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 1,
+      "p": "Hojicha Razuberi"
+    },
+    {
+      "brand": "Velmont",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 2,
+      "p": "Golden Banana"
+    },
+    {
+      "brand": "Velmont",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "52% ao Leite — Scavina (João Tavares)"
+    },
+    {
+      "brand": "Velmont",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% BN34 com Nibs e Licor 43 (Pedro Magalhães)"
+    },
+    {
+      "brand": "Velmont",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "50% ao Leite com Nuts (Pedro Magalhães)"
+    },
+    {
+      "brand": "ZAAD Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "55% com Banana Passa, Amêndoas e Cumaru"
+    },
+    {
+      "brand": "ZAAD Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% Intenso com Cupuaçu"
+    },
+    {
+      "brand": "ZAAD Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% Dark with cupuaçu"
+    },
+    {
+      "brand": "DoSemente Cacau",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 1,
+      "p": "Branco Caramelizado ao Leite"
+    },
+    {
+      "brand": "DoSemente Cacau",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 1,
+      "p": "Ao Leite 55%"
+    },
+    {
+      "brand": "C'alma Chocolate",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Ao Leite 55%"
+    },
+    {
+      "brand": "C'alma Chocolate",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 1,
+      "p": "Barra de origem única"
+    },
+    {
+      "brand": "C'alma Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Pastelinho de Goiás (Flavoured White Chocolate Bar)"
+    },
+    {
+      "brand": "C'alma Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Tuerê 70%"
+    },
+    {
+      "brand": "AMMA Chocolate",
+      "competition": "aoc",
+      "edition": "2017",
+      "level": "silver",
+      "n": 1,
+      "p": "AMMA 100% (Tree to Bar)"
+    },
+    {
+      "brand": "AMMA Chocolate",
+      "competition": "aoc",
+      "edition": "2017",
+      "level": "bronze",
+      "n": 1,
+      "p": "AMMA 75% (Tree to Bar)"
+    },
+    {
+      "brand": "AMMA Chocolate",
+      "competition": "ica-americas",
+      "edition": "2017",
+      "level": "silver",
+      "n": 1,
+      "p": "Cupuaçu"
+    },
+    {
+      "brand": "AMMA Chocolate",
+      "competition": "aoc",
+      "edition": "2016",
+      "level": "silver",
+      "n": 1,
+      "p": "Gula Merah 70% (Dark Bean to Bar Under 80%)"
+    },
+    {
+      "brand": "AMMA Chocolate",
+      "competition": "aoc",
+      "edition": "2016",
+      "level": "silver",
+      "n": 2,
+      "p": "100% Cacau Organic Chocolate (Dark Bean to Bar Over 80%)"
+    },
+    {
+      "brand": "AMMA Chocolate",
+      "competition": "aoc",
+      "edition": "2016",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate do Pajé (Drinking Chocolate Flavoured)"
+    },
+    {
+      "brand": "Hagi Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Caramelo com Banana e Castanha de Caju"
+    },
+    {
+      "brand": "Hagi Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% com Manga"
+    },
+    {
+      "brand": "Hagi Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Drágea Banoffee"
+    },
+    {
+      "brand": "Cookoa",
+      "competition": "ica-americas",
+      "edition": "2020-21",
+      "level": "bronze",
+      "n": 1,
+      "p": "Branco Caramelo"
+    },
+    {
+      "brand": "Toré Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "gold",
+      "n": 1,
+      "p": "Intenso 71%"
+    },
+    {
+      "brand": "Toré Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Ao Leite 45%"
+    },
+    {
+      "brand": "Toré Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Branco com Cumaru"
+    },
+    {
+      "brand": "Toré Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 2,
+      "p": "Caramelo com Flor de Sal"
+    },
+    {
+      "brand": "Raros Fazedores de Chocolate",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "gold",
+      "n": 1,
+      "p": "Chocolate Branco (bean-to-bar)"
+    },
+    {
+      "brand": "Raros Fazedores de Chocolate",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "finalist",
+      "n": 1,
+      "p": "Chocolate 70% Cacau Origem Amazônia (Micro-batch - Plain/origin dark chocolate bars, score 84.53)"
+    },
+    {
+      "brand": "Raros Fazedores de Chocolate",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "finalist",
+      "n": 2,
+      "p": "Chocolate Ao Leite 53% Cacau (Micro-batch - Plain/origin milk chocolate bars, score 84.73)"
+    },
+    {
+      "brand": "Raros Fazedores de Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate 53% cacau ao leite origem Amazônia"
+    },
+    {
+      "brand": "Raros Fazedores de Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate 70% cacau origem Amazônia"
+    },
+    {
+      "brand": "Kalapa Chocolate",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Dois Riachões 70%"
+    },
+    {
+      "brand": "Kalapa Chocolate",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 2,
+      "p": "Maresia de Limão (flor de sal e limão)"
+    },
+    {
+      "brand": "Kalapa Chocolate",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 3,
+      "p": "Café de Histórias (nibs de café e leite de coco)"
+    },
+    {
+      "brand": "Kalapa Chocolate",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Castanha Baru e Cumaru – Embalo Crocante"
+    },
+    {
+      "brand": "Kalapa Chocolate",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "Embalo Crocante (castanha baru e cumaru)"
+    },
+    {
+      "brand": "Kalapa Chocolate",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 2,
+      "p": "Bocados (milho e alecrim)"
+    },
+    {
+      "brand": "Mendoá Chocolate",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "silver",
+      "n": 1,
+      "p": "Orgânico 99% com Nibs"
+    },
+    {
+      "brand": "Mendoá Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Orgânico 100% com Nibs"
+    },
+    {
+      "brand": "Mendoá Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Orgânico 81% com Nibs"
+    },
+    {
+      "brand": "Mendoá Chocolate",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "bronze",
+      "n": 1,
+      "p": "Orgânico 60% com Canela"
+    },
+    {
+      "brand": "Mendoá Chocolate",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "40% ao Leite"
+    },
+    {
+      "brand": "Mendoá Chocolate",
+      "competition": "aoc",
+      "edition": "2018",
+      "level": "bronze",
+      "n": 1,
+      "p": "Classic 60% com Gengibre"
+    },
+    {
+      "brand": "Mendoá Chocolate",
+      "competition": "ica-americas",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate 50% Cacau ao Leite"
+    },
+    {
+      "brand": "Mendoá Chocolate",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "silver",
+      "n": 1,
+      "p": "Branco 35% Doce de Leite"
+    },
+    {
+      "brand": "Mendoá Chocolate",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 1,
+      "p": "Ao Leite 50% com Cupuaçu"
+    },
+    {
+      "brand": "Pepe Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "35% Branco com muito Leite"
+    },
+    {
+      "brand": "Pepe Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate Dorê – Branco Caramelizado com Açúcar de coco"
+    },
+    {
+      "brand": "Pepe Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "44% ao Leite de Origem"
+    },
+    {
+      "brand": "Pepe Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "Branco com Muito Leite"
+    },
+    {
+      "brand": "La Lis Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "63% com Cupuaçu (Edição Biomas)"
+    },
+    {
+      "brand": "La Lis Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "70% Cacau"
+    },
+    {
+      "brand": "La Lis Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "45% ao Leite"
+    },
+    {
+      "brand": "La Lis Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "63% com Laranja"
+    },
+    {
+      "brand": "La Lis Chocolates",
+      "competition": "ica-americas",
+      "edition": "2022",
+      "level": "silver",
+      "n": 1,
+      "p": "63% Cacau com Laranja Bahia (com mencoes especiais de categoria: Bioma / Ingrediente Local)"
+    },
+    {
+      "brand": "Aya Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Cumaru com Flor de Sal 46%"
+    },
+    {
+      "brand": "Aya Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Café com Leite 46%"
+    },
+    {
+      "brand": "Aya Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate branco Tangerina com lichia"
+    },
+    {
+      "brand": "Aya Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate 62% Cumaru"
+    },
+    {
+      "brand": "Pé de Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Branco Camomila com Caramelo de Mel"
+    },
+    {
+      "brand": "Pé de Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Branco Caramelo com Flor de Sal e Fava de Baunilha"
+    },
+    {
+      "brand": "Pé de Chocolate",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate amargo 70% Amazônia (cacau da Amazônia)"
+    },
+    {
+      "brand": "Pé de Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "silver",
+      "n": 2,
+      "p": "52% dark milk Itariri"
+    },
+    {
+      "brand": "Pé de Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Intenso 70% Cacau Amazônia"
+    },
+    {
+      "brand": "Bem Cacao Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Sentidos — Branco 36% com Baunilha e Amêndoas"
+    },
+    {
+      "brand": "Bem Cacao Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "52% ao Leite com Baunilha"
+    },
+    {
+      "brand": "Bem Cacao Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Biomes — 60% com Cupuaçu"
+    },
+    {
+      "brand": "Bem Cacao Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Biomes Collection: Milk Chocolate 40% cocoa with Specialty Coffee & White Chocolate with Fine Cacao Nibs"
+    },
+    {
+      "brand": "Bem Cacao Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "Biomes — Branco com Baunilha, Baru e Pequi Caramelizados"
+    },
+    {
+      "brand": "Tombador Cacau",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Branco de Macadâmia e Cumaru"
+    },
+    {
+      "brand": "Tombador Cacau",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Branco com Maracujá"
+    },
+    {
+      "brand": "Labarr Chocolate de Origem",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "70% com Baru"
+    },
+    {
+      "brand": "Labarr Chocolate de Origem",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "42% Cacau ao Leite com Nibs e Flor de Sal (também reportado como 70% Cacau Intenso conforme a fonte)"
+    },
+    {
+      "brand": "Labarr Chocolate de Origem",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% Cacau Intenso"
+    },
+    {
+      "brand": "Corumbau Cacau",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Branco Torrado com Pé-de-Moleque"
+    },
+    {
+      "brand": "Corumbau Cacau",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "55% ao Leite com Cupuaçu"
+    },
+    {
+      "brand": "Majucau Chocolate Brasileiro",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "silver",
+      "n": 1,
+      "p": "70% Cocoa"
+    },
+    {
+      "brand": "Modaka Cacau de Origem",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "40% com Café, Castanha e Canela (Nosso café cremoso)"
+    },
+    {
+      "brand": "Ramos do Cacau",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "55% Dark Milk com Café"
+    },
+    {
+      "brand": "Caza Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Ao Leite 53% com Maracujá e Coco"
+    },
+    {
+      "brand": "Var Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% com Cupuaçu"
+    },
+    {
+      "brand": "Var Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Ao Leite 45% com Sapucaí"
+    },
+    {
+      "brand": "Var Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "45% ao Leite com Café"
+    },
+    {
+      "brand": "Var Chocolates",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "Tree to Bar Seasoned - 52% milk chocolate with nibs (Ao leite 52% cacau com nibs)"
+    },
+    {
+      "brand": "Var Chocolates",
+      "competition": "aoc",
+      "edition": "2020",
+      "level": "bronze",
+      "n": 1,
+      "p": "Tree to Bar Flavoured - 52% milk chocolate with nibs (Ao leite 52% cacau com nibs)"
+    },
+    {
+      "brand": "Cacau Dourado Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Ao Leite 41%"
+    },
+    {
+      "brand": "Cacau Dourado Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "70% Cacau"
+    },
+    {
+      "brand": "Cacau Dourado Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 3,
+      "p": "70% com Cupuaçu"
+    },
+    {
+      "brand": "Cacau Dourado Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 1,
+      "p": "Ao Leite 41%"
+    },
+    {
+      "brand": "Cacau Dourado Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "gold",
+      "n": 1,
+      "p": "70% com Cupuaçu"
+    },
+    {
+      "brand": "Cacau Dourado Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "bronze",
+      "n": 2,
+      "p": "Chocorock"
+    },
+    {
+      "brand": "Cacau Dourado Chocolates",
+      "competition": "ica-americas",
+      "edition": "2026",
+      "level": "gold",
+      "n": 2,
+      "p": "Branco Caramelo com Coco"
+    },
+    {
+      "brand": "Cacau Dourado Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 4,
+      "p": "Branco Caramelizado com Crocante de Coco"
+    },
+    {
+      "brand": "Nicolas Chocolate do Belga",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 1,
+      "p": "72% Terruá Tuerê João Evangelista"
+    },
+    {
+      "brand": "Nicolas Chocolate do Belga",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Dark wild cocoa flavoured with Cupuaçu"
+    },
+    {
+      "brand": "Nicolas Chocolate do Belga",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "El Salvador 70%"
+    },
+    {
+      "brand": "Nicolas Chocolate do Belga",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "Uganda Bukonzo 100%"
+    },
+    {
+      "brand": "Nicolas Chocolate do Belga",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 3,
+      "p": "El Salvador 70% com Orégano e Flor de Sal"
+    },
+    {
+      "brand": "Martinus Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Branco 35% com Maracujá"
+    },
+    {
+      "brand": "Martinus Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "52% ao Leite de Cabra"
+    },
+    {
+      "brand": "Martinus Chocolates",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate 56% ao Leite (micro-batch, plain/origin milk chocolate bars)"
+    },
+    {
+      "brand": "Prawer Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Caramélisé com Pistache (branco caramelizado)"
+    },
+    {
+      "brand": "Prawer Chocolates",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Brazil Caramélisé"
+    },
+    {
+      "brand": "Cacalmenara Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Ao Leite 45% Cacau"
+    },
+    {
+      "brand": "Cacalmenara Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "75% Cacau"
+    },
+    {
+      "brand": "Gaudens Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Cripioca 53% ao Leite"
+    },
+    {
+      "brand": "Gaudens Chocolate",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Cripioca de Cupuaçu ao Leite"
+    },
+    {
+      "brand": "Monjolo Chocolates",
+      "competition": "aoc",
+      "edition": "2024",
+      "level": "bronze",
+      "n": 1,
+      "p": "70% Cacau Tuerê — Amazônia"
+    },
+    {
+      "brand": "doCacao",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Chocolate Intenso 70% Cacau"
+    },
+    {
+      "brand": "Casa Lasevicius",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "Jabuticaba (branco bean-to-bar)"
+    },
+    {
+      "brand": "Casa Lasevicius",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "silver",
+      "n": 1,
+      "p": "barra Tchai da Amazônia"
+    },
+    {
+      "brand": "Cacau Candango",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Blue (chocolate branco)"
+    },
+    {
+      "brand": "Âmbar Chocolate",
+      "competition": "aoc",
+      "edition": "2022",
+      "level": "bronze",
+      "n": 1,
+      "p": "Dark Milk 55%"
+    },
+    {
+      "brand": "ChOr — Chocolate de Origem",
+      "competition": "avpa",
+      "edition": "2021",
+      "level": "gourmet-bronze",
+      "n": 1,
+      "p": "Bahia Terra da Felicidade 55%"
+    },
+    {
+      "brand": "ChOr — Chocolate de Origem",
+      "competition": "avpa",
+      "edition": "2021",
+      "level": "gourmet-medal",
+      "n": 1,
+      "p": "Oro Negro"
+    },
+    {
+      "brand": "ChOr — Chocolate de Origem",
+      "competition": "avpa",
+      "edition": "2021",
+      "level": "gourmet-medal",
+      "n": 2,
+      "p": "Terra de Santa Cruz"
+    },
+    {
+      "brand": "ChOr — Chocolate de Origem",
+      "competition": "avpa",
+      "edition": "2022",
+      "level": "gourmet-medal",
+      "n": 1,
+      "p": "Terra de Santa Cruz"
+    },
+    {
+      "brand": "Danke Cacau",
+      "competition": "avpa",
+      "edition": "2024",
+      "level": "gourmet-medal",
+      "n": 1,
+      "p": "Ao Leite 35%"
+    },
+    {
+      "brand": "Danke Cacau",
+      "competition": "avpa",
+      "edition": "2024",
+      "level": "gourmet-medal",
+      "n": 2,
+      "p": "70% com Nibs de Cacau Crocante"
+    },
+    {
+      "brand": "Selah Chocolate de Origem",
+      "competition": "avpa",
+      "edition": "2026",
+      "level": "gourmet-diploma",
+      "n": 1,
+      "p": "Ao Leite"
+    },
+    {
+      "brand": "Gallette Chocolates",
+      "competition": "aoc",
+      "edition": "2018",
+      "level": "commended",
+      "n": 1,
+      "p": "Bombom de Jabuticaba"
+    },
+    {
+      "brand": "Gallette Chocolates",
+      "competition": "ica-americas",
+      "edition": "2019",
+      "level": "bronze",
+      "n": 1,
+      "p": "Bombom de Jabuticaba (Jabuticaba Bonbon)"
+    },
+    {
+      "brand": "Gallette Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Barra ao Leite com Nibs e Caramelo Queimado 40% Cacau (Milk Chocolate with Nibs and Burnt Caramel 40%)"
+    },
+    {
+      "brand": "Gallette Chocolates",
+      "competition": "aoc",
+      "edition": "2019",
+      "level": "commended",
+      "n": 1,
+      "p": "Barra 70% Cacau Forastero"
+    },
+    {
+      "brand": "Gallette Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 2,
+      "p": "Intenso 65% Cacau Catongo"
+    },
+    {
+      "brand": "Chokolah",
+      "competition": "ica-americas",
+      "edition": "2023",
+      "level": "silver",
+      "n": 1,
+      "p": "Ao Leite (chocolate ao leite orgânico, categoria Plain/origin milk chocolate bars)"
+    },
+    {
+      "brand": "Chokolah",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "silver",
+      "n": 1,
+      "p": "Dark Milk 62%"
+    },
+    {
+      "brand": "Chokolah",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 1,
+      "p": "Dark 62% com Leite de Cabra e Açúcar de Coco"
+    },
+    {
+      "brand": "Chokolah",
+      "competition": "aoc",
+      "edition": "2025",
+      "level": "bronze",
+      "n": 2,
+      "p": "Tranquilidad 75%"
+    },
+    {
+      "brand": "Priscyla França Chocolates",
+      "competition": "ica-americas",
+      "edition": "2024",
+      "level": "silver",
+      "n": 1,
+      "p": "Chocolate de Caramelo com Flor de Sal"
+    },
+    {
+      "brand": "Priscyla França Chocolates",
+      "competition": "aoc",
+      "edition": "2021",
+      "level": "bronze",
+      "n": 1,
+      "p": "Pé de Moleque"
+    },
+    {
+      "brand": "Priscyla França Chocolates",
+      "competition": "aoc",
+      "edition": "2023",
+      "level": "bronze",
+      "n": 1,
+      "p": "Pão de Mel"
+    }
+  ]
+}
