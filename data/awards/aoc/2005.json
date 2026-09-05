@@ -1,0 +1,279 @@
+{
+  "competition": "aoc",
+  "slug": "2005",
+  "year": 2005,
+  "edition": "2005",
+  "title": "Academy of Chocolate Awards 2005",
+  "source": {
+    "url": "https://academyofchocolate.org.uk/awards/2005/",
+    "snapshot": "data/raw/aoc/2005.html",
+    "fetched": "2026-09-05",
+    "method": "parser",
+    "skipped": [
+      {
+        "raw": "Bars | Best Milk Chocolate Bar | BRONZE | Scharffen Berger | ",
+        "reason": "blank-product"
+      },
+      {
+        "raw": "FILLED CHOCOLATES | Best Dark Truffle | GOLD | William Curley | ",
+        "reason": "blank-product"
+      },
+      {
+        "raw": "FILLED CHOCOLATES | Best Dark Truffle | SILVER | Paul A Young | ",
+        "reason": "blank-product"
+      },
+      {
+        "raw": "FILLED CHOCOLATES | Best Dark Truffle | SILVER | L’Artisan du Chocolat | ",
+        "reason": "blank-product"
+      },
+      {
+        "raw": "FILLED CHOCOLATES | Best Dark Truffle | BRONZE | La Maison du Chocolat | ",
+        "reason": "blank-product"
+      },
+      {
+        "raw": "FILLED CHOCOLATES | Best Dark Truffle | BRONZE | Rococo | ",
+        "reason": "blank-product"
+      },
+      {
+        "raw": "FILLED CHOCOLATES | Best Milk Truffle | SILVER | L’Artisan du Chocolat | ",
+        "reason": "blank-product"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Amedei",
+      "country": null,
+      "product": "Chuao",
+      "category": "Bean to Bar - Dark",
+      "group": "Bars",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Amedei",
+      "country": null,
+      "product": "9",
+      "category": "Bean to Bar - Dark",
+      "group": "Bars",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Amedei",
+      "country": null,
+      "product": "Porcelana",
+      "category": "Bean to Bar - Dark",
+      "group": "Bars",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "L’Artisan du Chocolat",
+      "country": null,
+      "product": "Madong",
+      "category": "Bean to Bar - Dark",
+      "group": "Bars",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Valrhona",
+      "country": null,
+      "product": "CAO",
+      "category": "Best Organic Dark Chocolate Bar",
+      "group": "Bars",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Green & Black’s",
+      "country": null,
+      "product": "70%",
+      "category": "Best Organic Dark Chocolate Bar",
+      "group": "Bars",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "William Curley",
+      "country": null,
+      "product": "Chuao Chocolate",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "La Maison du Chocolat",
+      "country": null,
+      "product": "Mint Ganache",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Paul A Young",
+      "country": null,
+      "product": "Sea-salted Caramel",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Chococo",
+      "country": null,
+      "product": "Gorgeous Ginger",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "L’Artisan du Chocolat",
+      "country": null,
+      "product": "Salted Caramel",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Chococo",
+      "country": null,
+      "product": "Wild Thing (cherry truffle)",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Paul A Young",
+      "country": null,
+      "product": "Raspberry Ganache",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "William Curley",
+      "country": null,
+      "product": "Mint truffle",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "William Curley",
+      "country": null,
+      "product": "Earl Grey tea truffle",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Rococo",
+      "country": null,
+      "product": "Chilli truffle",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Chococo",
+      "country": null,
+      "product": "Chilli",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Summerdown",
+      "country": null,
+      "product": "Peppermint Cream",
+      "category": "Best Filled Chocolate",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    }
+  ]
+}

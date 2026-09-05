@@ -1,0 +1,360 @@
+{
+  "competition": "ica-americas",
+  "slug": "2012",
+  "year": 2012,
+  "edition": "2012",
+  "title": "Americas Semi-final 2012 – winners",
+  "source": {
+    "url": "https://www.chocolateawards.com/results/winners/americas-semi-final-2012-winners/",
+    "snapshot": "data/raw/ica-americas/2012.html",
+    "fetched": "2026-09-05",
+    "method": "parser",
+    "skipped": []
+  },
+  "entries": [
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Pacari Chocolate, Ecuador",
+      "country": null,
+      "product": "70% Piura-Quemazon",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "Special awards: GOLD – Chocolate Maker",
+        "Special awards: GOLD – Directly Traded Cacao",
+        "Special awards: GOLD – Organic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Pacari Chocolate, Ecuador",
+      "country": null,
+      "product": "70% Nube",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "Special awards: GOLD – Growing Country Chocolate",
+        "National awards: GOLD – ECUADOR"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Amano Artisan Chocolate, United States",
+      "country": null,
+      "product": "Cuyagua — 70% Dark Chocolate",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Pacari Chocolate, Ecuador",
+      "country": null,
+      "product": "70% Raw",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Franceschi Chocolate, Venezuela",
+      "country": null,
+      "product": "Canoabo",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Fresco Chocolate, United States",
+      "country": null,
+      "product": "212 Dominican Republic: Light Roast, Subtle Conche",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Tcho Ventures, Inc., United States",
+      "country": null,
+      "product": "Seriousmilk “Cacao”",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Milk plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Amma Chocolate, Brazil",
+      "country": null,
+      "product": "Amma 45%",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Milk plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "Special awards: GOLD – Growing Country Chocolate"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Tcho Ventures, Inc., United States",
+      "country": null,
+      "product": "Seriousmilk “Classic”",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Milk plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Chocolates El Rey, C.A., Venezuela",
+      "country": null,
+      "product": "Icoa White Chocolate",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – White plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "Special awards: GOLD – Growing Country Chocolate"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Askinosie Chocolate, United States",
+      "country": null,
+      "product": "Davao White Chocolate Bar",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – White plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Pacari Chocolate, Ecuador",
+      "country": null,
+      "product": "Pacari 60% With Lemongrass",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured dark chocolate",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Pacari Chocolate, Ecuador",
+      "country": null,
+      "product": "Raw 70% Chocolate Bar With Salt And Cacao Nibs",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured dark chocolate",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Madre Chocolate, United States",
+      "country": null,
+      "product": "Triple Cacao",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured dark chocolate",
+      "group": "Bars",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Askinosie Chocolate, United States",
+      "country": null,
+      "product": "Dark Milk Chocolate + Black Licorice Collabaration™ Bar",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured milk chocolate",
+      "group": "Bars",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Tcho Ventures, Inc., United States",
+      "country": null,
+      "product": "Tchopairings Mokaccino",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured milk chocolate",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Fika Choklad, United States",
+      "country": null,
+      "product": "Cinnamon/Tabasco",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark – Ganaches and truffles",
+      "group": "Filled chocolates – flavoured dark",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Arcay Chocolates, Venezuela",
+      "country": null,
+      "product": "Parchita (Passion Fruit)",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark – Ganaches and truffles",
+      "group": "Filled chocolates – flavoured dark",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Luxx Chocolat, United States",
+      "country": null,
+      "product": "Honey Pot",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark – Ganaches and truffles",
+      "group": "Filled chocolates – flavoured dark",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Compania De Chocolates, Argentina",
+      "country": null,
+      "product": "Yerba Mate Bombon",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark – Ganaches and truffles",
+      "group": "Filled chocolates – flavoured dark",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Pacari Chocolate, Ecuador",
+      "country": null,
+      "product": "Organic And Biodynamic Chocolate Convered Golden Berries",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Fruit pastes, jellies/gelée, enrobed whole fruits",
+      "group": "Filled chocolates – flavoured dark",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Fika Choklad, United States",
+      "country": null,
+      "product": "Hazelnut Gianduja",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk – Nut based pralines and gianduja",
+      "group": "Filled chocolates – milk (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Fika Choklad, United States",
+      "country": null,
+      "product": "Burnt Caramel",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk – Caramels",
+      "group": "Filled chocolates – milk (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Theo Chocolate, United States",
+      "country": null,
+      "product": "Ghost Chile Caramel",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk – Caramels",
+      "group": "Filled chocolates – milk (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Madison Chocolatiers West, United States",
+      "country": null,
+      "product": "Not Your Grandma’S Caramel Sauce",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Spreads with dark chocolate",
+      "group": "Spreads",
+      "special": []
+    }
+  ]
+}

@@ -43,17 +43,21 @@ function parseBody(text) {
 
 /**
  * The `<strong>Level</strong>:` results grammar. `<h1>` opens either a run of
- * medal categories or a standalone award block (see `ica-blocks.json`); `<h2>`
- * names the category. Award-block rows are joined onto the category entry for
- * the same maker and product, so a winner is one entry with several honours.
+ * medal categories or a standalone award block (see `ica-blocks.json`); every
+ * deeper heading names the category, so the deepest one open is the category —
+ * the same reading `ica-2012.js` gives these pages, and the one the 2019 World
+ * Final needs, since it subdivides its Chocolate Tasters' Special Prizes
+ * categories by cacao origin with an `<h3>`. Award-block rows are joined onto
+ * the category entry for the same maker and product, so a winner is one entry
+ * with several honours.
  */
 function parseIcaStrong(html, { variant = 'new' } = {}) {
   const entries = []; const skipped = []; const groups = [];
   let group = null; let category = null; let mode = null; let lastRow = null;
   const blockRows = [];
-  const parts = html.split(/(<h[12][^>]*>[\s\S]*?<\/h[12]>)/i);
+  const parts = html.split(/(<h[1-3][^>]*>[\s\S]*?<\/h[1-3]>)/i);
   for (const part of parts) {
-    const h = part.match(/^<h([12])[^>]*>([\s\S]*?)<\/h\1>$/i);
+    const h = part.match(/^<h([1-3])[^>]*>([\s\S]*?)<\/h\1>$/i);
     if (h) {
       const text = clean(strip(h[2]));
       if (h[1] === '1') {

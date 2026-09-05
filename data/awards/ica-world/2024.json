@@ -1,0 +1,5639 @@
+{
+  "competition": "ica-world",
+  "slug": "2024",
+  "year": 2024,
+  "edition": "2024",
+  "title": "World Final 2024 – Winners",
+  "source": {
+    "url": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2024-winners/",
+    "finalists_url": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2024-grand-jury-finalists/",
+    "snapshot": "data/raw/ica-world/2024.html",
+    "fetched": "2026-09-05",
+    "method": "parser",
+    "skipped": []
+  },
+  "entries": [
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Vigdis Rosenkilde",
+      "country": "Norway",
+      "product": "70% Quellouno ( 91.7 ) )",
+      "score": null,
+      "flags": [],
+      "private_label_maker": "Theobroma Inversiones S.A.C (Cacaosuyo",
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Direct Traded",
+        "Best in competition overall winners: Plain/origin dark bar categories"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Amano Chocolate",
+      "country": "United States",
+      "product": "Guayas",
+      "score": 89.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Chocolate Maker"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Cacaosuyo",
+      "country": "Peru",
+      "product": "Lakuna",
+      "score": 89.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Growing Country"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Vigdis Rosenkilde",
+      "country": "Norway",
+      "product": "70% Santa Ana ( 88.8 ) )",
+      "score": null,
+      "flags": [],
+      "private_label_maker": "Theobroma Inversiones S.A.C (Cacaosuyo",
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Cacao Hunters",
+      "country": "Colombia",
+      "product": "Arhuacos 72%",
+      "score": 88.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Madagascar 64% Slow Dried",
+      "score": 88.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "O’Payo 68%",
+      "score": 88.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Organic"
+      ]
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Barba 70%",
+      "score": 88,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Vigdis Rosenkilde",
+      "country": "Norway",
+      "product": "70% Echarate ( 87.8 ) )",
+      "score": null,
+      "flags": [],
+      "private_label_maker": "Theobroma Inversiones S.A.C (Cacaosuyo",
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "La Dalia 70%",
+      "score": 87.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Chuno 70% Tripple Turned",
+      "score": 87.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Chuno 70% Double Turned",
+      "score": 87.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Cacao Hunters",
+      "country": "Colombia",
+      "product": "Sierra Nevada 64%",
+      "score": 87.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Meybol Cacao",
+      "country": "Germany",
+      "product": "VRAEM 72%",
+      "score": 87.4,
+      "flags": [],
+      "private_label_maker": "Meybol Group SAC",
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Amano Chocolate",
+      "country": "United States",
+      "product": "Cuyagua",
+      "score": 87.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Cacaosuyo",
+      "country": "Peru",
+      "product": "Piura Select",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Meybol Cacao",
+      "country": "Germany",
+      "product": "Inti 70%",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": "Meybol Group SAC",
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Sibö Chocolate Costa Rica",
+      "country": "Costa Rica",
+      "product": "Huetar 70% Cacao",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Cacaosuyo",
+      "country": "Peru",
+      "product": "Chuncho",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Nicaliso 70%",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "PARADAi Chocolate",
+      "country": "Thailand",
+      "product": "Khao Yai Dark 70%",
+      "score": 89.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Growing Country",
+        "+ Gold: Direct Traded",
+        "+ Gold: Chocolate Maker"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Kusty",
+      "country": "Peru",
+      "product": "Chocolate Dark 60%",
+      "score": 89.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Cacao Grower"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Taiwan #3 Ping-Tung Black Sugar 70%",
+      "score": 89.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Rila Kakao",
+      "country": "Thailand",
+      "product": "Khonkaen Dark 70%",
+      "score": 89.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Taiwan #8 Ping-Tung Premium Roast 70%",
+      "score": 89,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "AllYouWant",
+      "country": "China",
+      "product": "70% Chuncho Peru Dark Chocolate",
+      "score": 88.8,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Castronovo Chocolate",
+      "country": "United States",
+      "product": "Chuao, Venezuela 72%",
+      "score": 88.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Sleep Walk Chocolateria",
+      "country": "United States",
+      "product": "San Jeronimo Miramar Criollo Blanco",
+      "score": 88.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "DesBarres Chocolate",
+      "country": "Canada",
+      "product": "Semuliki 72%",
+      "score": 88.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Fu Wan Ferment Project #12 70%",
+      "score": 88.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Binon Cacao",
+      "country": "Vietnam",
+      "product": "Binon Farm To Bar Dark Chocolate 65%",
+      "score": 88.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Sumaq Sunqu",
+      "country": "Peru",
+      "product": "Chocolate dark al 70%",
+      "score": 88.5,
+      "flags": [],
+      "private_label_maker": "NELIA SOTO ARROYO",
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "PARADAi Chocolate",
+      "country": "Thailand",
+      "product": "Phatthalung Dark 70%",
+      "score": 88.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Signature Line, Asochivite",
+      "score": 88.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Castronovo Chocolate",
+      "country": "United States",
+      "product": "Arhuacos 80%",
+      "score": 88.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Feliu Chocolate",
+      "country": "Mexico",
+      "product": "Flor de un día 70%",
+      "score": 88.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Chocolaterie Camel",
+      "country": "Japan",
+      "product": "India 70% Dark Chocolate",
+      "score": 88.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Kasama Chocolate",
+      "country": "Canada",
+      "product": "70% Echague",
+      "score": 88.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Kasama Chocolate",
+      "country": "Canada",
+      "product": "71% Malvar",
+      "score": 88.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Qantu",
+      "country": "Canada",
+      "product": "Morropon 70%",
+      "score": 87.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Eldora Chocolate",
+      "country": "United States",
+      "product": "Peru Chuncho 70%",
+      "score": 87.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Sweets Escalier",
+      "country": "Japan",
+      "product": "Venezuela Choroni 70%",
+      "score": 87.8,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Coup de chocolat",
+      "country": "Belgium",
+      "product": "Charlie 72%, Tumaco Colombia",
+      "score": 87.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "deeper²",
+      "country": "China",
+      "product": "Peru Chuncho 72%",
+      "score": 87.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Minimal – Bean to Bar Chocolate –",
+      "country": "Japan",
+      "product": "‘Arhuaco",
+      "score": 87.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Pentágona Dark Chocolate",
+      "score": 87.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "ORIGIN",
+      "country": "Taiwan",
+      "product": "70% Peru Chuncho Dark Chocolate",
+      "score": 87.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Delirio Chocolate",
+      "country": "Venezuela",
+      "product": "Choroní 70% Cacao",
+      "score": 87.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Eldora Chocolate",
+      "country": "United States",
+      "product": "Ecuador Cumba 70%",
+      "score": 87.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "DesBarres Chocolate",
+      "country": "Canada",
+      "product": "Maya Mountain 72%",
+      "score": 87.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Eldora Chocolate",
+      "country": "United States",
+      "product": "Dominican Republic Zorzal 70%",
+      "score": 87.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Lovie Chocolate",
+      "country": "Peru",
+      "product": "Chuncho Blend 65%, Quillabamba – Cusco",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Sleep Walk Chocolateria",
+      "country": "United States",
+      "product": "Blanco Jaguar",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Fu Wan Ferment Project #14 70%",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "SANYAY",
+      "country": "China",
+      "product": "Tanzania 70%",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Signature Line, Boyaca",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "SAM Schoggi",
+      "country": "Switzerland",
+      "product": "Dunkli Schoggi 70% Madagaskar",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "PARADAi Chocolate",
+      "country": "Thailand",
+      "product": "Phuket Dark 70%",
+      "score": 87.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Livstory Craft Chocolate",
+      "country": "Romania",
+      "product": "Ciocolată Neagră Uganda Semuliki 70%",
+      "score": 87.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Argencove",
+      "country": "Nicaragua",
+      "product": "Batch 18 80%",
+      "score": 87.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Kaitxo",
+      "country": "Spain",
+      "product": "Uganda 70%",
+      "score": 87.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Taiwan #1 Ping-Tung Dark 70%",
+      "score": 87.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Delirio Chocolate",
+      "country": "Venezuela",
+      "product": "Barlovento 65% Cacao",
+      "score": 87,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "ICHIJI",
+      "country": "Japan",
+      "product": "Tanzania 70%",
+      "score": 87,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Fu Wan Ferment Project #17 70%",
+      "score": 87,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin dark chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Sumaq Sunqu",
+      "country": "Peru",
+      "product": "Chocolate al 100 % de Cacao",
+      "score": 90.8,
+      "flags": [],
+      "private_label_maker": "Nelia Soto Arroyo",
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Cacao Grower",
+        "+ Gold: 100%"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Aprochok",
+      "country": "Peru",
+      "product": "Pasta de Cacao",
+      "score": 90.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Argencove",
+      "country": "Nicaragua",
+      "product": "92 bar",
+      "score": 89.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Chocolate Maker",
+        "+ Gold: High %"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Eldora Chocolate",
+      "country": "United States",
+      "product": "Venezuela Piaroa 100%",
+      "score": 89,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Livstory Craft Chocolate",
+      "country": "Romania",
+      "product": "Ciocolata Neagra Nicaragua O’Tuma 100%",
+      "score": 88.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Eldora Chocolate",
+      "country": "United States",
+      "product": "Philippines Kablon 85%",
+      "score": 88,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Elemento Chocolates",
+      "country": "Peru",
+      "product": "Elemento Colección – La Señorita",
+      "score": 87.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Eldora Chocolate",
+      "country": "United States",
+      "product": "Peru Chuncho 85%",
+      "score": 87.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Qantu",
+      "country": "Canada",
+      "product": "Première Fois 100% Demetrio Huaccre",
+      "score": 87.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Utopick Cacao",
+      "country": "Spain",
+      "product": "Nugu 85%",
+      "score": 87.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Palette de Bine",
+      "country": "Canada",
+      "product": "Guatemala Cahabón 85%",
+      "score": 87.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "La Dalia 85%",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Cacao Hunters",
+      "country": "Colombia",
+      "product": "Hachimitsu 86%",
+      "score": 87.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Fruition Chocolate Works",
+      "country": "United States",
+      "product": "Colombia Tumaco 85%",
+      "score": 87.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Eden Reserve Cacao Royale",
+      "country": "Grenada",
+      "product": "Eden Reserve – >50% Criollo/Trinitario",
+      "score": 87.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "High % plain/origin dark chocolate bars (85% and over)",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "O’Payo Milk 50%",
+      "score": 89.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Chocolate Maker",
+        "+ Gold: Organic",
+        "+ Gold: Direct Traded"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fruition Chocolate Works",
+      "country": "United States",
+      "product": "Dominican Nacional Dark Milk 68%",
+      "score": 88.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Dark Milk 55%",
+      "score": 88.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Chocolaterie Morin",
+      "country": "France",
+      "product": "Equateur Esmeralda Lait 48% – A. Morin",
+      "score": 87.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Delirio Chocolate",
+      "country": "Venezuela",
+      "product": "Chocolate con Leche Güelitos 54% Cacao",
+      "score": 90.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Chocolate Maker",
+        "+ Gold: Growing Country",
+        "+ Gold: Direct Traded",
+        "Best in competition overall winners: Plain/origin milk bar categories"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Scrap & Chocolates",
+      "country": "Peru",
+      "product": "Platanal Bajo – Dark Milk 63% cacao",
+      "score": 90.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "La Isla Bonita Darkmilk Chocolate",
+      "score": 89.8,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "La Jaguita Darkmilk Chocolate",
+      "score": 89.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Qantu",
+      "country": "Canada",
+      "product": "Oh la Vache!",
+      "score": 89.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Castronovo Chocolate",
+      "country": "United States",
+      "product": "Tumaco, Colombia Dark Milk 60%",
+      "score": 88.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Marmolejos Darkmilk Chocolate",
+      "score": 88.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Sweets Escalier",
+      "country": "Japan",
+      "product": "Ecuador Arriba milk 60%",
+      "score": 88.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "PARADAi Chocolate",
+      "country": "Thailand",
+      "product": "Nakhon Si Thammarat Dark Milk 58%",
+      "score": 88.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Rila Kakao",
+      "country": "Thailand",
+      "product": "Chiang Mai Dark Milk 60%",
+      "score": 88.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Castronovo Chocolate",
+      "country": "United States",
+      "product": "Sierra Nevada, Colombia Dark Milk 63%",
+      "score": 87.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Taiwan #10 Ping-Tung Dark Milk 53%",
+      "score": 87.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "green bean to bar Chocolate",
+      "country": "Japan",
+      "product": "Palo Blanco -Peru- 50% -milk-",
+      "score": 87.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Chocolaterie Camel",
+      "country": "Japan",
+      "product": "Colombia Arhuacos 65% Dark Milk",
+      "score": 87,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Mi Amorcito Milk Chocolate",
+      "score": 86.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Essenzo Cacao",
+      "country": "Spain",
+      "product": "Dark Milk Davao 60%",
+      "score": 86.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Maychoco",
+      "country": "Spain",
+      "product": "Chocolate con leche 55%, Dark Milk",
+      "score": 86.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Micro-batch – Plain/origin milk chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Maker’s Choice, Asochivite with Maple",
+      "score": 90.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin chocolate bars with alternative ingredients",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Chocolate Maker",
+        "+ Gold: Direct Traded"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Amber’s Chocolate Thailand",
+      "country": "Thailand",
+      "product": "Amber’s 70% Thangkwian dark chocolate",
+      "score": 89.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin chocolate bars with alternative ingredients",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "CHAROENDEE CHOCOLATE",
+      "country": "Thailand",
+      "product": "The Rainbow Mist",
+      "score": 88.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin chocolate bars with alternative ingredients",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Palette de Bine",
+      "country": "Canada",
+      "product": "“Bines à l’érable” Wild Bolivia 70%",
+      "score": 86.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin chocolate bars with alternative ingredients",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Honoka’a Chocolate",
+      "country": "United States",
+      "product": "Coconut Dark Milk Bar",
+      "score": 86.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin chocolate bars with alternative ingredients",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Hummingbird Chocolate Maker",
+      "country": "Canada",
+      "product": "Maple",
+      "score": 86.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin chocolate bars with alternative ingredients",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Chocolate Vision",
+      "country": "Germany",
+      "product": "Kinako chocolate vegan",
+      "score": 86.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin chocolate bars with alternative ingredients",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Limited Release, White Chocolate",
+      "score": 89.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin white chocolate bars",
+      "group": "Plain/origin bars",
+      "special": [
+        "+ Gold: Chocolate Maker",
+        "+ Gold: Direct Traded",
+        "+ Special: Limited edition"
+      ]
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Chocolaterie Morin",
+      "country": "France",
+      "product": "Pérou Chanchamayo Blanc 40% – A. Morin",
+      "score": 87.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin white chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Barberis",
+      "country": "Peru",
+      "product": "Chocolate Blanco 32% de Cacao",
+      "score": 87.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Plain/origin white chocolate bars",
+      "group": "Plain/origin bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "PARADAi Chocolate",
+      "country": "Thailand",
+      "product": "Phuket Dark 70% White flowers",
+      "score": 90.9,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Local ingredients",
+        "+ Special: Eclectic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Lidka Chocolate",
+      "country": "Czech Republic",
+      "product": "Cherry Spirit Chocolate",
+      "score": 90.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Alcohol"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Taiwan Tie-Guan-Yin Tea 62%",
+      "score": 90,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Nibbo bean to bar chocolate",
+      "country": "China",
+      "product": "Nibbo Strawberry & Citron 60%",
+      "score": 89.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Nibbo bean to bar chocolate",
+      "country": "China",
+      "product": "Pomelo & Yuzu, Hops, Gin 60%",
+      "score": 89,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Atucun",
+      "country": "Honduras",
+      "product": "Barra de Chocolate con Mango",
+      "score": 88.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Osmanthus Red Oolong Tea 62%",
+      "score": 88.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "The Organic House",
+      "country": "Canada",
+      "product": "Movie Night – 60% Nicaragua O’Payo",
+      "score": 87.9,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Ivee Promenade",
+      "country": "Poland",
+      "product": "Black chokeberry. Dark Madagascar 70%",
+      "score": 87.8,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Medagla 70% Soy",
+      "score": 87.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Gastronomic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Taiwan Aged Oolong Tea 62%",
+      "score": 87.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "KESSHŌ珂珂琥",
+      "country": "China",
+      "product": "Uganda zhengshanxiaozhong dark chocolate",
+      "score": 87.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Noel Verde",
+      "country": "Ecuador",
+      "product": "Noel Verde Sake Powder",
+      "score": 87.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Nicaliso Green Cinnamon",
+      "score": 87.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Paccari Chocolate",
+      "country": "Ecuador",
+      "product": "Ajedrea",
+      "score": 87.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Paccari Chocolate",
+      "country": "Ecuador",
+      "product": "Cañamo",
+      "score": 87.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Benjamissimo",
+      "country": "Bulgaria",
+      "product": "Benjamissimo Fine Chocolate – Whiskey",
+      "score": 87.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Rose Lychee Oriental Beauty Tea 62%",
+      "score": 87.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Limited Release, Zanzibar Black Pepper",
+      "score": 87.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Askinosie Chocolate",
+      "country": "United States",
+      "product": "Dark Chocolate + Red Raspberry Bar",
+      "score": 87.4,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Orange Blossom Red Jade Tea 62%",
+      "score": 87.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Limited Release, Demon Seed Whiskey",
+      "score": 87,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Special Reserve, Lawley’s Rum",
+      "score": 87,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Kasama Chocolate",
+      "country": "Canada",
+      "product": "Single Malt",
+      "score": 87,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Kasama Chocolate",
+      "country": "Canada",
+      "product": "Tanduay Rum",
+      "score": 86.9,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Musée du Chocolat Théobroma",
+      "country": "Japan",
+      "product": "Madagascar Cacao Project With Pepper",
+      "score": 86.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Limited Release, Spiced Winter Maple",
+      "score": 86.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "chocolate piri piris",
+      "country": "Peru",
+      "product": "Choco Camu Camu",
+      "score": 86.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Sleep Walk Chocolateria",
+      "country": "United States",
+      "product": "Revolution Brewing VSO Gravedigger",
+      "score": 86.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Taiwan Red Oolong Tea 62%",
+      "score": 86.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "The Organic House",
+      "country": "Canada",
+      "product": "Peach Bourbon 70% Nicaragua O’Payo",
+      "score": 86.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Noel Verde",
+      "country": "Ecuador",
+      "product": "Noel Verde Cappuccino",
+      "score": 86.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "FinaCao",
+      "country": "Peru",
+      "product": "Chocolate 70% con Cafe",
+      "score": 86.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Special Reserve, Putnam Rye Whiskey",
+      "score": 86.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Solkiki Chocolatemaker",
+      "country": "United Kingdom",
+      "product": "Certified Chuao 69 – Plum – Venezuela",
+      "score": 86.3,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "chocoTales of Warsaw",
+      "country": "Poland",
+      "product": "Rye malt & coriander infused Chocolate",
+      "score": 86.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Maker’s Choice, Caramelized Onion",
+      "score": 86.3,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Paccari Chocolate",
+      "country": "Ecuador",
+      "product": "Melisa Toronjil",
+      "score": 86.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Honoka’a Chocolate",
+      "country": "United States",
+      "product": "Barrel Aged Bourbon Bar",
+      "score": 86.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Nibbo bean to bar chocolate",
+      "country": "China",
+      "product": "Nibbo Queen Garnet 65%",
+      "score": 86.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Ivee Promenade",
+      "country": "Poland",
+      "product": "Blackcurrant. Dark Chocolate Uganda 70%",
+      "score": 86.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Pomelo Flower Scented 70%",
+      "score": 86,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Cacao Hunters",
+      "country": "Colombia",
+      "product": "Pimienta 70%",
+      "score": 86,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Vigdis Rosenkilde",
+      "country": "Norway",
+      "product": "70% Piura med kakaonibs",
+      "score": 90.8,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Classic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "green bean to bar Chocolate",
+      "country": "Japan",
+      "product": "Tokyo -Full Moon Salt-",
+      "score": 89.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Sibö Chocolate Costa Rica",
+      "country": "Costa Rica",
+      "product": "Salted Caramel 70% Cacao",
+      "score": 89.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Classic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Amano Chocolate",
+      "country": "United States",
+      "product": "Citrus Mélange À Trois",
+      "score": 88.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "SAM Schoggi",
+      "country": "Switzerland",
+      "product": "Dunkli Schoggi Kakaonibs & Timutpfeffer",
+      "score": 87,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "CHO Farm",
+      "country": "Thailand",
+      "product": "Thai-Malayu Massaman Curry Chocolate",
+      "score": 87,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Amano Chocolate",
+      "country": "United States",
+      "product": "Raspberry Rose",
+      "score": 86.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Utopick Cacao",
+      "country": "Spain",
+      "product": "Tamarindo “Biche”",
+      "score": 86.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Moksha Chocolate",
+      "country": "United States",
+      "product": "65% Oko Caribe w/ Blood orange",
+      "score": 86.8,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Aprochok",
+      "country": "Peru",
+      "product": "Chocolate con Arándanos al 60%",
+      "score": 86.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Ara Chocolat",
+      "country": "France",
+      "product": "Tingo Maria avec Olives Tanches de Nyons",
+      "score": 86.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Sleep Walk Chocolateria",
+      "country": "United States",
+      "product": "Miel y Chiltepe",
+      "score": 90.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with a filling",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Local ingredients",
+        "+ Special: Recipe"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Marou – Faiseurs de Chocolat",
+      "country": "Vietnam",
+      "product": "Dark chocolate 65% & Caramel Lotus Seed",
+      "score": 87.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with a filling",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Guido Castagna",
+      "country": "Italy",
+      "product": "Mes Gianduja Fondente",
+      "score": 87.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with a filling",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Guido Castagna",
+      "country": "Italy",
+      "product": "Cento+Fondente Ripieno Giuinott",
+      "score": 86.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate bars with a filling",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Livstory Craft Chocolate",
+      "country": "Romania",
+      "product": "Ciocolată Neagră cu Lapte și Cafea",
+      "score": 89.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Recipe"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "chocoTales of Warsaw",
+      "country": "Poland",
+      "product": "Sichuan pepper infused Milk Chocolate",
+      "score": 89.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Gastronomic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Onoa",
+      "country": "Canada",
+      "product": "Piment Gorria 60%",
+      "score": 88.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Gastronomic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fruition Chocolate Works",
+      "country": "United States",
+      "product": "Brown Butter Milk 43%",
+      "score": 88,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Recipe"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "O’payo Milk 50% Sansho",
+      "score": 87.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Musée du Chocolat Théobroma",
+      "country": "Japan",
+      "product": "Madagascar milk with Tieguanyin Tea",
+      "score": 87.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "JACOBEAN Craft Chocolate",
+      "country": "Canada",
+      "product": "Liquorice",
+      "score": 87.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Lurve",
+      "country": "Saudi Arabia",
+      "product": "LURVE Saudi Chocolate",
+      "score": 87.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "KESSHŌ珂珂琥",
+      "country": "China",
+      "product": "Tanzania Yuzu Miso Milk Chocolate",
+      "score": 87.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Limited Release, Chocolate Banana Split",
+      "score": 87.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "AHERZ",
+      "country": "Austria",
+      "product": "Earl Grey Vollmilch Schokolade 45%",
+      "score": 86.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Feliu Chocolate",
+      "country": "Mexico",
+      "product": "Leche y Café 58%",
+      "score": 86.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Lidka Chocolate",
+      "country": "Czech Republic",
+      "product": "Kavomlecny special",
+      "score": 86.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Fjåk Chocolate",
+      "country": "Norway",
+      "product": "Wild Norwegian mushrooms",
+      "score": 86.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "green bean to bar Chocolate",
+      "country": "Japan",
+      "product": "Yuzu",
+      "score": 86,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "O’Payo Milk 50% Liquorice",
+      "score": 90.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Eclectic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Fjåk Chocolate",
+      "country": "Norway",
+      "product": "Norwegian brown cheese",
+      "score": 89.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Auro Chocolate",
+      "country": "Philippines",
+      "product": "42% Milk Chocolate with Yuzu",
+      "score": 88.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Paul And Mike",
+      "country": "India",
+      "product": "Pistachios & Idukki Cardamom Chocolate",
+      "score": 87.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Onoa",
+      "country": "Canada",
+      "product": "Érable Croquant 60%",
+      "score": 87.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Beskid Chocolate",
+      "country": "Poland",
+      "product": "Mala Czarna Belize Peini 55% with coffee",
+      "score": 86.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Feitoria do Cacao",
+      "country": "Portugal",
+      "product": "57% PASTEL DE NATA + canela",
+      "score": 86.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Healthy Choice",
+      "country": "Ukraine",
+      "product": "Milk chocolate with hazelnuts",
+      "score": 86,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Qantu",
+      "country": "Canada",
+      "product": "Jean Duya",
+      "score": 89.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with a filling",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Reinterpretation"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "LABRIQ by Maison Köller",
+      "country": "Germany",
+      "product": "Brisbane",
+      "score": 88.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with a filling",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Guido Castagna",
+      "country": "Italy",
+      "product": "Cento+Latte Ripieno Pistacchio",
+      "score": 88.4,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate bars with a filling",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Kasama Chocolate",
+      "country": "Canada",
+      "product": "Strawberry White",
+      "score": 91.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Local ingredients",
+        "Best in competition overall winners: Flavoured bar categories"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Kasama Chocolate",
+      "country": "Canada",
+      "product": "Raspberry White",
+      "score": 90.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Solkiki Chocolatemaker",
+      "country": "United Kingdom",
+      "product": "Chuncho White – 0+42 – Peruvian Gold",
+      "score": 90.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Alternate vegan milk"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "JACOBEAN Craft Chocolate",
+      "country": "Canada",
+      "product": "Partridge berry (Lingonberry)",
+      "score": 89.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Baianí Chocolates",
+      "country": "Brazil",
+      "product": "White Chocolate – Brazilian Spices",
+      "score": 88.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Biome"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Caramello Chocolate",
+      "score": 87.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "COFE",
+      "country": "Taiwan",
+      "product": "Honyun Black Tea & Strawberry",
+      "score": 87.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "JACOBEAN Craft Chocolate",
+      "country": "Canada",
+      "product": "Strawberry Delight",
+      "score": 86.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Fruition Chocolate Works",
+      "country": "United States",
+      "product": "Toasted White",
+      "score": 86.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Embers Chocolate",
+      "country": "United States",
+      "product": "Elote White Chocolate",
+      "score": 91,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Gastronomic"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Q sweet 巧克力菁點",
+      "country": "Taiwan",
+      "product": "Monet’s Garden",
+      "score": 91,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Innovation"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Q sweet 巧克力菁點",
+      "country": "Taiwan",
+      "product": "Asia Girl Power",
+      "score": 90.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Eclectic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Caon Chocolate",
+      "country": "Italy",
+      "product": "PepperHome",
+      "score": 88.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "chocoMe",
+      "country": "Hungary",
+      "product": "chocoMe blonde squares with black sesame",
+      "score": 88.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Q sweet 巧克力菁點",
+      "country": "Taiwan",
+      "product": "Tonka style x Drizzle Allen",
+      "score": 88.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Love Brown Cacao",
+      "country": "Taiwan",
+      "product": "Taiwan Tieguanyin 37% White Chocolate",
+      "score": 87.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Saturdays",
+      "country": "Japan",
+      "product": "Hokkaido White Kinako & Quinoa",
+      "score": 86.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Saturdays",
+      "country": "Japan",
+      "product": "Hokkaido White Pumpkin & Nibs,Raisins",
+      "score": 86.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Kaicao",
+      "country": "Spain",
+      "product": "37% white camel milk and cacao fruit",
+      "score": 86,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "White chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Caon Chocolate",
+      "country": "Italy",
+      "product": "Matcha Love",
+      "score": 88.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate bars with a filling",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Ingredients"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Trüffel Güse Hannover",
+      "country": "Germany",
+      "product": "SIMPLY THE BEST! Nuts and Cacao",
+      "score": 90.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Combination chocolate bars with inclusions or pieces",
+      "group": "Flavoured bars",
+      "special": [
+        "+ Special: Classic"
+      ]
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Rhyme and Reason Chocolate Company",
+      "country": "United States",
+      "product": "Maracuya Passion",
+      "score": 86.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Combination chocolate bars with an infusion or flavouring",
+      "group": "Flavoured bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Ara Chocolat",
+      "country": "France",
+      "product": "Ganache nature Huallaga",
+      "score": 88.3,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Unflavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Pietro Macellaro Pasticceria Agricola Cilentana",
+      "country": "Italy",
+      "product": "Piura Buffalo Cream",
+      "score": 86.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Unflavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Garcia Nevett",
+      "country": "United States",
+      "product": "Belize 70%",
+      "score": 86.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Unflavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Tomohiro Onuki",
+      "country": "Japan",
+      "product": "High Mountain Oolong with Mango",
+      "score": 90.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Tatsunori Sato",
+      "country": "Japan",
+      "product": "Japanese Sake Kaze no Mori",
+      "score": 89.8,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Saison de Setsuko",
+      "country": "Japan",
+      "product": "Iyokan & Yuzu",
+      "score": 88.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Renacer Chocolatier",
+      "country": "Peru",
+      "product": "Macambo, Tucupí y Cítricos",
+      "score": 88.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Alternate theobromas"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Óscar Rodolfo Chocolatier",
+      "country": "Mexico",
+      "product": "Bombón de pox – Hacienda Napaná",
+      "score": 87.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Garcia Nevett",
+      "country": "United States",
+      "product": "Anís y Papelón",
+      "score": 86.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Renacer Chocolatier",
+      "country": "Peru",
+      "product": "Subincanum y Mandarina",
+      "score": 86.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Depetris Riccardo / Depetris…i Ciculaté",
+      "country": "Italy",
+      "product": "Mucillago",
+      "score": 86.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured dark chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Pietro Macellaro Pasticceria Agricola Cilentana",
+      "country": "Italy",
+      "product": "Puro Latte",
+      "score": 90,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Unflavoured milk chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Craft"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Mellis Chocolate",
+      "country": "Canada",
+      "product": "Yuzu Salted Caramel",
+      "score": 89,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured milk chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Musée du Chocolat Théobroma",
+      "country": "Japan",
+      "product": "Ume",
+      "score": 88.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured milk chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Depetris Riccardo / Depetris…i Ciculaté",
+      "country": "Italy",
+      "product": "Persi Pien",
+      "score": 87.9,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured milk chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Tatsunori Sato",
+      "country": "Japan",
+      "product": "Earl Grey Orange",
+      "score": 87.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured milk chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Mojito Praline",
+      "score": 86.9,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured milk chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Mellis Chocolate",
+      "country": "Canada",
+      "product": "Pear Sake",
+      "score": 89.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured white chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Evergreen Hotel",
+      "country": "Taiwan",
+      "product": "Osmanthus-Sijichun tea chocolate",
+      "score": 88.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured white chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Mellis Chocolate",
+      "country": "Canada",
+      "product": "Strawberry Shortcake",
+      "score": 87.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured white chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Sirène by PetriS Chocolate",
+      "country": "Finland",
+      "product": "Jasmin-Apricot",
+      "score": 86.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured white chocolate ganaches or truffles",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Tomohiro Onuki",
+      "country": "Japan",
+      "product": "Shikwasa and Okinawan Vanilla",
+      "score": 90.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Stefania Massera – Pasticceria Gino Massera",
+      "country": "Italy",
+      "product": "Torta dla Nòna",
+      "score": 89.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Reinterpretation"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Alma Sundøy – Trondheim Sjokolade",
+      "country": "Norway",
+      "product": "Brown Cheese & Sourcream",
+      "score": 89.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Alma Sundøy – Trondheim Sjokolade",
+      "country": "Norway",
+      "product": "Julegrøt – Norwegian Christmas Porridge",
+      "score": 89,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Reinterpretation"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Stefania Massera – Pasticceria Gino Massera",
+      "country": "Italy",
+      "product": "Nocelvo",
+      "score": 88.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Stefania Massera – Pasticceria Gino Massera",
+      "country": "Italy",
+      "product": "Elvina Agrumata",
+      "score": 88.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Sirène by PetriS Chocolate",
+      "country": "Finland",
+      "product": "Cherry – Lemon",
+      "score": 87.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Stefania Massera – Pasticceria Gino Massera",
+      "country": "Italy",
+      "product": "Mountainelvo",
+      "score": 87.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": [
+        "+ Special: Classic"
+      ]
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Stefania Massera – Pasticceria Gino Massera",
+      "country": "Italy",
+      "product": "Al Malinteisa",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Café Caramello",
+      "score": 87.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Tomohiro Onuki",
+      "country": "Japan",
+      "product": "Uji matcha and Rémy Martin",
+      "score": 86.9,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Sirène by PetriS Chocolate",
+      "country": "Finland",
+      "product": "Lingonberry-Raspberry",
+      "score": 86.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured ganaches or truffles with combination coating or filling",
+      "group": "Ganaches, palets, ganache pralines and truffles",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Guido Castagna",
+      "country": "Italy",
+      "product": "Giuinott",
+      "score": 92.4,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Nut based pralines with dark chocolate",
+      "group": "Nuts",
+      "special": [
+        "+ Gold: Gianduiotto",
+        "Best in competition overall winners: Filled chocolates"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Guido Castagna",
+      "country": "Italy",
+      "product": "Cremino Menta Liquirizia",
+      "score": 91.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Nut based pralines with dark chocolate",
+      "group": "Nuts",
+      "special": [
+        "+ Gold: Flavoured cremino",
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Guido Castagna",
+      "country": "Italy",
+      "product": "Cremino Calendula Cannella",
+      "score": 91.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Nut based pralines with dark chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Guido Castagna",
+      "country": "Italy",
+      "product": "Cremino Malva Cardamomo",
+      "score": 90.2,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Nut based pralines with dark chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Ara Chocolat",
+      "country": "France",
+      "product": "Praline Noix de Pécan du Lot et Garonne",
+      "score": 86.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Nut based pralines with dark chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Sweets Escalier",
+      "country": "Japan",
+      "product": "Praline Noisette",
+      "score": 86.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with dark chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Pietro Macellaro Pasticceria Agricola Cilentana",
+      "country": "Italy",
+      "product": "Origano selvatico di montagna e limone",
+      "score": 89.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate enrobed marzipan",
+      "group": "Nuts",
+      "special": [
+        "+ Special: Gastronomic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Pietro Macellaro Pasticceria Agricola Cilentana",
+      "country": "Italy",
+      "product": "Piura Violetta",
+      "score": 87.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate enrobed marzipan",
+      "group": "Nuts",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Chocolateria Pumatiy",
+      "country": "Peru",
+      "product": "Grageas de Maiz Andino – Pumatiy Andean",
+      "score": 87.9,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate dragées, enrobed whole nuts",
+      "group": "Nuts",
+      "special": [
+        "+ Special: Local ingredients",
+        "+ Special: Eclectic"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Maria Magdalena Bizgan",
+      "country": "Romania",
+      "product": "Hazelnut praline with milk chocolate",
+      "score": 88.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with milk chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Varvaro",
+      "country": "Italy",
+      "product": "Cremino a Tre Strati",
+      "score": 87.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with milk chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Saison de Setsuko",
+      "country": "Japan",
+      "product": "Hazelnut,Sesame & Hojicha Praline",
+      "score": 87,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with milk chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Varvaro",
+      "country": "Italy",
+      "product": "Cremino Pistacchio e Nocciole",
+      "score": 86.8,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with milk chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Louis Fouquet",
+      "country": "France",
+      "product": "Gianduja pistache lait",
+      "score": 86.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with milk chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Rosemary Hazelnut Praliné",
+      "score": 86,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with milk chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Bellantoni Cioccolato",
+      "country": "Italy",
+      "product": "Dragées pepe rosa e cioccolato al latte",
+      "score": 89.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk chocolate dragées, enrobed whole nuts",
+      "group": "Nuts",
+      "special": [
+        "+ Special: Eclectic"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Gardini",
+      "country": "Italy",
+      "product": "Cremino Pistacchio",
+      "score": 90.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with white chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Bellantoni Cioccolato",
+      "country": "Italy",
+      "product": "Cremino pinolo alla camomilla",
+      "score": 87.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with white chocolate",
+      "group": "Nuts",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Bellantoni Cioccolato",
+      "country": "Italy",
+      "product": "Dragées pinolo alla camomilla",
+      "score": 90.5,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate dragées, enrobed whole nuts",
+      "group": "Nuts",
+      "special": [
+        "+ Special: Recipe"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Bellantoni Cioccolato",
+      "country": "Italy",
+      "product": "Dragées pinolo alla rosa",
+      "score": 88.8,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate dragées, enrobed whole nuts",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Bellantoni Cioccolato",
+      "country": "Italy",
+      "product": "Dragées yogurt e lampone",
+      "score": 88.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate dragées, enrobed whole nuts",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Bellantoni Cioccolato",
+      "country": "Italy",
+      "product": "Dragées pepe verde e cioccolato bianco",
+      "score": 87.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate dragées, enrobed whole nuts",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Gardini",
+      "country": "Italy",
+      "product": "Cremino Liquirizia",
+      "score": 89.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with combination chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Gardini",
+      "country": "Italy",
+      "product": "Cremino Amarena",
+      "score": 88.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with combination chocolate",
+      "group": "Nuts",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Gardini",
+      "country": "Italy",
+      "product": "Cremino Noci di Romagna",
+      "score": 88,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Nut based pralines with combination chocolate",
+      "group": "Nuts",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Herslev Malt Caramel",
+      "score": 90.1,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate enrobed caramels",
+      "group": "Caramels",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Rosemary Caramel with Salted Pinenuts",
+      "score": 88.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate enrobed caramels",
+      "group": "Caramels",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Salty Caramel Sand Dollar",
+      "score": 87.6,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate enrobed caramels",
+      "group": "Caramels",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Pietro Macellaro Pasticceria Agricola Cilentana",
+      "country": "Italy",
+      "product": "Figue",
+      "score": 87,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk chocolate enrobed caramels",
+      "group": "Caramels",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Sirène by PetriS Chocolate",
+      "country": "Finland",
+      "product": "Sea buckthorn – Honey Caramel",
+      "score": 89.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Combination chocolate enrobed caramels",
+      "group": "Caramels",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Q sweet 巧克力菁點",
+      "country": "Taiwan",
+      "product": "Exclusive -Tonka x Drizzle Allen",
+      "score": 88.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate enrobed fruit pastes, jellies/gelée",
+      "group": "Others – fruit/sugar/butter/cream/misc",
+      "special": [
+        "+ Special: Eclectic"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Falicetto Cioccolato Puro Piacenza",
+      "country": "Italy",
+      "product": "Sgranfgnòn – Boero",
+      "score": 91.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate enrobed whole fruit",
+      "group": "Others – fruit/sugar/butter/cream/misc",
+      "special": [
+        "+ Special: Boero"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Pietro Macellaro Pasticceria Agricola Cilentana",
+      "country": "Italy",
+      "product": "Ciliegia al Cognac",
+      "score": 88,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark chocolate enrobed whole fruit",
+      "group": "Others – fruit/sugar/butter/cream/misc",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Paul And Mike",
+      "country": "India",
+      "product": "Milk Chocolate Coated Salted Capers",
+      "score": 89.7,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Milk chocolate enrobed whole fruit",
+      "group": "Others – fruit/sugar/butter/cream/misc",
+      "special": [
+        "+ Special: Gastronomic"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Bellantoni Cioccolato",
+      "country": "Italy",
+      "product": "Dragées Liquirizia E Arancia Candita",
+      "score": 89.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate enrobed whole fruit",
+      "group": "Others – fruit/sugar/butter/cream/misc",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Q sweet 巧克力菁點",
+      "country": "Taiwan",
+      "product": "Comfort Fruit-Green Mango& Spices",
+      "score": 87.2,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate enrobed whole fruit",
+      "group": "Others – fruit/sugar/butter/cream/misc",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Maychoco",
+      "country": "Spain",
+      "product": "Mango con Chocolate Blanco, Lavanda",
+      "score": 86.7,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White chocolate enrobed whole fruit",
+      "group": "Others – fruit/sugar/butter/cream/misc",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Stauning Whisky",
+      "score": 91.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate enrobed manon/butter/cream",
+      "group": "Others – fruit/sugar/butter/cream/misc",
+      "special": [
+        "+ Special: Alcohol"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Hansens Solbærstang",
+      "score": 88.8,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Dark chocolate enrobed manon/butter/cream",
+      "group": "Others – fruit/sugar/butter/cream/misc",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Guido Castagna",
+      "country": "Italy",
+      "product": "+55 – Crema di Nocciole",
+      "score": 92.5,
+      "flags": [
+        "own-chocolate"
+      ],
+      "private_label_maker": null,
+      "category": "Spreads with dark chocolate (no milk powder)",
+      "group": "Spreads",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Monia Achille",
+      "country": "Italy",
+      "product": "ME",
+      "score": 88.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Spreads with milk chocolate",
+      "group": "Spreads",
+      "special": [
+        "+ Special: Local ingredients"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Louis Fouquet",
+      "country": "France",
+      "product": "Pâte à tartiner pistache",
+      "score": 87.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Spreads with milk chocolate",
+      "group": "Spreads",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Bellantoni Cioccolato",
+      "country": "Italy",
+      "product": "Crema Spalmabile Pinolo E Camomilla",
+      "score": 89.1,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Spreads with white chocolate",
+      "group": "White spreads",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Binon Cacao",
+      "country": "Vietnam",
+      "product": "Binon Cacao Powder",
+      "score": 86.9,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Cocoa Powder",
+      "group": "Ingredients from cacao",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Conveca",
+      "country": "Peru",
+      "product": "Cacao En Polvo",
+      "score": 86.6,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Cocoa Powder",
+      "group": "Ingredients from cacao",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "Gold",
+      "maker": "Productos Vilcanota",
+      "country": "Peru",
+      "product": "Manteca de cacao",
+      "score": 89.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Cocoa Butter",
+      "group": "Ingredients from cacao",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "Silver",
+      "maker": "Catica Chocolates",
+      "country": "Costa Rica",
+      "product": "Catica Chocolates Manteca de Cacao",
+      "score": 88.3,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Cocoa Butter",
+      "group": "Ingredients from cacao",
+      "special": []
+    },
+    {
+      "level": "bronze",
+      "level_raw": "Bronze",
+      "maker": "Chocolaterie Morin",
+      "country": "France",
+      "product": "Pérou Chanchamayo beurre – A. Morin",
+      "score": 86.4,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Cocoa Butter",
+      "group": "Ingredients from cacao",
+      "special": []
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Vigdis Rosenkilde",
+      "country": "Norway",
+      "product": "70% Quellouno",
+      "category": null,
+      "group": null,
+      "score": 91.67,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Vigdis Rosenkilde",
+      "country": "Norway",
+      "product": "70% Santa Ana",
+      "category": null,
+      "group": null,
+      "score": 88.82,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Vigdis Rosenkilde",
+      "country": "Norway",
+      "product": "70% Echarate",
+      "category": null,
+      "group": null,
+      "score": 87.83,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Cacaosuyo",
+      "country": "Peru",
+      "product": "Cuzco 80",
+      "category": null,
+      "group": null,
+      "score": 86.77,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Friis-Holm Chokolade",
+      "country": "Denmark",
+      "product": "Rugoso 70%",
+      "category": null,
+      "group": null,
+      "score": 86.51,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Cacao Hunters",
+      "country": "Colombia",
+      "product": "Tumaco 82%",
+      "category": null,
+      "group": null,
+      "score": 86.12,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Paccari Chocolate",
+      "country": "Ecuador",
+      "product": "Chuncho 70%",
+      "category": null,
+      "group": null,
+      "score": 86.06,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Chocopunto by Mabel",
+      "country": "Dominican Republic",
+      "product": "Chocopunto by Mabel 70% Dark Oko Caribe",
+      "category": null,
+      "group": null,
+      "score": 85.76,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Amano Chocolate",
+      "country": "United States",
+      "product": "Dos Rios",
+      "category": null,
+      "group": null,
+      "score": 85.25,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Amano Chocolate",
+      "country": "United States",
+      "product": "Sambirano Valley - Madagascar",
+      "category": null,
+      "group": null,
+      "score": 85.24,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Guido Castagna",
+      "country": "Italy",
+      "product": "Centogrammi Perù",
+      "category": null,
+      "group": null,
+      "score": 84.84,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "SLOK Chocolate",
+      "country": "Hong Kong",
+      "product": "Peru Piura 71%",
+      "category": null,
+      "group": null,
+      "score": 86.91,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Argencove",
+      "country": "Nicaragua",
+      "product": "Apoyo 70%",
+      "category": null,
+      "group": null,
+      "score": 86.72,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Castronovo Chocolate",
+      "country": "United States",
+      "product": "Puerto Rico 70%",
+      "category": null,
+      "group": null,
+      "score": 86.65,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Fu Wan Ferment Project #13 70%",
+      "category": null,
+      "group": null,
+      "score": 86.63,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Argencove",
+      "country": "Nicaragua",
+      "product": "Mombacho 70%",
+      "category": null,
+      "group": null,
+      "score": 86.6,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "PARADAi Chocolate",
+      "country": "Thailand",
+      "product": "Sisaket Dark 70%",
+      "category": null,
+      "group": null,
+      "score": 86.58,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "AFTERGLOW CHOCOLATE",
+      "country": "Japan",
+      "product": "Colombia Arhuacos 70",
+      "category": null,
+      "group": null,
+      "score": 86.53,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Kasama Chocolate",
+      "country": "Canada",
+      "product": "70% Costa Esmeraldas",
+      "category": null,
+      "group": null,
+      "score": 86.48,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Embers Chocolate",
+      "country": "United States",
+      "product": "Tanzania",
+      "category": null,
+      "group": null,
+      "score": 86.43,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Fjåk Chocolate",
+      "country": "Norway",
+      "product": "70% dark Tanzania Women's lot",
+      "category": null,
+      "group": null,
+      "score": 86.37,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Guananico Dark Chocolate",
+      "category": null,
+      "group": null,
+      "score": 86.36,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Hummingbird Chocolate Maker",
+      "country": "Canada",
+      "product": "Tumaco 70%",
+      "category": null,
+      "group": null,
+      "score": 86.31,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Sleep Walk Chocolateria",
+      "country": "United States",
+      "product": "Trinitario",
+      "category": null,
+      "group": null,
+      "score": 86.31,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Chokola Bean to Bar",
+      "country": "United States",
+      "product": "Tranquilidad, Bolivia 75%",
+      "category": null,
+      "group": null,
+      "score": 86.25,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "SLOK Chocolate",
+      "country": "Hong Kong",
+      "product": "Trinidad 72%",
+      "category": null,
+      "group": null,
+      "score": 85.97,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Maychoco",
+      "country": "Spain",
+      "product": "Tableta 70% Cuzco, Perú",
+      "category": null,
+      "group": null,
+      "score": 85.91,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Delirio Chocolate",
+      "country": "Venezuela",
+      "product": "Negrito de Sucre 72% Cacao",
+      "category": null,
+      "group": null,
+      "score": 85.89,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Mayak Chocolate",
+      "country": "Honduras",
+      "product": "70% Dark chocolate - Mayan Red",
+      "category": null,
+      "group": null,
+      "score": 85.86,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Hummingbird Chocolate Maker",
+      "country": "Canada",
+      "product": "Cap-Haitien 70%",
+      "category": null,
+      "group": null,
+      "score": 85.79,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Elemento Chocolates",
+      "country": "Peru",
+      "product": "Elemento Chocolates 70% Medium Roast",
+      "category": null,
+      "group": null,
+      "score": 85.77,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Depetris Riccardo / Depetris...i Ciculaté",
+      "country": "Italy",
+      "product": "cioccolato del Monviso - Venezuela 70%",
+      "category": null,
+      "group": null,
+      "score": 85.67,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Ara Chocolat",
+      "country": "France",
+      "product": "Chuao 120 74%",
+      "category": null,
+      "group": null,
+      "score": 85.58,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Fu Wan Ferment Project #15 70%",
+      "category": null,
+      "group": null,
+      "score": 85.5,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Chocolateria Pumatiy",
+      "country": "Peru",
+      "product": "70 % Chuncho - Complemento",
+      "category": null,
+      "group": null,
+      "score": 85.47,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "green bean to bar Chocolate",
+      "country": "Japan",
+      "product": "Fortunato No.4",
+      "category": null,
+      "group": null,
+      "score": 85.47,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Feliu Chocolate",
+      "country": "Mexico",
+      "product": "Finca La Rioja 73%",
+      "category": null,
+      "group": null,
+      "score": 85.36,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Camilo's Chocolate Inc",
+      "country": "Canada",
+      "product": "El Ramonal 70%",
+      "category": null,
+      "group": null,
+      "score": 85.15,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Chocolates PCao",
+      "country": "Peru",
+      "product": "Chocolate Pcao 70% Cacao Fino de Aroma",
+      "category": null,
+      "group": null,
+      "score": 85.03,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Fjåk Chocolate",
+      "country": "Norway",
+      "product": "75% dark Tanzania",
+      "category": null,
+      "group": null,
+      "score": 84.98,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Sleep Walk Chocolateria",
+      "country": "United States",
+      "product": "San Jeronimo Miramar Criollo Rosado",
+      "category": null,
+      "group": null,
+      "score": 84.89,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Honoka'a Chocolate",
+      "country": "United States",
+      "product": "Pure Hawaiian Cacao 70%",
+      "category": null,
+      "group": null,
+      "score": 84.83,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Minimal - Bean to Bar Chocolate -",
+      "country": "Japan",
+      "product": "Fruity/Works 3",
+      "category": null,
+      "group": null,
+      "score": 84.83,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Eldora Chocolate",
+      "country": "United States",
+      "product": "Philippines Kablon 70%",
+      "category": null,
+      "group": null,
+      "score": 84.79,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "PARADAi Chocolate",
+      "country": "Thailand",
+      "product": "Nakhon Si Dark 70% Red Pod Cacao",
+      "category": null,
+      "group": null,
+      "score": 84.72,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Trufas Martinez",
+      "country": "Spain",
+      "product": "Mana Philippines 78%",
+      "category": null,
+      "group": null,
+      "score": 84.7,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Castronovo Chocolate",
+      "country": "United States",
+      "product": "Salitral, Peru 70%",
+      "category": null,
+      "group": null,
+      "score": 84.6,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Delirio Chocolate",
+      "country": "Venezuela",
+      "product": "Ocumare 72% Cacao",
+      "category": null,
+      "group": null,
+      "score": 84.59,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Aroko Chocolate",
+      "country": "Italy",
+      "product": "Sur del Lago 71% - Zulia, Venezuela",
+      "category": null,
+      "group": null,
+      "score": 84.53,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "San Marzano x Noir Chocolate Bar",
+      "country": "Thailand",
+      "product": "Bang Keaw",
+      "category": null,
+      "group": null,
+      "score": 84.46,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "ChocolaBit Lab.",
+      "country": "Japan",
+      "product": "Madagascar 100",
+      "category": null,
+      "group": null,
+      "score": 86.83,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Fjåk Chocolate",
+      "country": "Norway",
+      "product": "85% dark Thailand",
+      "category": null,
+      "group": null,
+      "score": 86.65,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Mindo Chocolate Makers",
+      "country": "United States",
+      "product": "100% Pure Chocolate Bar",
+      "category": null,
+      "group": null,
+      "score": 86.5,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Hummingbird Chocolate Maker",
+      "country": "Canada",
+      "product": "Hispaniola 85%",
+      "category": null,
+      "group": null,
+      "score": 86.31,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Cacao Hunters",
+      "country": "Colombia",
+      "product": "Colombia 100%",
+      "category": null,
+      "group": null,
+      "score": 86.11,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Honoka'a Chocolate",
+      "country": "United States",
+      "product": "Pure Hawaiian Cacao 85%",
+      "category": null,
+      "group": null,
+      "score": 85.9,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Eldora Chocolate",
+      "country": "United States",
+      "product": "Ecuador Cumba 85%",
+      "category": null,
+      "group": null,
+      "score": 85.66,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Meybol Cacao",
+      "country": "Germany",
+      "product": "Solo Kakao 90%",
+      "category": null,
+      "group": null,
+      "score": 85.56,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Fu Wan Chocolate",
+      "country": "Taiwan",
+      "product": "Taiwan #1 Ping-Tung Dark 100%",
+      "category": null,
+      "group": null,
+      "score": 85.45,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Colors Chocolate",
+      "country": "Dominican Republic",
+      "product": "Dark Night Dark Chocolate",
+      "category": null,
+      "group": null,
+      "score": 85.15,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Heritage Food Crafters",
+      "country": "United States",
+      "product": "85% Philippines",
+      "category": null,
+      "group": null,
+      "score": 84.62,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Sweets Escalier",
+      "country": "Japan",
+      "product": "Venezuela Chuao 67% Miso&Yuzu",
+      "category": null,
+      "group": null,
+      "score": 85.74,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Karuna Chocolate",
+      "country": "Italy",
+      "product": "Orient tobacco leaves flavored 70%",
+      "category": null,
+      "group": null,
+      "score": 85.65,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "PARADAi Chocolate",
+      "country": "Thailand",
+      "product": "Phuket Dark 70% Pink Rose",
+      "category": null,
+      "group": null,
+      "score": 85.58,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Special Reserve, Las Palomas Coffee",
+      "category": null,
+      "group": null,
+      "score": 85.56,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Special Reserve, Brown Butter",
+      "category": null,
+      "group": null,
+      "score": 85.48,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "PANGOA",
+      "country": "Peru",
+      "product": "Chocolate 68% con Camu Camu",
+      "category": null,
+      "group": null,
+      "score": 85.39,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Rebirth Chocolate",
+      "country": "Taiwan",
+      "product": "Dhyana",
+      "category": null,
+      "group": null,
+      "score": 85.34,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Paccari Chocolate",
+      "country": "Ecuador",
+      "product": "Pomelo",
+      "category": null,
+      "group": null,
+      "score": 85.17,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Hazel Hill Chocolate",
+      "country": "United States",
+      "product": "71% Maya Spice",
+      "category": null,
+      "group": null,
+      "score": 84.9,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Goodnow Farms Chocolate",
+      "country": "United States",
+      "product": "Maker's Choice, Black Urfa Chili",
+      "category": null,
+      "group": null,
+      "score": 84.68,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "KESSHŌ珂珂琥",
+      "country": "China",
+      "product": "Uganda raspberry dark chocolate",
+      "category": null,
+      "group": null,
+      "score": 84.32,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "KESSHŌ",
+      "country": "United States",
+      "product": "KESSHŌ Salted Plum Dark Chocolate",
+      "category": null,
+      "group": null,
+      "score": 84.22,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Luzz Cacau",
+      "country": "Brazil",
+      "product": "Chocolate 62% Com Café Luzz Cacau",
+      "category": null,
+      "group": null,
+      "score": 84.19,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Binz Chocolates",
+      "country": "Mexico",
+      "product": "Barra 70% Cacao con Chile Pasilla Mixe",
+      "category": null,
+      "group": null,
+      "score": 84.1,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Delirio Chocolate",
+      "country": "Venezuela",
+      "product": "Orange 65% Cacao",
+      "category": null,
+      "group": null,
+      "score": 85.8,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Nugali",
+      "country": "Brazil",
+      "product": "Dark Chocolate 63% With Pink Peppercorn",
+      "category": null,
+      "group": null,
+      "score": 85.62,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Qantu",
+      "country": "Canada",
+      "product": "Maple & Fleur de Sel",
+      "category": null,
+      "group": null,
+      "score": 85.22,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Amano Chocolate",
+      "country": "United States",
+      "product": "Cardamom Black Pepper",
+      "category": null,
+      "group": null,
+      "score": 85.05,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Sweets Escalier",
+      "country": "Japan",
+      "product": "Peru Junin 70% sea salt",
+      "category": null,
+      "group": null,
+      "score": 83.36,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Aroko Chocolate",
+      "country": "Italy",
+      "product": "Sur del Lago 71% and Hazelnut Cream",
+      "category": null,
+      "group": null,
+      "score": 85.07,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Feliu Chocolate",
+      "country": "Mexico",
+      "product": "Leche y Vainilla 57%",
+      "category": null,
+      "group": null,
+      "score": 85.14,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Fjåk Chocolate",
+      "country": "Norway",
+      "product": "Cinnamon roll",
+      "category": null,
+      "group": null,
+      "score": 84.89,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Askinosie Chocolate",
+      "country": "United States",
+      "product": "Coconut Milk Chocolate",
+      "category": null,
+      "group": null,
+      "score": 84.79,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Honoka'a Chocolate",
+      "country": "United States",
+      "product": "Barrel Aged Rum Bar with Coconut Milk",
+      "category": null,
+      "group": null,
+      "score": 84.24,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Sibö Chocolate Costa Rica",
+      "country": "Costa Rica",
+      "product": "Coffee Toffee 63% Cacao",
+      "category": null,
+      "group": null,
+      "score": 85.58,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Amano Chocolate",
+      "country": "United States",
+      "product": "Japanese Sea Salt & Cocoa Nibs",
+      "category": null,
+      "group": null,
+      "score": 83.72,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Embers Chocolate",
+      "country": "United States",
+      "product": "Strawberries & Roses",
+      "category": null,
+      "group": null,
+      "score": 85.9,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Maychoco",
+      "country": "Spain",
+      "product": "Chocolate blanco con mango y flor de sal",
+      "category": null,
+      "group": null,
+      "score": 85.81,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Confiserie Harmonie",
+      "country": "Germany",
+      "product": "Die besondere Note",
+      "category": null,
+      "group": null,
+      "score": 84.66,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "LeSaint French Chocolate",
+      "country": "United States",
+      "product": "Orange Hazelnut Luck Pavés",
+      "category": null,
+      "group": null,
+      "score": 85.78,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "St. Croix Chocolate Company",
+      "country": "United States",
+      "product": "Yuzu Mandarin Sesame Bon Bon",
+      "category": null,
+      "group": null,
+      "score": 85.28,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Stefania Massera - PASTICCERIA MASSERA",
+      "country": "Italy",
+      "product": "Torta dla Nòna",
+      "category": null,
+      "group": null,
+      "score": 89.58,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Stefania Massera - PASTICCERIA MASSERA",
+      "country": "Italy",
+      "product": "Nocelvo",
+      "category": null,
+      "group": null,
+      "score": 88.58,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Stefania Massera - PASTICCERIA MASSERA",
+      "country": "Italy",
+      "product": "Elvina Agrumata",
+      "category": null,
+      "group": null,
+      "score": 88.4,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Stefania Massera - PASTICCERIA MASSERA",
+      "country": "Italy",
+      "product": "Mountainelvo",
+      "category": null,
+      "group": null,
+      "score": 87.46,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Stefania Massera - PASTICCERIA MASSERA",
+      "country": "Italy",
+      "product": "Al Malinteisa",
+      "category": null,
+      "group": null,
+      "score": 87.3,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Stefania Massera - PASTICCERIA MASSERA",
+      "country": "Italy",
+      "product": "Darkelvo",
+      "category": null,
+      "group": null,
+      "score": 85.84,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Lisas Pâtisserie",
+      "country": "Germany",
+      "product": "Sakura Praline",
+      "category": null,
+      "group": null,
+      "score": 85.61,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Confiserie Simon",
+      "country": "Germany",
+      "product": "\"Gankerl\" Birne-Bergamotte Praliné",
+      "category": null,
+      "group": null,
+      "score": 85.13,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Chocolaterie Stijn Vanhoutte",
+      "country": "Belgium",
+      "product": "Pommeretta",
+      "category": null,
+      "group": null,
+      "score": 84.96,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Eventyr Håndverkssjokolade",
+      "country": "Norway",
+      "product": "Willy Wonka - trøffel og steinsopp",
+      "category": null,
+      "group": null,
+      "score": 84.05,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Renacer Chocolatier",
+      "country": "Peru",
+      "product": "Juane",
+      "category": null,
+      "group": null,
+      "score": 84.34,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Caramela",
+      "country": "Mexico",
+      "product": "Milk Pistache",
+      "category": null,
+      "group": null,
+      "score": 85.69,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Evergreen Hotel",
+      "country": "Taiwan",
+      "product": "Almond-coconut praline",
+      "category": null,
+      "group": null,
+      "score": 85.69,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Depetris Riccardo / Depetris...i Ciculaté",
+      "country": "Italy",
+      "product": "Passione Langhe",
+      "category": null,
+      "group": null,
+      "score": 85.41,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "finalist",
+      "level_raw": "Grand Jury Finalist",
+      "maker": "Bellantoni Cioccolato",
+      "country": "Italy",
+      "product": "Dragées Limone E Cannella",
+      "category": null,
+      "group": null,
+      "score": 84.43,
+      "special": [],
+      "flags": [],
+      "private_label_maker": null
+    }
+  ]
+}

@@ -120,3 +120,18 @@ test('a recognition is never the target of a block-row join', () => {
     { raw: 'Gold – Brazil: Maker A – Bar One', reason: 'unjoined-block-row', block: 'National awards' },
   ]);
 });
+
+// The 2019 World Final subdivides its Chocolate Tasters' Special Prizes categories by
+// cacao origin with an `<h3>`. Without a rule for that depth the heading text runs into
+// the level label of the row below it ("Nicaragua Gold : …"), which no level word matches.
+test('an <h3> names the category, so the run below it keeps its level', () => {
+  const { entries, skipped } = parseIcaStrong(
+    '<h1>Plain/origin bars</h1><h2>Plain/origin dark chocolate bars</h2>'
+    + '<p><strong>Bronze</strong>: Maker A (Denmark) – Bar One</p>'
+    + "<h1>Chocolate Tasters' Special Prizes</h1><h2>Plain/origin dark chocolate bars</h2>"
+    + '<h3>Nicaragua</h3><p><strong>Gold</strong>: Maker A (Denmark) – Bar One</p>', { variant: 'old' });
+  assert.deepEqual(skipped, []);
+  assert.deepEqual(entries.map((e) => [e.level, e.category, e.special]), [
+    ['bronze', 'Plain/origin dark chocolate bars', ["Chocolate Tasters' Special Prizes: Nicaragua"]],
+  ]);
+});

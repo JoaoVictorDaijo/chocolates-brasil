@@ -22,10 +22,15 @@ const TOKEN = /<h([1-6])[^>]*>([\s\S]*?)<\/h\1>|<span[^>]*text-decoration:\s*und
  * key. "Overall winners" names the plain medal run here, not the award block the
  * 2015+ pages give that `<h1>` — so this grammar needs its own vocabulary and cannot
  * reuse `icaBlock()`. The two finalist sections list nominations printed with no level
- * word, which this grammar cannot turn into entries and quarantines instead.
+ * word, which this grammar cannot turn into entries and quarantines instead. The 2013
+ * World Final also subdivides one category with plain labels — "Pralines" and the two
+ * cremino ones — each of which opens a medal run of its own.
  */
 const SECTIONS = {
   overallwinners: 'medal',
+  pralines: 'medal',
+  unflavouredcremino: 'medal',
+  flavouredcremino: 'medal',
   worldfinalists: 'finalists',
   additionalworldfinalists: 'finalists',
   specialawards: 'block',

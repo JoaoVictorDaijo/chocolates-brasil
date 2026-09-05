@@ -1,0 +1,727 @@
+{
+  "competition": "ica-americas",
+  "slug": "2013",
+  "year": 2013,
+  "edition": "2013",
+  "title": "Americas Semi-final 2013 Winners",
+  "source": {
+    "url": "https://www.chocolateawards.com/results/winners/americas-semi-final-2013-winners/",
+    "snapshot": "data/raw/ica-americas/2013.html",
+    "fetched": "2026-09-05",
+    "method": "parser",
+    "skipped": [
+      {
+        "raw": "Amazona Chocolate (Peru) – Gran Pajatén, Peru 73% Dark Chocolate Trinitario",
+        "reason": "unlevelled-finalist-row",
+        "block": "Additional World Finalists"
+      },
+      {
+        "raw": "jcoco (United States) – jcoco Veracruz Orange Cayenne",
+        "reason": "unlevelled-finalist-row",
+        "block": "Additional World Finalists"
+      },
+      {
+        "raw": "Payard (United States) – Chocolat Chocolat",
+        "reason": "unlevelled-finalist-row",
+        "block": "World Finalists"
+      },
+      {
+        "raw": "Chocolopolis (United States) – Colombia Truffle",
+        "reason": "unlevelled-finalist-row",
+        "block": "World Finalists"
+      },
+      {
+        "raw": "Socola Chocolatier (United States) – Dark Chocolate Cognac truffles",
+        "reason": "unlevelled-finalist-row",
+        "block": "Additional World Finalists"
+      },
+      {
+        "raw": "Chocolate Springs (United States) – Salted Caramel Truffle",
+        "reason": "unlevelled-finalist-row",
+        "block": "Additional World Finalists"
+      },
+      {
+        "raw": "Chocolopolis (United States) – Anise Ganache Fig",
+        "reason": "unlevelled-finalist-row",
+        "block": "Additional World Finalists"
+      },
+      {
+        "raw": "Gearharts Fine Chocolates (United States) – Pistachio Toffee",
+        "reason": "unlevelled-finalist-row",
+        "block": "World Finalists"
+      },
+      {
+        "raw": "Forte Chocolates (United States) – Sea Salt Caramel",
+        "reason": "unlevelled-finalist-row",
+        "block": "Additional World Finalists"
+      },
+      {
+        "raw": "tumbador chocolate (United States) – Salted Peanut Bar",
+        "reason": "unlevelled-finalist-row",
+        "block": "Additional World Finalists"
+      },
+      {
+        "raw": "FIKA choklad (United States) – Quinoa Hazelnut",
+        "reason": "unlevelled-finalist-row",
+        "block": "World Finalists"
+      },
+      {
+        "raw": "FIKA choklad (United States) – Goat Cheese Truffle",
+        "reason": "unlevelled-finalist-row",
+        "block": "World Finalists"
+      },
+      {
+        "raw": "Luxx Chocolat (United States) – Fig & Port Hat Trick",
+        "reason": "unlevelled-finalist-row",
+        "block": "World Finalists"
+      },
+      {
+        "raw": "Payard (United States) – Salted Caramel Chocolate",
+        "reason": "unlevelled-finalist-row",
+        "block": "World Finalists"
+      },
+      {
+        "raw": "GOLD – VENEZUELA: Franceschi Chocolate – Franceschi Chocolate, Canoabo crop 2013",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      },
+      {
+        "raw": "SILVER – USA: Amano Chocolate Company – Chuao 70% Dark Chocolate Bar",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      },
+      {
+        "raw": "SILVER – USA: Askinosie Chocolate – 70% Cortés, Honduras Dark Chocolate Bar",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      },
+      {
+        "raw": "SILVER – USA: Tejas Chocolate – Capistrano",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      },
+      {
+        "raw": "SILVER: USA – Dandelion Chocolate – Papua New Guinea 70%",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      },
+      {
+        "raw": "SILVER – USA: Chuao Chocolatier – Salted Chocolate Crunch",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      },
+      {
+        "raw": "SILVER – USA: Chuao Chocolatier – Spicy Maya",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      },
+      {
+        "raw": "SILVER – USA: TCHO Chocolate – Galactic Gelato",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      },
+      {
+        "raw": "SILVER – USA: Askinosie Chocolate – Dark Milk Chocolate + Ancho Chile & Pistachio CollaBARation™ Bar",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      },
+      {
+        "raw": "SILVER – USA: Fruition Chocolate – Strawberry and Toasted Cashew Gianduja",
+        "reason": "unjoined-block-row",
+        "block": "National awards"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Pacari Chocolate",
+      "country": "Ecuador",
+      "product": "Raw 70% cacao",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "Special category awards: GOLD – Chocolate Maker",
+        "Special category awards: GOLD – Growing Country",
+        "Special category awards: GOLD – Organic",
+        "Special category awards: GOLD – Directly Traded",
+        "National awards: GOLD – ECUADOR"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Patric Chocolate",
+      "country": "United States",
+      "product": "Madagascar 67%",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Pacari Chocolate",
+      "country": "Ecuador",
+      "product": "Piura Quemazon 70% cacao",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Pacari Chocolate",
+      "country": "Ecuador",
+      "product": "Guayacán 70%",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Patric Chocolate",
+      "country": "United States",
+      "product": "Piura 67%",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "National awards: SILVER – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "The Grenada Chocolate Company",
+      "country": "Grenada",
+      "product": "The Grenada Chocolate Company Organic 60% Dark Bar",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Dark plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Forte Chocolates",
+      "country": "United States",
+      "product": "Chocolate Love (dark milk chocolate bar)",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Milk plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "TCHO Chocolate",
+      "country": "United States",
+      "product": "Classic",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Milk plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Chocolates El Rey",
+      "country": "Venezuela",
+      "product": "Irapa",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Milk plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "Special category awards: GOLD – Growing Country",
+        "Special category awards: GOLD – Directly Traded"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Chocolates El Rey",
+      "country": "Venezuela",
+      "product": "Icoa",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – White plain/origin bars",
+      "group": "Bars",
+      "special": [
+        "Special category awards: GOLD – Growing Country",
+        "Special category awards: GOLD – Directly Traded"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Fruition Chocolate",
+      "country": "United States",
+      "product": "Toasted White Chocolate",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – White plain/origin bars",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD – FILLED",
+      "maker": "Es Koyama",
+      "country": "Japan",
+      "product": "Manganji-Temple Green Pepper & Almond Praline",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured dark chocolate",
+      "group": "Bars",
+      "special": [
+        "GOLD – FILLED"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD – FUSED",
+      "maker": "Pacari Chocolate",
+      "country": "Ecuador",
+      "product": "60% organic chocolatess with lemongrass",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured dark chocolate",
+      "group": "Bars",
+      "special": [
+        "GOLD – FUSED"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Patric Chocolate",
+      "country": "United States",
+      "product": "Mocha OMG",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured dark chocolate",
+      "group": "Bars",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Jade Chocolates",
+      "country": "United States",
+      "product": "Genmai",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured milk chocolate",
+      "group": "Bars",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "jcoco",
+      "country": "United States",
+      "product": "jcoco edamame sea salt",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured milk chocolate",
+      "group": "Bars",
+      "special": [
+        "National awards: SILVER – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Chuao Chocolatier",
+      "country": "United States",
+      "product": "Pop Corn Pop",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured milk chocolate",
+      "group": "Bars",
+      "special": [
+        "National awards: SILVER – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "es koyama",
+      "country": "Japan",
+      "product": "Daitokuji-Temple Natto",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured milk chocolate",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "TCHO Chocolate",
+      "country": "United States",
+      "product": "Mokaccino",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured milk chocolate",
+      "group": "Bars",
+      "special": [
+        "National awards: SILVER – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Hudson Chocolates",
+      "country": "United States",
+      "product": "Milk Chocolate and Sichimi Togarashi Bar",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured milk chocolate",
+      "group": "Bars",
+      "special": [
+        "National awards: SILVER – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Forte Chocolates",
+      "country": "United States",
+      "product": "Rosemary Sea Salt Bar",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured white chocolate",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "es koyama",
+      "country": "Japan",
+      "product": "Raspberry & Lychee",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Bars – Flavoured white chocolate",
+      "group": "Bars",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Theo Chocolate",
+      "country": "United States",
+      "product": "Mint Ganache",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark – Ganaches and truffles",
+      "group": "Filled chocolates – dark (flavoured or unflavoured)",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "The Secret Chocolatier",
+      "country": "United States",
+      "product": "Cardamom Chocolate Truffle",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark – Ganaches and truffles",
+      "group": "Filled chocolates – dark (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "L.A.Burdick",
+      "country": "United States",
+      "product": "Fig bonbon",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark – Ganaches and truffles",
+      "group": "Filled chocolates – dark (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Arcay Chocolates",
+      "country": "Venezuela",
+      "product": "Coco Rum",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Flavoured dark – Ganaches and truffles",
+      "group": "Filled chocolates – dark (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Forte Chocolates",
+      "country": "United States",
+      "product": "Rosemary Caramel",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark – Caramels",
+      "group": "Filled chocolates – dark (flavoured or unflavoured)",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Theo Chocolate",
+      "country": "United States",
+      "product": "Ghost Chile Caramel",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark – Caramels",
+      "group": "Filled chocolates – dark (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Lillie Belle Farms",
+      "country": "United States",
+      "product": "Lavender Sea Salt Caramel",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark – Caramels",
+      "group": "Filled chocolates – dark (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Theo Chocolate",
+      "country": "United States",
+      "product": "Licorice Caramel",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Dark – Caramels",
+      "group": "Filled chocolates – dark (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "es koyama",
+      "country": "Japan",
+      "product": "Nanko Ume Plum & Almond Praline",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk – Ganaches and truffles",
+      "group": "Filled chocolates – Milk (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Xocolatti",
+      "country": "United States",
+      "product": "Passion Fruit Truffle",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk – Ganaches and truffles",
+      "group": "Filled chocolates – Milk (flavoured or unflavoured)",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Theo Chocolate",
+      "country": "United States",
+      "product": "Burnt Sugar Ganache",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk – Ganaches and truffles",
+      "group": "Filled chocolates – Milk (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Theo Chocolate",
+      "country": "United States",
+      "product": "Honey Saffron Caramel",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk – Caramels",
+      "group": "Filled chocolates – Milk (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Chuao Chocolatier",
+      "country": "United States",
+      "product": "Rosemary Salt Caramel",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk – Caramels",
+      "group": "Filled chocolates – Milk (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Tumbador chocolate",
+      "country": "United States",
+      "product": "Kalamansi “Pie” Caramel",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Milk – Caramels",
+      "group": "Filled chocolates – Milk (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Es Koyama",
+      "country": "Japan",
+      "product": "Laphroaig 10 Year Old(Whisky) & Raspberry",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Ganaches and truffles with mixed dark/milk/white for coating and fillings",
+      "group": "Filled chocolates – Mixed (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Forte Chocolates",
+      "country": "United States",
+      "product": "Lemon Pepper Butter Truffle",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Ganaches and truffles with mixed dark/milk/white for coating and fillings",
+      "group": "Filled chocolates – Mixed (flavoured or unflavoured)",
+      "special": [
+        "National awards: GOLD – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Arcay Chocolates",
+      "country": "Venezuela",
+      "product": "Limon",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Ganaches and truffles with mixed dark/milk/white for coating and fillings",
+      "group": "Filled chocolates – Mixed (flavoured or unflavoured)",
+      "special": []
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "L.A.Burdick",
+      "country": "United States",
+      "product": "White chocolate mouse",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Ganaches and truffles with mixed dark/milk/white for coating and fillings",
+      "group": "Filled chocolates – Mixed (flavoured or unflavoured)",
+      "special": [
+        "National awards: SILVER – USA"
+      ]
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Payard",
+      "country": "United States",
+      "product": "Key Lime Chocolate",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "Ganaches and truffles with mixed dark/milk/white for coating and fillings",
+      "group": "Filled chocolates – Mixed (flavoured or unflavoured)",
+      "special": [
+        "National awards: SILVER – USA"
+      ]
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Chocolopolis",
+      "country": "United States",
+      "product": "Lemon Lavender Truffle",
+      "score": null,
+      "flags": [],
+      "private_label_maker": null,
+      "category": "White – Flavoured filled chocolates",
+      "group": "Filled chocolates – White (flavoured or unflavoured)",
+      "special": []
+    }
+  ]
+}
