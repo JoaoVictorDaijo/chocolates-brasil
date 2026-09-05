@@ -21,13 +21,13 @@ const TOKEN = /<h([1-6])[^>]*>([\s\S]*?)<\/h\1>|<span[^>]*text-decoration:\s*und
  * The underlined sub-section labels these pages print inside a category, by matching
  * key. "Overall winners" names the plain medal run here, not the award block the
  * 2015+ pages give that `<h1>` — so this grammar needs its own vocabulary and cannot
- * reuse `icaBlock()`. The two finalist sections list unlevelled nominations that this
- * grammar does not read; a medal run under one would still be a medal.
+ * reuse `icaBlock()`. The two finalist sections list nominations printed with no level
+ * word, which this grammar cannot turn into entries and quarantines instead.
  */
 const SECTIONS = {
   overallwinners: 'medal',
-  worldfinalists: 'medal',
-  additionalworldfinalists: 'medal',
+  worldfinalists: 'finalists',
+  additionalworldfinalists: 'finalists',
   specialawards: 'block',
   specialcategoryawards: 'block',
   nationalawards: 'block',
@@ -68,16 +68,25 @@ function parse(html) {
       const text = clean(strip(raw)).replace(/\s*:\s*$/, '');   // a trailing colon opens a 2014 bullet list
       const m = text.match(RUN);
       if (!m) {
-        if (mode !== 'block') {
-          if (/^(GOLD|SILVER|BRONZE)\b/.test(text)) skipped.push({ raw: text, reason: 'unparsed-run' });
+        // A finalists section lists "maker (Country) – product" nominations with no level
+        // word. This era's results pages link to no finalists page for `ica-finalists.js`
+        // to read, so the rows are quarantined rather than dropped; the section's
+        // explanatory prose has no body to parse and is not a row.
+        if (mode === 'finalists') {
+          if (parseBody(text)) skipped.push({ raw: text, reason: 'unlevelled-finalist-row', block: section });
           continue;
         }
-        const b = text.match(BULLET);
-        if (!b) { header = parseBody(text) || header; continue; }   // prose in the block keeps the header
-        if (!header) { skipped.push({ raw: text, reason: 'unparsed-run' }); continue; }
-        const label = clean(`${b[1]} – ${b[2]}`);
-        const { group, category } = headings(stack);
-        block({ level: level(b[1], text), level_raw: label, ...header, category, group, special: [] }, label);
+        const b = mode === 'block' ? text.match(BULLET) : null;
+        if (b && header) {
+          const label = clean(`${b[1]} – ${b[2]}`);
+          const { group, category } = headings(stack);
+          block({ level: level(b[1], text), level_raw: label, ...header, category, group, special: [] }, label);
+          continue;
+        }
+        // A run naming a level that this grammar cannot read is quarantined wherever it
+        // stands — inside an award block the header fallback would otherwise swallow it.
+        if (b || /^(GOLD|SILVER|BRONZE)\b/.test(text)) { skipped.push({ raw: text, reason: 'unparsed-run' }); continue; }
+        if (mode === 'block') header = parseBody(text) || header;   // 2014's product header; prose keeps the current one
         continue;
       }
       const label = clean(m[2] ? `${m[1]} – ${m[2]}` : m[1]);

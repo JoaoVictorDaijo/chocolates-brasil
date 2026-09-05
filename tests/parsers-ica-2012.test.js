@@ -105,7 +105,44 @@ test('Américas 2013: countries, the National awards join, and the rows it canno
 
   // Ten National awards name a product that won no medal in its category, so there is no
   // entry to qualify; they are quarantined rather than counted as medals of their own.
-  assert.equal(skipped.length, 10);
-  assert.ok(skipped.every((s) => s.reason === 'unjoined-block-row' && s.block === 'National awards'));
-  assert.ok(skipped.some((s) => s.raw === 'SILVER – USA: Tejas Chocolate – Capistrano'), JSON.stringify(skipped));
+  const unjoined = skipped.filter((s) => s.reason === 'unjoined-block-row');
+  assert.equal(unjoined.length, 10);
+  assert.ok(unjoined.every((s) => s.block === 'National awards'));
+  assert.ok(unjoined.some((s) => s.raw === 'SILVER – USA: Tejas Chocolate – Capistrano'), JSON.stringify(unjoined));
+});
+
+test('Américas 2013: the finalist sections are quarantined, never dropped and never entries', () => {
+  const { entries, skipped } = ica2012.parse(fx('ica-am-2013.html'), {});
+  // The two finalist sections print 14 "maker (Country) – product" nominations with no
+  // level word, plus one line of explanatory prose each. This era's results pages link to
+  // no finalists page, so `ica-finalists.js` cannot recover the 14: they must not vanish.
+  const finalists = skipped.filter((s) => s.reason === 'unlevelled-finalist-row');
+  assert.equal(finalists.length, 14);
+  assert.equal(skipped.length, 24);                       // + the 10 unjoined National awards
+  assert.deepEqual([...new Set(finalists.map((s) => s.block))].sort(),
+    ['Additional World Finalists', 'World Finalists']);
+  assert.ok(finalists.some((s) => s.raw === 'Payard (United States) – Chocolat Chocolat'), JSON.stringify(finalists));
+  // The prose that opens each section has no maker/product body, so it is not a row.
+  assert.ok(finalists.every((s) => !/nominated to go forward/.test(s.raw)));
+  // A nomination is not a medal: none of the 14 reaches `entries`.
+  assert.ok(!entries.some((e) => e.maker === 'Amazona Chocolate' || e.maker === 'Socola Chocolatier'));
+});
+
+// No fixture prints a malformed row inside an award block, so the shape needs markup
+// built on purpose: without the guard the header fallback swallows it silently.
+test('a level run an award block cannot read is quarantined, not taken for a product header', () => {
+  const { entries, skipped } = ica2012.parse(
+    '<h2>Bars</h2><h4>Bars – Dark plain/origin bars</h4>'
+    + '<p>GOLD: Pacari Chocolate (Ecuador) – Montubia 70%</p>'
+    + '<p><span style="text-decoration: underline;">Special awards</span></p>'
+    + '<p>GOLD – Chocolate Maker Pacari Chocolate (Ecuador) – Montubia 70%</p>'   // no colon
+    + '<p>– GOLD – Organic</p>', {});
+  // The malformed row is quarantined, so it never becomes the header the bullet hangs on;
+  // the orphaned bullet is quarantined in turn rather than joined to the wrong product.
+  assert.deepEqual(skipped, [
+    { raw: 'GOLD – Chocolate Maker Pacari Chocolate (Ecuador) – Montubia 70%', reason: 'unparsed-run' },
+    { raw: '– GOLD – Organic', reason: 'unparsed-run' },
+  ]);
+  assert.deepEqual(entries.map((e) => [e.level, e.maker, e.product, e.special]),
+    [['gold', 'Pacari Chocolate', 'Montubia 70%', []]]);
 });
