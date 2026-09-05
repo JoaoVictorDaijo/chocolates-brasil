@@ -1,0 +1,151 @@
+{
+  "competition": "aoc",
+  "editions": [
+    {
+      "slug": "2005",
+      "year": 2005,
+      "edition": "2005",
+      "title": "Academy of Chocolate Awards 2005",
+      "url": "https://academyofchocolate.org.uk/awards/2005/",
+      "parser": "aoc",
+      "notes": "first edition on academyofchocolate.org.uk/previous-years/; that page lists no awards for 2007, 2010, 2012 and 2014"
+    },
+    {
+      "slug": "2006",
+      "year": 2006,
+      "edition": "2006",
+      "title": "Academy of Chocolate Awards 2006",
+      "url": "https://academyofchocolate.org.uk/awards/2006/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2008",
+      "year": 2008,
+      "edition": "2008",
+      "title": "Academy of Chocolate Awards 2008",
+      "url": "https://academyofchocolate.org.uk/awards/2008/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2009",
+      "year": 2009,
+      "edition": "2009",
+      "title": "Academy of Chocolate Awards 2009",
+      "url": "https://academyofchocolate.org.uk/awards/2009/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2011",
+      "year": 2011,
+      "edition": "2011",
+      "title": "Academy of Chocolate Awards 2011",
+      "url": "https://academyofchocolate.org.uk/awards/2011/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2013",
+      "year": 2013,
+      "edition": "2013",
+      "title": "Academy of Chocolate Awards 2013",
+      "url": "https://academyofchocolate.org.uk/awards/2013/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2015",
+      "year": 2015,
+      "edition": "2015",
+      "title": "Academy of Chocolate Awards 2015",
+      "url": "https://academyofchocolate.org.uk/awards/2015/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2016",
+      "year": 2016,
+      "edition": "2016",
+      "title": "Academy of Chocolate Awards 2016",
+      "url": "https://academyofchocolate.org.uk/awards/2016/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2017",
+      "year": 2017,
+      "edition": "2017",
+      "title": "Academy of Chocolate Awards 2017",
+      "url": "https://academyofchocolate.org.uk/awards/2017/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2018",
+      "year": 2018,
+      "edition": "2018",
+      "title": "Academy of Chocolate Awards 2018",
+      "url": "https://academyofchocolate.org.uk/awards/2018/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2019",
+      "year": 2019,
+      "edition": "2019",
+      "title": "Academy of Chocolate Awards 2019",
+      "url": "https://academyofchocolate.org.uk/awards/2019/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2020",
+      "year": 2020,
+      "edition": "2020",
+      "title": "Academy of Chocolate Awards 2020",
+      "url": "https://academyofchocolate.org.uk/awards/2020/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2021",
+      "year": 2021,
+      "edition": "2021",
+      "title": "Academy of Chocolate Awards 2021",
+      "url": "https://academyofchocolate.org.uk/awards/2021/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2022",
+      "year": 2022,
+      "edition": "2022",
+      "title": "Academy of Chocolate Awards 2022",
+      "url": "https://academyofchocolate.org.uk/awards/2022/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2022-second-phase",
+      "year": 2022,
+      "edition": "2022 Second Phase",
+      "title": "Academy of Chocolate Awards 2022 Second Phase",
+      "url": "https://academyofchocolate.org.uk/awards/2022-2/",
+      "parser": "aoc",
+      "notes": "second round of the 2022 awards, published at /awards/2022-2/"
+    },
+    {
+      "slug": "2023",
+      "year": 2023,
+      "edition": "2023",
+      "title": "Academy of Chocolate Awards 2023",
+      "url": "https://academyofchocolate.org.uk/awards/2023/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2024",
+      "year": 2024,
+      "edition": "2024",
+      "title": "Academy of Chocolate Awards 2024",
+      "url": "https://academyofchocolate.org.uk/awards/2024/",
+      "parser": "aoc"
+    },
+    {
+      "slug": "2025",
+      "year": 2025,
+      "edition": "2025",
+      "title": "Academy of Chocolate Awards 2025",
+      "url": "https://academyofchocolate.org.uk/awards/2025/",
+      "parser": "aoc"
+    }
+  ]
+}

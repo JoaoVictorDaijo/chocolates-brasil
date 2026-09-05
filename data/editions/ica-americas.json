@@ -1,0 +1,131 @@
+{
+  "competition": "ica-americas",
+  "editions": [
+    {
+      "slug": "2012",
+      "year": 2012,
+      "edition": "2012",
+      "title": "Americas Semi-final 2012 – winners",
+      "url": "https://www.chocolateawards.com/results/winners/americas-semi-final-2012-winners/",
+      "parser": "ica-2012"
+    },
+    {
+      "slug": "2013",
+      "year": 2013,
+      "edition": "2013",
+      "title": "Americas Semi-final 2013 Winners",
+      "url": "https://www.chocolateawards.com/results/winners/americas-semi-final-2013-winners/",
+      "parser": "ica-2012",
+      "notes": "the finalists post https://www.chocolateawards.com/results/winners/americas-semi-final-2013-grand-jury-finalists/ lists maker and country without the product, so it is not indexed"
+    },
+    {
+      "slug": "2014",
+      "year": 2014,
+      "edition": "2014",
+      "title": "Americas Semi-final 2014 Winners – International Chocolate Awards",
+      "url": "https://www.chocolateawards.com/results/winners/americas-semi-final-2014-winners-international-chocolate-awards/",
+      "parser": "ica-2012",
+      "notes": "the finalists post https://www.chocolateawards.com/results/winners/americas-semi-final-2014-grand-jury-finalists/ lists maker and country without the product, so it is not indexed"
+    },
+    {
+      "slug": "2015",
+      "year": 2015,
+      "edition": "2015",
+      "title": "Americas Competition 2015 Winners",
+      "url": "https://www.chocolateawards.com/results/winners/americas-competition-2015-winners/",
+      "finalists_url": "https://www.chocolateawards.com/results/winners/americas-competition-2015-grand-jury-finalists/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2016",
+      "year": 2016,
+      "edition": "2016",
+      "title": "Americas and Asia Pacific Competition 2016 – Winners",
+      "url": "https://www.chocolateawards.com/results/winners/americas-and-asia-pacific-competition-2016-winners/",
+      "finalists_url": "https://www.chocolateawards.com/results/winners/americas-and-asia-pacific-competition-2016-grand-jury-finalists/",
+      "parser": "ica-old",
+      "notes": "merged Americas + Asia Pacific round, filtered by americas-countries.json",
+      "filter": "americas-countries"
+    },
+    {
+      "slug": "2017",
+      "year": 2017,
+      "edition": "2017",
+      "title": "Americas Competition 2017 Winners",
+      "url": "https://www.chocolateawards.com/results/winners/americas-competition-2017-winners/",
+      "finalists_url": "https://www.chocolateawards.com/results/winners/americas-competition-2017-grand-jury-finalists/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2018",
+      "year": 2018,
+      "edition": "2018",
+      "title": "Americas 2018 Competition Winners",
+      "url": "https://www.chocolateawards.com/results/winners/americas-2018-competition-winners/",
+      "finalists_url": "https://www.chocolateawards.com/results/winners/americas-competition-2018-grand-jury-finalists/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2019",
+      "year": 2019,
+      "edition": "2019",
+      "title": "Americas Bean-to-Bar and Chocolatier Competition Winners 2019",
+      "url": "https://www.chocolateawards.com/results/winners/americas-bean-to-bar-and-chocolatier-competition-winners-2019/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2020-21",
+      "year": 2021,
+      "edition": "2020-21",
+      "title": "Americas Bean-to-Bar and Chocolatier Competition Winners 2020-21",
+      "url": "https://www.chocolateawards.com/results/winners/americas-bean-to-bar-and-chocolatier-competition-winners-2020-21/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2021-22",
+      "year": 2022,
+      "edition": "2021-22",
+      "title": "Americas Bean-to-Bar and Craft Chocolatier Competition 2021-22 – Winners",
+      "url": "https://www.chocolateawards.com/results/winners/americas-bean-to-bar-and-craft-chocolatier-competition-2021-22-winners/",
+      "finalists_url": "https://www.chocolateawards.com/results/winners/americas-bean-to-bar-and-craft-chocolatier-competition-2021-22-grand-jury-finalists/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2023",
+      "year": 2023,
+      "edition": "2023",
+      "title": "Americas Bean-to-Bar and Craft Chocolatier Competition 2023 – Winners",
+      "url": "https://enter.chocolateawards.com/competitions/americas/americas-bean-to-bar-and-craft-chocolatier-competition-2023-winners/",
+      "finalists_url": "https://enter.chocolateawards.com/competitions/americas/americas-bean-to-bar-and-craft-chocolatier-competition-2023-grand-jury-finalists/",
+      "parser": "ica-new"
+    },
+    {
+      "slug": "2024",
+      "year": 2024,
+      "edition": "2024",
+      "title": "Americas – Latin America & the Caribbean Bean-to-Bar and Craft Chocolatier Competition 2024 – Winners",
+      "url": "https://enter.chocolateawards.com/competitions/americas/americas-latin-america-the-caribbean-bean-to-bar-and-craft-chocolatier-competition-2024-winners/",
+      "finalists_url": "https://enter.chocolateawards.com/competitions/americas/americas-latin-america-the-caribbean-bean-to-bar-and-craft-chocolatier-competition-2024-grand-jury-finalists/",
+      "parser": "ica-new",
+      "notes": "from 2024 the Américas competition runs in two rounds; only the Latin America & the Caribbean round is indexed, never the USA & Canada (2024, 2025) or USA (2026) round"
+    },
+    {
+      "slug": "2025",
+      "year": 2025,
+      "edition": "2025",
+      "title": "Americas – Latin America & the Caribbean Bean-to-Bar and Craft Chocolatier Competition 2025 – Winners",
+      "url": "https://enter.chocolateawards.com/competitions/americas/americas-latin-america-caribbean-bean-to-bar-and-craft-chocolatier-competition-2025-winners/",
+      "parser": "ica-new",
+      "notes": "the finalists post https://enter.chocolateawards.com/competitions/americas/americas-latin-america-the-caribbean-bean-to-bar-and-craft-chocolatier-competition-2025-grand-jury-finalists/ is still listed in the archive but 307-redirects to the site home, so it is not indexed; note also that the winners slug drops the \"the\" the finalists slug keeps"
+    },
+    {
+      "slug": "2026",
+      "year": 2026,
+      "edition": "2026",
+      "title": "Americas – Latin America & the Caribbean Bean-to-Bar and Craft Chocolatier Competition 2026 – Winners",
+      "url": "https://enter.chocolateawards.com/competitions/americas/americas-latin-america-the-caribbean-bean-to-bar-and-craft-chocolatier-competition-2026-winners/",
+      "finalists_url": "https://enter.chocolateawards.com/competitions/americas/americas-latin-america-the-caribbean-bean-to-bar-and-craft-chocolatier-competition-2026-grand-jury-finalists/",
+      "parser": "ica-new"
+    }
+  ]
+}

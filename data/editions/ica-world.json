@@ -1,0 +1,117 @@
+{
+  "competition": "ica-world",
+  "editions": [
+    {
+      "slug": "2012",
+      "year": 2012,
+      "edition": "2012",
+      "title": "World Final 2012 – Winners",
+      "url": "https://www.chocolateawards.com/results/winners/world-final-2012-winners/",
+      "parser": "ica-2012"
+    },
+    {
+      "slug": "2013",
+      "year": 2013,
+      "edition": "2013",
+      "title": "World Final 2013 – Winners",
+      "url": "https://www.chocolateawards.com/results/winners/world-final-2013-winners/",
+      "parser": "ica-2012",
+      "notes": "duplicate post https://www.chocolateawards.com/results/winners/world-final-2013-winners-2/ prints one GOLD row fewer; this one is the fuller list"
+    },
+    {
+      "slug": "2014",
+      "year": 2014,
+      "edition": "2014",
+      "title": "World Final 2014 – Winners",
+      "url": "https://www.chocolateawards.com/results/winners/world-final-2014-winners/",
+      "parser": "ica-2012",
+      "notes": "the finalists post https://www.chocolateawards.com/results/winners/world-final-2014-grand-jury-finalists/ lists maker and country without the product, so it is not indexed"
+    },
+    {
+      "slug": "2015",
+      "year": 2015,
+      "edition": "2015",
+      "title": "World Final Winners – 2015",
+      "url": "https://www.chocolateawards.com/results/winners/world-final-winners-2015/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2016",
+      "year": 2016,
+      "edition": "2016",
+      "title": "World Final Winners – 2016",
+      "url": "https://www.chocolateawards.com/results/winners/world-final-winners-2016/",
+      "parser": "ica-old",
+      "notes": "both finalists posts (https://www.chocolateawards.com/results/winners/world-final-competition-2016-grand-jury-finalists/ and …-2/) print the announcement only, with no finalist rows"
+    },
+    {
+      "slug": "2017",
+      "year": 2017,
+      "edition": "2017",
+      "title": "World Final Winners – 2017",
+      "url": "https://www.chocolateawards.com/results/winners/world-final-winners-2017/",
+      "finalists_url": "https://www.chocolateawards.com/results/winners/world-final-competition-2017-grand-jury-finalists/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2018",
+      "year": 2018,
+      "edition": "2018",
+      "title": "World Final Winners – 2018",
+      "url": "https://www.chocolateawards.com/results/winners/world-final-winners-2018/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2019",
+      "year": 2019,
+      "edition": "2019",
+      "title": "World Final Winners – 2019",
+      "url": "https://www.chocolateawards.com/results/winners/world-final-winners-2019/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2020-21",
+      "year": 2021,
+      "edition": "2020-21",
+      "title": "World Final Winners – 2020-21",
+      "url": "https://www.chocolateawards.com/results/winners/world-final-winners-2020-21/",
+      "parser": "ica-old"
+    },
+    {
+      "slug": "2022",
+      "year": 2022,
+      "edition": "2022",
+      "title": "Best chocolate in the world in 2022",
+      "url": "https://www.chocolateawards.com/competitions/world-final/best-chocolate-world-final-2022/",
+      "parser": "ica-old",
+      "notes": "the 10th World Final, judged after the 2021-22 regional rounds, was published in the World Final section instead of the results archive, under the headline of the winners feature; the list itself is headed \"The 2022 World Final Winners are:\""
+    },
+    {
+      "slug": "2023",
+      "year": 2023,
+      "edition": "2023",
+      "title": "World Final 2023 – Winners",
+      "url": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2023-winners/",
+      "finalists_url": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2023-grand-jury-finalists/",
+      "parser": "ica-new"
+    },
+    {
+      "slug": "2024",
+      "year": 2024,
+      "edition": "2024",
+      "title": "World Final 2024 – Winners",
+      "url": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2024-winners/",
+      "finalists_url": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2024-grand-jury-finalists/",
+      "parser": "ica-new"
+    },
+    {
+      "slug": "2025",
+      "year": 2025,
+      "edition": "2025",
+      "title": "World Final 2025 – Winners",
+      "url": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2025-winners/",
+      "finalists_url": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2025-grand-jury-finalists/",
+      "parser": "ica-new"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "competition": "avpa",
+  "editions": [
+    {
+      "slug": "2021",
+      "year": 2021,
+      "edition": "2021",
+      "title": "Concours International des Chocolats élaborés à l'origine AVPA Paris 2021",
+      "url": "https://en.avpa.fr/_files/ugd/58172f_f752082244844a289a4d561c40240107.pdf",
+      "notes": "the PDF table extractor returns empty cells or no table at all for this edition, so it is transcribed by hand",
+      "method": "manual-transcription"
+    },
+    {
+      "slug": "2022",
+      "year": 2022,
+      "edition": "2022",
+      "title": "Concours International des Chocolats élaborés à l'origine AVPA Paris 2022",
+      "url": "https://en.avpa.fr/_files/ugd/58172f_0110ac1fa908492d88f9291a50766180.pdf",
+      "notes": "the PDF table extractor returns empty cells or no table at all for this edition, so it is transcribed by hand",
+      "method": "manual-transcription"
+    },
+    {
+      "slug": "2023",
+      "year": 2023,
+      "edition": "2023",
+      "title": "Concours International des Chocolats élaborés à l'origine AVPA Paris 2023",
+      "url": "https://en.avpa.fr/_files/ugd/58172f_9c990020b10c45cf9b39e6a566c73c16.pdf",
+      "notes": "the PDF table extractor returns empty cells or no table at all for this edition, so it is transcribed by hand",
+      "method": "manual-transcription"
+    },
+    {
+      "slug": "2024",
+      "year": 2024,
+      "edition": "2024",
+      "title": "Concours International des Chocolats élaborés à l'origine AVPA Paris 2024",
+      "url": "https://en.avpa.fr/_files/ugd/58172f_0e02fe2ebf174cd980c4f9793a2c03b3.pdf",
+      "parser": "avpa"
+    },
+    {
+      "slug": "2025",
+      "year": 2025,
+      "edition": "2025",
+      "title": "Concours International des Chocolats élaborés à l'origine AVPA Paris 2025",
+      "url": "https://en.avpa.fr/_files/ugd/58172f_1ab123e7a2ab42e5a7e86d26e0796f61.pdf",
+      "parser": "avpa"
+    },
+    {
+      "slug": "2026",
+      "year": 2026,
+      "edition": "2026",
+      "title": "Concours International des Chocolats élaborés à l'origine AVPA Paris 2026",
+      "url": "https://en.avpa.fr/_files/ugd/58172f_7e2fec46cd1441f8b6d6f49eccc88689.pdf",
+      "parser": "avpa"
+    }
+  ]
+}
