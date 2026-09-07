@@ -1,0 +1,463 @@
+{
+  "brands": {
+    "alma-chocolates": {
+      "name": "Alma Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "almadore-chocolate-de-origem": {
+      "name": "Almadoré Chocolate de Origem",
+      "aliases": [],
+      "signature": []
+    },
+    "alquimia-chocolates": {
+      "name": "Alquimia Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "ambar-chocolate": {
+      "name": "Âmbar Chocolate",
+      "aliases": [
+        "Ambar Chocolates"
+      ],
+      "signature": []
+    },
+    "amma-chocolate": {
+      "name": "AMMA Chocolate",
+      "aliases": [
+        "AMMA",
+        "Amma Chocolate, Brazil"
+      ],
+      "signature": []
+    },
+    "ascurra-chocolate": {
+      "name": "Ascurra Chocolate",
+      "aliases": [],
+      "signature": [
+        "70% Amazônia (Sítio Ascurra)"
+      ]
+    },
+    "aya-chocolates": {
+      "name": "Aya Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "baiani-chocolates": {
+      "name": "Baianí Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "bem-cacao-chocolates": {
+      "name": "Bem Cacao Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "benevides-chocolates": {
+      "name": "Benevides Chocolates",
+      "aliases": [
+        "Benevides Chocolates Finos"
+      ],
+      "signature": []
+    },
+    "c-alma-chocolate": {
+      "name": "C'alma Chocolate",
+      "aliases": [],
+      "signature": []
+    },
+    "cacalmenara-chocolates": {
+      "name": "Cacalmenara Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "cacau-candango": {
+      "name": "Cacau Candango",
+      "aliases": [],
+      "signature": []
+    },
+    "cacau-do-ceu": {
+      "name": "Cacau do Céu",
+      "aliases": [
+        "Cacau do Céu Chocolates",
+        "Cacau do Céu Chocolates Finos"
+      ],
+      "signature": []
+    },
+    "cacau-dourado-chocolates": {
+      "name": "Cacau Dourado Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "casa-lasevicius": {
+      "name": "Casa Lasevicius",
+      "aliases": [
+        "Casa Lasevicius Chocolates"
+      ],
+      "signature": [
+        "70% Pariquera-Açu (Vale do Ribeira/SP)"
+      ]
+    },
+    "caza-chocolates": {
+      "name": "Caza Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "choc-chocolates-finos": {
+      "name": "Choc Chocolates Finos",
+      "aliases": [],
+      "signature": []
+    },
+    "chocolat-du-jour": {
+      "name": "Chocolat du Jour",
+      "aliases": [],
+      "signature": []
+    },
+    "chokolah": {
+      "name": "Chokolah",
+      "aliases": [],
+      "signature": [
+        "70% São Félix do Xingu (PA)"
+      ]
+    },
+    "chor-chocolate-de-origem": {
+      "name": "ChOr — Chocolate de Origem",
+      "aliases": [],
+      "signature": [
+        "Bahia Terra da Felicidade"
+      ]
+    },
+    "cookoa": {
+      "name": "Cookoa",
+      "aliases": [
+        "Cookoa Chocolates"
+      ],
+      "signature": []
+    },
+    "corumbau-cacau": {
+      "name": "Corumbau Cacau",
+      "aliases": [],
+      "signature": []
+    },
+    "cuore-di-cacao": {
+      "name": "Cuore di Cacao",
+      "aliases": [
+        "Cuore di Cacao Chocolateria"
+      ],
+      "signature": [
+        "Milk 46% Cacao"
+      ]
+    },
+    "danke-cacau": {
+      "name": "Danke Cacau",
+      "aliases": [],
+      "signature": []
+    },
+    "docacao": {
+      "name": "doCacao",
+      "aliases": [],
+      "signature": []
+    },
+    "dosemente-cacau": {
+      "name": "DoSemente Cacau",
+      "aliases": [],
+      "signature": []
+    },
+    "gallette-chocolates": {
+      "name": "Gallette Chocolates",
+      "aliases": [],
+      "signature": [
+        "Ao Leite 40%"
+      ]
+    },
+    "gaudens-chocolate": {
+      "name": "Gaudens Chocolate",
+      "aliases": [],
+      "signature": []
+    },
+    "hagi-chocolates": {
+      "name": "Hagi Chocolates",
+      "aliases": [
+        "Hagi Torroneria e Chocolateria",
+        "Hagi Torrones e Chocolates"
+      ],
+      "signature": []
+    },
+    "invento-chocolates": {
+      "name": "Invento Chocolates",
+      "aliases": [],
+      "signature": [
+        "Intenso 70% — Sítio Ascurra, Medicilândia (PA)"
+      ]
+    },
+    "ju-arleo-chocolates": {
+      "name": "Ju Arléo Chocolates",
+      "aliases": [
+        "Chocolate Da Ju"
+      ],
+      "signature": [
+        "Chocolate Doce de Leite Crocante"
+      ]
+    },
+    "jucolatte": {
+      "name": "JUCOLATTE",
+      "aliases": [],
+      "signature": []
+    },
+    "kae-chocolates": {
+      "name": "Kaê Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "kalapa-chocolate": {
+      "name": "Kalapa Chocolate",
+      "aliases": [
+        "Kalapa"
+      ],
+      "signature": []
+    },
+    "la-lis-chocolates": {
+      "name": "La Lis Chocolates",
+      "aliases": [
+        "La Lis Chocolates Bean to Bar"
+      ],
+      "signature": []
+    },
+    "labarr-chocolate-de-origem": {
+      "name": "Labarr Chocolate de Origem",
+      "aliases": [],
+      "signature": []
+    },
+    "luisa-abram": {
+      "name": "Luisa Abram",
+      "aliases": [
+        "Luisa Abram Chocolates"
+      ],
+      "signature": []
+    },
+    "luzz-cacau": {
+      "name": "Luzz Cacau",
+      "aliases": [],
+      "signature": []
+    },
+    "magian-cacao": {
+      "name": "Magian Cacao",
+      "aliases": [],
+      "signature": [
+        "Ao Leite 45% (Melhor do Brasil)"
+      ]
+    },
+    "majucau-chocolate-brasileiro": {
+      "name": "Majucau Chocolate Brasileiro",
+      "aliases": [],
+      "signature": []
+    },
+    "martinus-chocolates": {
+      "name": "Martinus Chocolates",
+      "aliases": [
+        "Martinus Chocolate de Origem"
+      ],
+      "signature": []
+    },
+    "mendoa-chocolate": {
+      "name": "Mendoá Chocolate",
+      "aliases": [
+        "Mendoá Chocolates"
+      ],
+      "signature": []
+    },
+    "mestico-chocolates": {
+      "name": "Mestiço Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "miroh-chocolate-makers": {
+      "name": "Miroh! Chocolate Makers",
+      "aliases": [],
+      "signature": [
+        "Chocolate ao Leite com Café Blums"
+      ]
+    },
+    "mission-chocolate": {
+      "name": "Mission Chocolate",
+      "aliases": [],
+      "signature": []
+    },
+    "moa-chocolates": {
+      "name": "MOA Chocolates",
+      "aliases": [],
+      "signature": [
+        "70% Com Cupuaçu"
+      ]
+    },
+    "modaka-cacau-de-origem": {
+      "name": "Modaka Cacau de Origem",
+      "aliases": [
+        "MODAKA CACAU"
+      ],
+      "signature": []
+    },
+    "monjolo-chocolates": {
+      "name": "Monjolo Chocolates",
+      "aliases": [
+        "Monjolo Chocolate"
+      ],
+      "signature": []
+    },
+    "moselle-chocolatier": {
+      "name": "Moselle Chocolatier",
+      "aliases": [],
+      "signature": []
+    },
+    "natucoa": {
+      "name": "Natucoa",
+      "aliases": [],
+      "signature": []
+    },
+    "negro-doce": {
+      "name": "Negro Doce",
+      "aliases": [
+        "Negro Doce Chocolates bean to bar"
+      ],
+      "signature": []
+    },
+    "nicolas-chocolate-do-belga": {
+      "name": "Nicolas Chocolate do Belga",
+      "aliases": [
+        "Nicola's"
+      ],
+      "signature": []
+    },
+    "nugali-chocolates": {
+      "name": "Nugali Chocolates",
+      "aliases": [
+        "Nugali"
+      ],
+      "signature": []
+    },
+    "ocan-chocolate": {
+      "name": "Ocan Chocolate",
+      "aliases": [],
+      "signature": []
+    },
+    "odle-chocolates": {
+      "name": "Odle Chocolates",
+      "aliases": [
+        "Odle Chocolates Ltda"
+      ],
+      "signature": []
+    },
+    "pe-de-chocolate": {
+      "name": "Pé de Chocolate",
+      "aliases": [],
+      "signature": []
+    },
+    "pepe-chocolates": {
+      "name": "Pepe Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "prawer-chocolates": {
+      "name": "Prawer Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "pretiosus-chocolate-artesanal": {
+      "name": "Pretiosus Chocolate Artesanal",
+      "aliases": [
+        "Pretiosus"
+      ],
+      "signature": []
+    },
+    "priscyla-franca-chocolates": {
+      "name": "Priscyla França Chocolates",
+      "aliases": [],
+      "signature": [
+        "70% Cacau da Amazônia"
+      ]
+    },
+    "ramos-do-cacau": {
+      "name": "Ramos do Cacau",
+      "aliases": [],
+      "signature": []
+    },
+    "raros-fazedores-de-chocolate": {
+      "name": "Raros Fazedores de Chocolate",
+      "aliases": [],
+      "signature": [
+        "Chocolate branco"
+      ]
+    },
+    "saramento-s-chocolate": {
+      "name": "Saramento's Chocolate",
+      "aliases": [],
+      "signature": []
+    },
+    "selah-chocolate-de-origem": {
+      "name": "Selah Chocolate de Origem",
+      "aliases": [
+        "Selah"
+      ],
+      "signature": [
+        "Chocolate Ao Leite"
+      ]
+    },
+    "tombador-cacau": {
+      "name": "Tombador Cacau",
+      "aliases": [],
+      "signature": []
+    },
+    "tore-chocolates": {
+      "name": "Toré Chocolates",
+      "aliases": [],
+      "signature": [
+        "Intenso 71%"
+      ]
+    },
+    "tropical-cacau": {
+      "name": "Tropical Cacau",
+      "aliases": [],
+      "signature": []
+    },
+    "utopia-tropical": {
+      "name": "Utopia Tropical",
+      "aliases": [],
+      "signature": []
+    },
+    "var-chocolates": {
+      "name": "Var Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "velmont": {
+      "name": "Velmont",
+      "aliases": [],
+      "signature": []
+    },
+    "zaad-chocolates": {
+      "name": "ZAAD Chocolates",
+      "aliases": [
+        "ZAAD Bean to Bar",
+        "ZAAD"
+      ],
+      "signature": []
+    }
+  },
+  "excluded": {
+    "Adoleta": "Brasil — sem card no site; ICA Américas 2020/21 (bronze)",
+    "Ara Chocolat": "França",
+    "Bacio di Latte": "Brasil — sem card no site; ICA Américas 2020/21 (prata e bronze)",
+    "Brüksel": "Brasil — sem card no site; ICA Américas 2020/21 (prata)",
+    "ca ca o": "Japão — marca \"ca ca o\", linha Fresh Chocolate (AoC 2018–2019); mesma chave de \"Cacao\"",
+    "Cacao": "Estados Unidos — Cacao Atlanta (\"Atlanta Love Bar\", AoC 2011)",
+    "Carolate": "Brasil — sem card no site; ICA Américas 2021/22 (finalista)",
+    "CHOCOLAT-E": "Estados Unidos",
+    "Chokola": "Estados Unidos — Chokolá Bean to Bar, Taos NM (AoC 2025 \"Tranquilidad, 75%\"); a brasileira grafa-se CHoKolaH",
+    "Co Chocolat": "Filipinas — cacau de Mindanao, sede em Dubai (AoC 2022 2ª fase)",
+    "Echocolate": "Origem não confirmada (indícios de Ásia); não é a Almadoré nem a Odle, apesar de o site listar seus bombons de 2024–2025 na Odle",
+    "Feitoria do Cacao": "Portugal",
+    "Legado Cacao": "Colômbia",
+    "Les Carrés d’Alexandre": "França — o Brésil do AVPA é a origem do cacau (Rio Purus), não o fabricante",
+    "Melangeria Dimaggio": "Brasil — sem card no site; ICA Américas 2018 (ouro e prata)",
+    "Nuscaa Chocolate": "Brasil — sem card no site; ICA Américas 2024 (finalista)",
+    "Q'uma Chocolate": "Peru"
+  }
+}
