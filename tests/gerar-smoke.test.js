@@ -36,9 +36,27 @@ test('the signature line names the best award and every edition of that bar', ()
   // outranks the Academy of Chocolate 2015 gold for a box.
   assert.deepEqual(signatureLine(html, 'chocolat-du-jour'), { p: 'Caramel Scotch Bonbon', sub: 'Ouro · ICA Américas 2021/22' });
 
-  // Every apostrophe variant of "Blum's" the sources print is the one bar, newest first.
+  // Every apostrophe variant of "Blum's" the ICA Américas prints is the one bar, newest
+  // first; the bar's Academy of Chocolate and ICA Mundial editions belong to those lines.
   assert.deepEqual(signatureLine(html, 'miroh-chocolate-makers'),
-    { p: 'Chocolate ao Leite com Café Blums', sub: 'ICA Américas 2026 · 2025 · 2023 · 2022 · 2021/22' });
+    { p: 'Chocolate ao Leite com Café Blums', sub: 'ICA Américas 2026 · 2025 · 2023 · 2021/22' });
+});
+
+test('no signature line claims a year its competition did not award the card', () => {
+  execFileSync('node', ['gerar.js'], { cwd: root, encoding: 'utf8' });
+  const html = fs.readFileSync(path.join(root, 'dist', 'index.html'), 'utf8');
+  const marcas = JSON.parse(fs.readFileSync(path.join(root, 'marcas.json'), 'utf8'));
+  // `<competition> <year>[ · <year>]` for a signature bar, `<level> · <competition> <year>`
+  // without one, so the competition is the last segment before the years.
+  const YEARS = /^(.*?) ((?:\d{4}(?:\/\d{2})?)(?: · \d{4}(?:\/\d{2})?)*)$/;
+  const claims = [];
+  for (const m of marcas) {
+    const [, prefix, years] = YEARS.exec(signatureLine(html, m.id).sub);
+    const comp = prefix.split(' · ').pop();
+    const awarded = new Set(m.awards.filter((a) => a.c === comp).map((a) => a.y));
+    for (const y of years.split(' · ')) if (!awarded.has(y)) claims.push(`${m.id}: ${comp} ${y}`);
+  }
+  assert.deepEqual(claims, []);
 });
 
 test('SHOW_NACIONAL=false hides section 4 and national rows', () => {

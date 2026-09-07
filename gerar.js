@@ -619,6 +619,11 @@ const FAVICON_PNG = fs.existsSync(path.join(__dirname, 'favicon-180.png'))
 // ou definir a env var SITE_URL no build do Cloudflare.
 const SITE_URL = (process.env.SITE_URL || 'https://chocolates-brasil.pages.dev').replace(/\/+$/, '');
 
+// Pesos do prestígio: medalha e competição. Ordenam as seções, o índice cruzado e a
+// premiação que encabeça cada card.
+const LW = { g: 100, s: 60, b: 30, o: 15 };
+const CW = { mundial: 10, americas: 3.5, aoc: 3, avpa: 2.5, nacional: 1.5, outro: 1 };
+
 // ---- Medalheira (medal tally) — the signature element ----
 const MEDAL_LABEL = { g: 'Ouro', s: 'Prata', b: 'Bronze', o: 'Distinção' };
 function tallyOf(awards) { const c = { g: 0, s: 0, b: 0, o: 0 }; for (const a of awards) c[medalClass(a.l)]++; return c; }
@@ -645,11 +650,11 @@ function signatureOf(m) {
   const starred = aw.filter((a) => a.star);
   if (starred.length) {
     const star = bestAward(starred);
-    // The star marks every row of the one signature bar, however each source spells it;
-    // a row printing the same product is part of it too, since the curated national
-    // rows carry no star of their own.
+    // The line reads "<competition> <years>", so the years are the editions of that one
+    // competition. Within it a row belongs to the signature bar when the star marks it or
+    // when it prints the same product — the curated national rows carry no star of their own.
     const k = key(star.p);
-    const yrs = [...new Set(aw.filter((a) => a.star || key(a.p) === k).map((a) => a.y))]
+    const yrs = [...new Set(aw.filter((a) => a.c === star.c && (a.star || key(a.p) === k)).map((a) => a.y))]
       .sort((x, y) => editionYear(y) - editionYear(x)).join(' · ');
     return { p: star.p, sub: `${star.c} ${yrs}` };
   }
@@ -765,7 +770,6 @@ function cardIntl(m, rank) {
 }
 
 // Ordenação por prestígio — cada seção ranqueia pelas medalhas da SUA competição
-const LW = { g: 100, s: 60, b: 30, o: 15 };
 function strengthBy(m, pred) {
   const aw = (m.awards || []).filter((a) => pred(a.c) && a.scored !== false);
   let max = 0, sum = 0;
@@ -818,7 +822,6 @@ function slug(name) {
   return name.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 // Índice de prestígio cruzado: peso da competição × peso da medalha, com ênfase na melhor medalha
-const CW = { mundial: 10, americas: 3.5, aoc: 3, avpa: 2.5, nacional: 1.5, outro: 1 };
 function strengthAll(m) {
   let best = 0, sum = 0;
   for (const a of (m.awards || [])) {
