@@ -1,0 +1,335 @@
+[
+  {
+    "brand": "Miroh! Chocolate Makers",
+    "competition": "ica-americas",
+    "edition": "2021",
+    "level": "silver",
+    "n": 1,
+    "reason": "edition-corrected",
+    "note": "A prata “Chocolate ao Leite 42%” é da temporada 2021/22 (ica-americas/2021-22), não de 2021."
+  },
+  {
+    "brand": "MOA Chocolates",
+    "competition": "ica-americas",
+    "edition": "2023",
+    "level": "recognition",
+    "n": 1,
+    "reason": "curation-error",
+    "note": "O ICA Américas 2023 traz uma só linha para a barra: o ouro “70% Com Cupuaçu” com “+ Special: Biome”; o card contou o especial como prêmio à parte."
+  },
+  {
+    "brand": "Luisa Abram",
+    "competition": "ica-americas",
+    "edition": "2019",
+    "level": "gold",
+    "n": 1,
+    "reason": "curation-error",
+    "note": "O ICA Américas 2019 traz uma só linha para a barra: a prata “Luisa Abram 70% Wild Cocoa Jurua River” com “National awards: Gold – Brazil”; o card contou o prêmio nacional como ouro à parte."
+  },
+  {
+    "brand": "Negro Doce",
+    "competition": "ica-americas",
+    "edition": "2020",
+    "level": "gold",
+    "n": 1,
+    "reason": "edition-corrected",
+    "note": "O ouro “Caramel Crush” é da temporada 2020/21 (ica-americas/2020-21), não de 2020."
+  },
+  {
+    "brand": "Odle Chocolates",
+    "competition": "ica-americas",
+    "edition": "2023",
+    "level": "gold",
+    "n": 3,
+    "reason": "curation-error",
+    "note": "O card lista “Pirapop” duas vezes; o ICA Américas 2023 dá um só ouro à barra."
+  },
+  {
+    "brand": "Odle Chocolates",
+    "competition": "ica-americas",
+    "edition": "2023",
+    "level": "silver",
+    "n": 4,
+    "reason": "curation-error",
+    "note": "O card lista “Branco Abacaxi com Coco” duas vezes; o ICA Américas 2023 dá uma só prata à barra."
+  },
+  {
+    "brand": "Odle Chocolates",
+    "competition": "ica-americas",
+    "edition": "2024",
+    "level": "bronze",
+    "n": 2,
+    "reason": "level-corrected",
+    "note": "“Chocolate Branco Caramelizado com Toffee” é prata no ICA Américas 2024 (nota 87,2), não bronze."
+  },
+  {
+    "brand": "Odle Chocolates",
+    "competition": "aoc",
+    "edition": "2024",
+    "level": "bronze",
+    "n": 1,
+    "reason": "curation-error",
+    "note": "O bronze “Baked tea sesame” da AoC 2024 é da Echocolate, marca excluída por origem estrangeira, não da Odle."
+  },
+  {
+    "brand": "Odle Chocolates",
+    "competition": "aoc",
+    "edition": "2025",
+    "level": "bronze",
+    "n": 1,
+    "reason": "curation-error",
+    "note": "O bronze “White Magnolia Leatherwood Hazel” da AoC 2025 é da Echocolate, marca excluída por origem estrangeira, não da Odle."
+  },
+  {
+    "brand": "Odle Chocolates",
+    "competition": "aoc",
+    "edition": "2025",
+    "level": "bronze",
+    "n": 2,
+    "reason": "curation-error",
+    "note": "O bronze “Parmesan Basil Cashew” da AoC 2025 é da Echocolate, marca excluída por origem estrangeira, não da Odle."
+  },
+  {
+    "brand": "Chocolat du Jour",
+    "competition": "aoc",
+    "edition": "2016",
+    "level": "silver",
+    "n": 1,
+    "reason": "level-corrected",
+    "note": "A AoC 2016 dá bronze às três linhas da marca (Cachaça truffle, Caramel & Fleur de Sel, Chicken & the Golden Eggs); o card registrou prata."
+  },
+  {
+    "brand": "Chocolat du Jour",
+    "competition": "aoc",
+    "edition": "2016",
+    "level": "silver",
+    "n": 2,
+    "reason": "level-corrected",
+    "note": "A AoC 2016 dá bronze às três linhas da marca (Cachaça truffle, Caramel & Fleur de Sel, Chicken & the Golden Eggs); o card registrou prata."
+  },
+  {
+    "brand": "Chocolat du Jour",
+    "competition": "ica-americas",
+    "edition": "2016",
+    "level": "silver",
+    "n": 3,
+    "reason": "curation-error",
+    "note": "O card lista “ChocoAmandes” duas vezes; o ICA Américas 2016 dá duas pratas à marca (Almond Chocolate e Macadamia Chocolate)."
+  },
+  {
+    "brand": "Chocolat du Jour",
+    "competition": "aoc",
+    "edition": "2017",
+    "level": "silver",
+    "n": 1,
+    "reason": "level-corrected",
+    "note": "“Macadamia chocolate” é bronze na AoC 2017 (categoria Nut based), não prata."
+  },
+  {
+    "brand": "Chocolat du Jour",
+    "competition": "ica-americas",
+    "edition": "2021",
+    "level": "gold",
+    "n": 1,
+    "reason": "edition-corrected",
+    "note": "O ouro “Caramel Scotch Bonbon” é da temporada 2021/22 (ica-americas/2021-22), não de 2021."
+  },
+  {
+    "brand": "Almadoré Chocolate de Origem",
+    "competition": "ica-americas",
+    "edition": "2024",
+    "level": "gold",
+    "n": 2,
+    "reason": "curation-error",
+    "note": "O card lista “Chocolate Ao Leite 50%” duas vezes; o ICA Américas 2024 dá um só ouro à barra."
+  },
+  {
+    "brand": "Baianí Chocolates",
+    "competition": "ica-americas",
+    "edition": "2021",
+    "level": "bronze",
+    "n": 1,
+    "reason": "edition-corrected",
+    "note": "O bronze “65% dark with Caipirinha” é da temporada 2021/22 (ica-americas/2021-22), não de 2021."
+  },
+  {
+    "brand": "Mission Chocolate",
+    "competition": "ica-americas",
+    "edition": "2020",
+    "level": "bronze",
+    "n": 1,
+    "reason": "edition-corrected",
+    "note": "O bronze “Doce de Leite + Brazilian Sea Salt” é da temporada 2020/21 (ica-americas/2020-21), não de 2020."
+  },
+  {
+    "brand": "Mission Chocolate",
+    "competition": "ica-americas",
+    "edition": "2021",
+    "level": "bronze",
+    "n": 1,
+    "reason": "edition-corrected",
+    "note": "O bronze “Two Rivers” é da temporada 2021/22 (ica-americas/2021-22), não de 2021."
+  },
+  {
+    "brand": "Mestiço Chocolates",
+    "competition": "ica-world",
+    "edition": "2023",
+    "level": "finalist",
+    "n": 2,
+    "reason": "level-corrected",
+    "note": "Na final mundial de 2023 só “Framboesa e Limão” é finalista: “Hidromel 77%” é prata e “Crema 45% ao leite” é bronze."
+  },
+  {
+    "brand": "Mestiço Chocolates",
+    "competition": "ica-world",
+    "edition": "2023",
+    "level": "finalist",
+    "n": 3,
+    "reason": "level-corrected",
+    "note": "Na final mundial de 2023 só “Framboesa e Limão” é finalista: “Hidromel 77%” é prata e “Crema 45% ao leite” é bronze."
+  },
+  {
+    "brand": "Mestiço Chocolates",
+    "competition": "ica-americas",
+    "edition": "2023",
+    "level": "silver",
+    "n": 3,
+    "reason": "curation-error",
+    "note": "O card lista “Crema 45% ao leite” duas vezes; o ICA Américas 2023 dá duas pratas à marca (Hidromel 77% e Crema 45%)."
+  },
+  {
+    "brand": "Mestiço Chocolates",
+    "competition": "ica-americas",
+    "edition": "2021",
+    "level": "bronze",
+    "n": 1,
+    "reason": "edition-corrected",
+    "note": "O bronze “59% ao Leite” é da temporada 2021/22 (ica-americas/2021-22), não de 2021."
+  },
+  {
+    "brand": "Kaê Chocolates",
+    "competition": "ica-americas",
+    "edition": "2024",
+    "level": "silver",
+    "n": 3,
+    "reason": "level-corrected",
+    "note": "“Kaê Cumaru – Ao Leite 55% Com Cumaru” é bronze no ICA Américas 2024; a edição dá duas pratas à marca (Intenso 71% e Caipira), não três."
+  },
+  {
+    "brand": "Kaê Chocolates",
+    "competition": "ica-americas",
+    "edition": "2021",
+    "level": "silver",
+    "n": 1,
+    "reason": "edition-corrected",
+    "note": "A prata “KAÊ 64% com Cupuaçu” é da temporada 2021/22 (ica-americas/2021-22), não de 2021."
+  },
+  {
+    "brand": "Ju Arléo Chocolates",
+    "competition": "ica-americas",
+    "edition": "2023",
+    "level": "bronze",
+    "n": 1,
+    "reason": "curation-error",
+    "note": "O “55% ao leite com café” premiado em 2023 é bronze na Academy of Chocolate, não no ICA Américas, que só o premia em 2025."
+  },
+  {
+    "brand": "Utopia Tropical",
+    "competition": "ica-americas",
+    "edition": "2023",
+    "level": "silver",
+    "n": 3,
+    "reason": "curation-error",
+    "note": "O card lista o branco 38% do Rio Purus duas vezes; o ICA Américas 2023 dá duas pratas à marca (Tocantins 72% e Purus 38%)."
+  },
+  {
+    "brand": "La Lis Chocolates",
+    "competition": "ica-americas",
+    "edition": "2022",
+    "level": "silver",
+    "n": 1,
+    "reason": "edition-corrected",
+    "note": "A prata “LaLis – 63% Cacau com laranja bahia” é da temporada 2021/22 (ica-americas/2021-22), não de 2022."
+  },
+  {
+    "brand": "Cacau Dourado Chocolates",
+    "competition": "aoc",
+    "edition": "2025",
+    "level": "bronze",
+    "n": 4,
+    "reason": "level-corrected",
+    "note": "“70% cocoa chocolate” é prata na AoC 2025; a edição dá três bronzes à marca, não quatro."
+  },
+  {
+    "brand": "ChOr — Chocolate de Origem",
+    "competition": "avpa",
+    "edition": "2021",
+    "level": "gourmet-medal",
+    "n": 1,
+    "reason": "level-corrected",
+    "note": "A AVPA 2021 publica “Diplôme Gourmet” para “Oro Negro”, não Medalha Gourmet."
+  },
+  {
+    "brand": "ChOr — Chocolate de Origem",
+    "competition": "avpa",
+    "edition": "2021",
+    "level": "gourmet-medal",
+    "n": 2,
+    "reason": "level-corrected",
+    "note": "A AVPA 2021 publica “Diplôme Gourmet” para “Terra de Santa Cruz”, não Medalha Gourmet."
+  },
+  {
+    "brand": "ChOr — Chocolate de Origem",
+    "competition": "avpa",
+    "edition": "2022",
+    "level": "gourmet-medal",
+    "n": 1,
+    "reason": "level-corrected",
+    "note": "A AVPA 2022 publica “Diplôme Gourmet” para “Terra de Santa Cruz”, não Medalha Gourmet."
+  },
+  {
+    "brand": "Gallette Chocolates",
+    "competition": "aoc",
+    "edition": "2018",
+    "level": "commended",
+    "n": 1,
+    "reason": "level-corrected",
+    "note": "A AoC 2018 publica BRONZE para “jabuticaba Bonbon”; o card trazia “Premiado”, lido como menção."
+  },
+  {
+    "brand": "Gallette Chocolates",
+    "competition": "aoc",
+    "edition": "2019",
+    "level": "commended",
+    "n": 1,
+    "reason": "curation-error",
+    "note": "A AoC 2019 não tem nenhuma linha da Gallette — e não usa o nível “Commended”, que só aparece a partir de 2020."
+  },
+  {
+    "brand": "Chokolah",
+    "competition": "aoc",
+    "edition": "2025",
+    "level": "silver",
+    "n": 1,
+    "reason": "curation-error",
+    "note": "A “Chokola” premiada na AoC 2025 é a Chokolá Bean to Bar (Estados Unidos, linha Tranquilidad); a brasileira grafa-se CHoKolaH."
+  },
+  {
+    "brand": "Chokolah",
+    "competition": "aoc",
+    "edition": "2025",
+    "level": "bronze",
+    "n": 1,
+    "reason": "curation-error",
+    "note": "A “Chokola” premiada na AoC 2025 é a Chokolá Bean to Bar (Estados Unidos, linha Tranquilidad); a brasileira grafa-se CHoKolaH."
+  },
+  {
+    "brand": "Chokolah",
+    "competition": "aoc",
+    "edition": "2025",
+    "level": "bronze",
+    "n": 2,
+    "reason": "curation-error",
+    "note": "A “Chokola” premiada na AoC 2025 é a Chokolá Bean to Bar (Estados Unidos, linha Tranquilidad); a brasileira grafa-se CHoKolaH."
+  }
+]

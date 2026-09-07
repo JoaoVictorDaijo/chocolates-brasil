@@ -108,7 +108,9 @@
     },
     "chocolat-du-jour": {
       "name": "Chocolat du Jour",
-      "aliases": [],
+      "aliases": [
+        "Du Jour Chocolate LTDA"
+      ],
       "signature": []
     },
     "chokolah": {
@@ -285,7 +287,8 @@
       "name": "MOA Chocolates",
       "aliases": [],
       "signature": [
-        "70% Com Cupuaçu"
+        "70% Com Cupuaçu",
+        "70% WITH CUPUAÇU"
       ]
     },
     "modaka-cacau-de-origem": {
@@ -452,7 +455,7 @@
     "CHOCOLAT-E": "Estados Unidos",
     "Chokola": "Estados Unidos — Chokolá Bean to Bar, Taos NM (AoC 2025 \"Tranquilidad, 75%\"); a brasileira grafa-se CHoKolaH",
     "Co Chocolat": "Filipinas — cacau de Mindanao, sede em Dubai (AoC 2022 2ª fase)",
-    "Echocolate": "Origem não confirmada (indícios de Ásia); não é a Almadoré nem a Odle, apesar de o site listar seus bombons de 2024–2025 na Odle",
+    "Echocolate": "Origem não confirmada (mel de leatherwood e magnólia apontam Tasmânia/Austrália); não é a Almadoré nem a Odle, apesar de o site listar seus bombons de 2024–2025 na Odle",
     "Feitoria do Cacao": "Portugal",
     "Legado Cacao": "Colômbia",
     "Les Carrés d’Alexandre": "França — o Brésil do AVPA é a origem do cacau (Rio Purus), não o fabricante",
