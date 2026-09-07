@@ -2,6 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const { loadAwards, placeBrand, badgeFor, formatDatePt } = require('./awards-loader.js');
+const { key } = require('./data/tools/lib/key.js');
 
 const LOGO_DIR = path.join(__dirname, 'logos');
 const DARK_BG = new Set(JSON.parse(fs.readFileSync(path.join(LOGO_DIR, 'bg-manifest.json'), 'utf8')));
@@ -619,17 +620,40 @@ const FAVICON_PNG = fs.existsSync(path.join(__dirname, 'favicon-180.png'))
 const SITE_URL = (process.env.SITE_URL || 'https://chocolates-brasil.pages.dev').replace(/\/+$/, '');
 
 // ---- Medalheira (medal tally) — the signature element ----
-const MEDAL_ORDER = { g: 0, s: 1, b: 2, o: 3 };
 const MEDAL_LABEL = { g: 'Ouro', s: 'Prata', b: 'Bronze', o: 'Distinção' };
 function tallyOf(awards) { const c = { g: 0, s: 0, b: 0, o: 0 }; for (const a of awards) c[medalClass(a.l)]++; return c; }
+
+/** The leading year of an edition label, so a season (`2021/22`) sorts as 2021. */
+function editionYear(y) { return parseInt(String(y), 10) || 0; }
+
+/**
+ * Ranks the award a card is headlined by: best medal first, then the strongest
+ * competition, then the most recent edition. The medal outranks the competition
+ * because the line names the brand's best bar — a gold at the Academy of Chocolate
+ * says more about the bar than a bronze at the ICA world final.
+ */
+function headlineRank(a) { return [LW[medalClass(a.l)], CW[compKey(a.c)], editionYear(a.y)]; }
+function bestAward(awards) {
+  return awards.reduce((best, a) => {
+    const x = headlineRank(a), y = headlineRank(best);
+    for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] > y[i] ? a : best;
+    return best;
+  });
+}
 function signatureOf(m) {
   const aw = m.awards || []; if (!aw.length) return null;
-  const star = aw.find((a) => a.star);
-  if (star) {
-    const yrs = [...new Set(aw.filter((a) => a.p === star.p).map((a) => a.y))].join(' · ');
+  const starred = aw.filter((a) => a.star);
+  if (starred.length) {
+    const star = bestAward(starred);
+    // The star marks every row of the one signature bar, however each source spells it;
+    // a row printing the same product is part of it too, since the curated national
+    // rows carry no star of their own.
+    const k = key(star.p);
+    const yrs = [...new Set(aw.filter((a) => a.star || key(a.p) === k).map((a) => a.y))]
+      .sort((x, y) => editionYear(y) - editionYear(x)).join(' · ');
     return { p: star.p, sub: `${star.c} ${yrs}` };
   }
-  const best = [...aw].sort((a, b) => MEDAL_ORDER[medalClass(a.l)] - MEDAL_ORDER[medalClass(b.l)])[0];
+  const best = bestAward(aw);
   return { p: best.p, sub: `${best.l} · ${best.c} ${best.y}` };
 }
 function discsHtml(awards, xl) {
