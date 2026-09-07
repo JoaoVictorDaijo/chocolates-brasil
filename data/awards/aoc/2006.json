@@ -7,36 +7,12 @@
   "source": {
     "url": "https://academyofchocolate.org.uk/awards/2006/",
     "snapshot": "data/raw/aoc/2006.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
     "skipped": [
       {
         "raw": "BARS | Best flavoured dark bar |  | None | ",
         "reason": "blank-level"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best plain dark truffle | GOLD | Paul A Young | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best plain dark truffle | GOLD | William Curley | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best plain dark truffle | SILVER | Rococo | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best plain milk truffle | SILVER | L’artisan du Chocolat | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best plain milk truffle | SILVER | William Curley | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "DRINKING CHOCOLATE | Best drinking chocolate | SILVER | William Curley | ",
-        "reason": "blank-product"
       }
     ]
   },
@@ -549,6 +525,51 @@
       "private_label_maker": null
     },
     {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Paul A Young",
+      "country": null,
+      "product": "Best plain dark truffle",
+      "category": "Best plain dark truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "William Curley",
+      "country": null,
+      "product": "Best plain dark truffle",
+      "category": "Best plain dark truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Rococo",
+      "country": null,
+      "product": "Best plain dark truffle",
+      "category": "Best plain dark truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
       "level": "silver",
       "level_raw": "SILVER",
       "maker": "Theo",
@@ -588,6 +609,36 @@
       "private_label_maker": null
     },
     {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "L’artisan du Chocolat",
+      "country": null,
+      "product": "Best plain milk truffle",
+      "category": "Best plain milk truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "William Curley",
+      "country": null,
+      "product": "Best plain milk truffle",
+      "category": "Best plain milk truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
       "level": "gold",
       "level_raw": "GOLD",
       "maker": "L’artisan du Chocolat",
@@ -624,6 +675,21 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "William Curley",
+      "country": null,
+      "product": "Best drinking chocolate",
+      "category": "Best drinking chocolate",
+      "group": "DRINKING CHOCOLATE",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     },
     {

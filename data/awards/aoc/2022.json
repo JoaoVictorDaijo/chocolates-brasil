@@ -7,7 +7,7 @@
   "source": {
     "url": "https://academyofchocolate.org.uk/awards/2022/",
     "snapshot": "data/raw/aoc/2022.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
     "skipped": []
   },

@@ -7,7 +7,7 @@
   "source": {
     "url": "https://enter.chocolateawards.com/competitions/americas/americas-latin-america-caribbean-bean-to-bar-and-craft-chocolatier-competition-2025-winners/",
     "snapshot": "data/raw/ica-americas/2025.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
     "skipped": []
   },

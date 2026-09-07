@@ -8,7 +8,7 @@
     "url": "https://www.chocolateawards.com/results/winners/americas-competition-2017-winners/",
     "finalists_url": "https://www.chocolateawards.com/results/winners/americas-competition-2017-grand-jury-finalists/",
     "snapshot": "data/raw/ica-americas/2017.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
     "skipped": [
       {

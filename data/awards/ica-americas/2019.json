@@ -7,7 +7,7 @@
   "source": {
     "url": "https://www.chocolateawards.com/results/winners/americas-bean-to-bar-and-chocolatier-competition-winners-2019/",
     "snapshot": "data/raw/ica-americas/2019.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
     "skipped": []
   },

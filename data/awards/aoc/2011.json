@@ -7,52 +7,12 @@
   "source": {
     "url": "https://academyofchocolate.org.uk/awards/2011/",
     "snapshot": "data/raw/aoc/2011.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
     "skipped": [
       {
         "raw": "BARS | Best dark bar – bean to bar sub-category | These bars have been made by companies who are very involved in the bean to bar process yet don’t own their own factory. They may own their own plantation, be extremely diligent in selecting their beans and are very involved in the process of making the chocolate carefully selecting the company that processes their beans into their chocolate. |  | ",
         "reason": "blank-maker"
-      },
-      {
-        "raw": "DRINKING CHOCOLATE | Best Hot Chocolate - unflavoured | BRONZE | CoCouture | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "DRINKING CHOCOLATE | Best Hot Chocolate - unflavoured | BRONZE | Rococo Organic | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "DRINKING CHOCOLATE | Best Hot Chocolate - unflavoured | BRONZE | Amedei | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "DRINKING CHOCOLATE | Best Hot Chocolate - unflavoured | BRONZE | L’Artigiano | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "DRINKING CHOCOLATE | Best Hot Chocolate - unflavoured | BRONZE | Hotel Chocolat Liquid Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "DRINKING CHOCOLATE | Best Hot Chocolate - unflavoured | BRONZE | Guido Gobino | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bars | GOLD | Original Beans | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bars | SILVER | Amano | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Boxes | SILVER | Rózsavölgyi Czokolade | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Boxes | BRONZE | Betty’s | ",
-        "reason": "blank-product"
       }
     ]
   },
@@ -2086,6 +2046,96 @@
       "private_label_maker": null
     },
     {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "CoCouture",
+      "country": null,
+      "product": "Best Hot Chocolate - unflavoured",
+      "category": "Best Hot Chocolate - unflavoured",
+      "group": "DRINKING CHOCOLATE",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Rococo Organic",
+      "country": null,
+      "product": "Best Hot Chocolate - unflavoured",
+      "category": "Best Hot Chocolate - unflavoured",
+      "group": "DRINKING CHOCOLATE",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Amedei",
+      "country": null,
+      "product": "Best Hot Chocolate - unflavoured",
+      "category": "Best Hot Chocolate - unflavoured",
+      "group": "DRINKING CHOCOLATE",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "L’Artigiano",
+      "country": null,
+      "product": "Best Hot Chocolate - unflavoured",
+      "category": "Best Hot Chocolate - unflavoured",
+      "group": "DRINKING CHOCOLATE",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Hotel Chocolat Liquid Chocolate",
+      "country": null,
+      "product": "Best Hot Chocolate - unflavoured",
+      "category": "Best Hot Chocolate - unflavoured",
+      "group": "DRINKING CHOCOLATE",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Guido Gobino",
+      "country": null,
+      "product": "Best Hot Chocolate - unflavoured",
+      "category": "Best Hot Chocolate - unflavoured",
+      "group": "DRINKING CHOCOLATE",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
       "level": "gold",
       "level_raw": "GOLD",
       "maker": "Askinosie",
@@ -2096,6 +2146,21 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Original Beans",
+      "country": null,
+      "product": "Bars",
+      "category": "Bars",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     },
     {
@@ -2122,6 +2187,21 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Amano",
+      "country": null,
+      "product": "Bars",
+      "category": "Bars",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     },
     {
@@ -2179,6 +2259,21 @@
     {
       "level": "silver",
       "level_raw": "SILVER",
+      "maker": "Rózsavölgyi Czokolade",
+      "country": null,
+      "product": "Boxes",
+      "category": "Boxes",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
       "maker": "Amedei",
       "country": null,
       "product": "Gocce",
@@ -2187,6 +2282,21 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Betty’s",
+      "country": null,
+      "product": "Boxes",
+      "category": "Boxes",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     }
   ]

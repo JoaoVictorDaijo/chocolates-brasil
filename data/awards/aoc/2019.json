@@ -7,62 +7,9 @@
   "source": {
     "url": "https://academyofchocolate.org.uk/awards/2019/",
     "snapshot": "data/raw/aoc/2019.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
-    "skipped": [
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | Feitoria do Cacao | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | Foundry Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | Island Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | PARADAi Chocolate Co. Ltd | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Auro Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Cardenas Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Chapon | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Cocobel | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | French Broad Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Kad Kokoa | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Manoa Chocolate Hawaii | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Ørbæk & Eve | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Somerville chocolate | ",
-        "reason": "blank-product"
-      }
-    ]
+    "skipped": []
   },
   "entries": [
     {
@@ -7005,6 +6952,201 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Feitoria do Cacao",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Foundry Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Island Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "PARADAi Chocolate Co. Ltd",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Auro Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Cardenas Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Chapon",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Cocobel",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "French Broad Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Kad Kokoa",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Manoa Chocolate Hawaii",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Ørbæk & Eve",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Somerville chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     },
     {

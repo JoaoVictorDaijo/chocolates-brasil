@@ -7,61 +7,9 @@
   "source": {
     "url": "https://academyofchocolate.org.uk/awards/2020/",
     "snapshot": "data/raw/aoc/2020.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
     "skipped": [
-      {
-        "raw": " | Brand Experience | GOLD | Bare Bones Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | GOLD | Cōchu Chocolatier | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | SILVER | Amazona Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | SILVER | Choba Choba | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | BRONZE | Barbon Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | BRONZE | Definite Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | BRONZE | Cocoa Republic Limited | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | COMMENDED | Sawade Berlin | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | COMMENDED | Calm Cocoa by Meredith Whitely | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | COMMENDED | Cacao Experience | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | COMMENDED | Aruntam - Sensory Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | COMMENDED | NIKOA | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": " | Brand Experience | COMMENDED | ZAX Choco | ",
-        "reason": "blank-product"
-      },
       {
         "raw": "BRONZE: Hummingbird Chocolate – Hispaniola 85% [Dark Bean to Bar (under 90%)]",
         "reason": "duplicate-row"
@@ -10693,6 +10641,36 @@
     {
       "level": "gold",
       "level_raw": "GOLD",
+      "maker": "Bare Bones Chocolate",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Cōchu Chocolatier",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
       "maker": "La Carambole Patisserie",
       "country": null,
       "product": "The Carambole box of 4 artistic bonbon",
@@ -10706,6 +10684,21 @@
     {
       "level": "silver",
       "level_raw": "SILVER",
+      "maker": "Amazona Chocolate",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
       "maker": "Cárdenas Chocolate",
       "country": null,
       "product": "The \"Tierra Hermosa\" Chocolate Collection",
@@ -10714,6 +10707,21 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Choba Choba",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     },
     {
@@ -10771,6 +10779,36 @@
     {
       "level": "bronze",
       "level_raw": "BRONZE",
+      "maker": "Barbon Chocolate",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Definite Chocolate",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
       "maker": "ChocoMe Kft",
       "country": null,
       "product": "Raffinée 3 - extraordinary dragée selection",
@@ -10795,6 +10833,81 @@
       "private_label_maker": null
     },
     {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Cocoa Republic Limited",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "commended",
+      "level_raw": "COMMENDED",
+      "maker": "Sawade Berlin",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "commended",
+      "level_raw": "COMMENDED",
+      "maker": "Calm Cocoa by Meredith Whitely",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "commended",
+      "level_raw": "COMMENDED",
+      "maker": "Cacao Experience",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "commended",
+      "level_raw": "COMMENDED",
+      "maker": "Aruntam - Sensory Chocolate",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
       "level": "commended",
       "level_raw": "COMMENDED",
       "maker": "Billy&Bugga Handcrafted Chocolates",
@@ -10805,6 +10918,36 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "commended",
+      "level_raw": "COMMENDED",
+      "maker": "NIKOA",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "commended",
+      "level_raw": "COMMENDED",
+      "maker": "ZAX Choco",
+      "country": null,
+      "product": "Brand Experience",
+      "category": "Brand Experience",
+      "group": "",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     }
   ]

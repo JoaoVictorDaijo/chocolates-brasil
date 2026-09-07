@@ -7,35 +7,9 @@
   "source": {
     "url": "https://www.chocolateawards.com/results/winners/americas-bean-to-bar-and-chocolatier-competition-winners-2020-21/",
     "snapshot": "data/raw/ica-americas/2020-21.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
-    "skipped": [
-      {
-        "raw": "Gold – Ecuador: Paccari Chocolate – Guayas 75% Gold – Peru : Cacaosuyo (Peru) - Cuzco 80",
-        "reason": "unjoined-block-row",
-        "block": "National awards"
-      },
-      {
-        "raw": "Gold – Canadian: Hummingbird Chocolate Maker – Hispaniola 70% Gold – Dominican Republic : Kahkow (United States) - Tireo 68% - Single Estate Gold – Mexico : Hecho Chocolate (Mexico) - 70% Cacao Criollo Blanco Finca La Rioja Gold – Peru : Shattell Chocolate (Peru) - Dark Chocolate 85% Cacao Chuncho Gold – USA : Goodnow Farms Chocolate (United States) - El Carmen, 77%",
-        "reason": "unjoined-block-row",
-        "block": "National awards"
-      },
-      {
-        "raw": "Gold – Canadian: Kasama Chocolate – Kapé Espresso Gold – Ecuador : Paccari Chocolate (Ecuador) - Guayusa Gold – USA : Goodnow Farms Chocolate (United States) - Special Reserve, Lawley's Rum",
-        "reason": "unjoined-block-row",
-        "block": "National awards"
-      },
-      {
-        "raw": "Gold – Peru: Nina Fine Chocolates – Nina 67% Theo. Cacao&Bicolor+Sacha Inchi Gold – USA : Dick Taylor Craft Chocolate (United States) - Orange Bourbon Pecan",
-        "reason": "unjoined-block-row",
-        "block": "National awards"
-      },
-      {
-        "raw": "Gold – USA: Stone Grindz Chocolate – Cappuccino (*) Declared chocolate maker for private label bars. Winner has declared the product is made with their own bean-to-bar chocolate or couverture.",
-        "reason": "unjoined-block-row",
-        "block": "National awards"
-      }
-    ]
+    "skipped": []
   },
   "entries": [
     {
@@ -53,7 +27,8 @@
         "+ Gold: Chocolate Maker",
         "+ Gold: Direct Traded",
         "+ Gold: Growing Country",
-        "Best in competition overall winners: Plain/origin dark bar categories"
+        "Best in competition overall winners: Plain/origin dark bar categories",
+        "National awards: Gold – Peru"
       ]
     },
     {
@@ -213,7 +188,8 @@
       "category": "Plain/origin dark chocolate bars",
       "group": "Plain/origin bars",
       "special": [
-        "+ Gold: Vegan"
+        "+ Gold: Vegan",
+        "National awards: Gold – Ecuador"
       ]
     },
     {
@@ -362,7 +338,8 @@
       "special": [
         "+ Gold: Chocolate Maker",
         "+ Gold: Direct Traded",
-        "+ Gold: Organic"
+        "+ Gold: Organic",
+        "National awards: Gold – Dominican Republic"
       ]
     },
     {
@@ -443,7 +420,9 @@
       "private_label_maker": null,
       "category": "Micro-batch - Plain/origin dark chocolate bars",
       "group": "Plain/origin bars",
-      "special": []
+      "special": [
+        "National awards: Gold – USA"
+      ]
     },
     {
       "level": "silver",
@@ -456,7 +435,9 @@
       "private_label_maker": null,
       "category": "Micro-batch - Plain/origin dark chocolate bars",
       "group": "Plain/origin bars",
-      "special": []
+      "special": [
+        "National awards: Gold – Mexico"
+      ]
     },
     {
       "level": "silver",
@@ -482,7 +463,9 @@
       "private_label_maker": null,
       "category": "Micro-batch - Plain/origin dark chocolate bars",
       "group": "Plain/origin bars",
-      "special": []
+      "special": [
+        "National awards: Gold – Canadian"
+      ]
     },
     {
       "level": "silver",
@@ -591,7 +574,8 @@
       "category": "Micro-batch - Plain/origin dark chocolate bars",
       "group": "Plain/origin bars",
       "special": [
-        "+ Gold: High %"
+        "+ Gold: High %",
+        "National awards: Gold – Peru"
       ]
     },
     {
@@ -1494,7 +1478,8 @@
       "category": "Dark chocolate bars with an infusion or flavouring",
       "group": "Flavoured bars",
       "special": [
-        "+ Special: Recipe"
+        "+ Special: Recipe",
+        "National awards: Gold – USA"
       ]
     },
     {
@@ -1523,7 +1508,9 @@
       "private_label_maker": null,
       "category": "Dark chocolate bars with an infusion or flavouring",
       "group": "Flavoured bars",
-      "special": []
+      "special": [
+        "National awards: Gold – Canadian"
+      ]
     },
     {
       "level": "silver",
@@ -1553,7 +1540,9 @@
       "private_label_maker": null,
       "category": "Dark chocolate bars with an infusion or flavouring",
       "group": "Flavoured bars",
-      "special": []
+      "special": [
+        "National awards: Gold – Ecuador"
+      ]
     },
     {
       "level": "silver",
@@ -1979,7 +1968,9 @@
       "private_label_maker": null,
       "category": "Dark chocolate bars with inclusions or pieces",
       "group": "Flavoured bars",
-      "special": []
+      "special": [
+        "National awards: Gold – USA"
+      ]
     },
     {
       "level": "silver",
@@ -2041,7 +2032,8 @@
       "group": "Flavoured bars",
       "special": [
         "+ Special: Biome",
-        "+ Special: Local ingredients"
+        "+ Special: Local ingredients",
+        "National awards: Gold – Peru"
       ]
     },
     {
@@ -2252,7 +2244,9 @@
       "private_label_maker": null,
       "category": "Milk chocolate bars with an infusion or flavouring",
       "group": "Flavoured bars",
-      "special": []
+      "special": [
+        "National awards: Gold – USA"
+      ]
     },
     {
       "level": "silver",

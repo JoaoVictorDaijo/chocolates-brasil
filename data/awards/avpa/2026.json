@@ -7,7 +7,7 @@
   "source": {
     "url": "https://en.avpa.fr/_files/ugd/58172f_7e2fec46cd1441f8b6d6f49eccc88689.pdf",
     "snapshot": "data/raw/avpa/2026.pdf",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
     "skipped": [
       {

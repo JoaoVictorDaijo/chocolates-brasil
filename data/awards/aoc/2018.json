@@ -7,78 +7,9 @@
   "source": {
     "url": "https://academyofchocolate.org.uk/awards/2018/",
     "snapshot": "data/raw/aoc/2018.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
-    "skipped": [
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | GOLD | Feitoria do Cacao | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | GOLD | Mission Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | Dandelion Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | Dormouse Chocolates | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | Land Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | Minimal -Bean to Bar Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | Musée du chocolat THEOBROMA | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | Soma Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | SILVER | VNCACAO CO. LTD (t.bros) | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Cardenas Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Cocoa Republic Limited | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Cultura Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Jasper and Myrtle | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Mirzam Chocolate Makers | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Bar Wrappers – judged on basis of all bars submitted | BRONZE | Theo and Philo Artisan Chocolate | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Brand Experience Awards | GOLD | ca ca o | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "PACKAGING | Brand Experience Awards | SILVER | Dick Taylor Craft Chocolate | ",
-        "reason": "blank-product"
-      }
-    ]
+    "skipped": []
   },
   "entries": [
     {
@@ -9535,6 +9466,231 @@
     {
       "level": "gold",
       "level_raw": "GOLD",
+      "maker": "Feitoria do Cacao",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "Mission Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Dandelion Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Dormouse Chocolates",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Land Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Minimal -Bean to Bar Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Musée du chocolat THEOBROMA",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Soma Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "VNCACAO CO. LTD (t.bros)",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Cardenas Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Cocoa Republic Limited",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Cultura Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Jasper and Myrtle",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Mirzam Chocolate Makers",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Theo and Philo Artisan Chocolate",
+      "country": null,
+      "product": "Bar Wrappers – judged on basis of all bars submitted",
+      "category": "Bar Wrappers – judged on basis of all bars submitted",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
       "maker": "CocoVaa Chocolatier",
       "country": null,
       "product": "CocoVaa Chocolate Box",
@@ -9585,6 +9741,21 @@
       "private_label_maker": null
     },
     {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "ca ca o",
+      "country": null,
+      "product": "Brand Experience Awards",
+      "category": "Brand Experience Awards",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
       "level": "silver",
       "level_raw": "SILVER",
       "maker": "Cru Chocolate",
@@ -9595,6 +9766,21 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Dick Taylor Craft Chocolate",
+      "country": null,
+      "product": "Brand Experience Awards",
+      "category": "Brand Experience Awards",
+      "group": "PACKAGING",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     },
     {

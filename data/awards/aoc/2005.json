@@ -7,38 +7,9 @@
   "source": {
     "url": "https://academyofchocolate.org.uk/awards/2005/",
     "snapshot": "data/raw/aoc/2005.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
-    "skipped": [
-      {
-        "raw": "Bars | Best Milk Chocolate Bar | BRONZE | Scharffen Berger | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best Dark Truffle | GOLD | William Curley | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best Dark Truffle | SILVER | Paul A Young | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best Dark Truffle | SILVER | L’Artisan du Chocolat | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best Dark Truffle | BRONZE | La Maison du Chocolat | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best Dark Truffle | BRONZE | Rococo | ",
-        "reason": "blank-product"
-      },
-      {
-        "raw": "FILLED CHOCOLATES | Best Milk Truffle | SILVER | L’Artisan du Chocolat | ",
-        "reason": "blank-product"
-      }
-    ]
+    "skipped": []
   },
   "entries": [
     {
@@ -91,6 +62,21 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Scharffen Berger",
+      "country": null,
+      "product": "Best Milk Chocolate Bar",
+      "category": "Best Milk Chocolate Bar",
+      "group": "Bars",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     },
     {
@@ -273,6 +259,96 @@
       "score": null,
       "special": [],
       "flags": [],
+      "private_label_maker": null
+    },
+    {
+      "level": "gold",
+      "level_raw": "GOLD",
+      "maker": "William Curley",
+      "country": null,
+      "product": "Best Dark Truffle",
+      "category": "Best Dark Truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "Paul A Young",
+      "country": null,
+      "product": "Best Dark Truffle",
+      "category": "Best Dark Truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "L’Artisan du Chocolat",
+      "country": null,
+      "product": "Best Dark Truffle",
+      "category": "Best Dark Truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "La Maison du Chocolat",
+      "country": null,
+      "product": "Best Dark Truffle",
+      "category": "Best Dark Truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "bronze",
+      "level_raw": "BRONZE",
+      "maker": "Rococo",
+      "country": null,
+      "product": "Best Dark Truffle",
+      "category": "Best Dark Truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
+      "private_label_maker": null
+    },
+    {
+      "level": "silver",
+      "level_raw": "SILVER",
+      "maker": "L’Artisan du Chocolat",
+      "country": null,
+      "product": "Best Milk Truffle",
+      "category": "Best Milk Truffle",
+      "group": "FILLED CHOCOLATES",
+      "score": null,
+      "special": [],
+      "flags": [
+        "maker-level"
+      ],
       "private_label_maker": null
     }
   ]

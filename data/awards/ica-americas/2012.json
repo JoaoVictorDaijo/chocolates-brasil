@@ -7,7 +7,7 @@
   "source": {
     "url": "https://www.chocolateawards.com/results/winners/americas-semi-final-2012-winners/",
     "snapshot": "data/raw/ica-americas/2012.html",
-    "fetched": "2026-09-05",
+    "fetched": "2026-09-07",
     "method": "parser",
     "skipped": []
   },

@@ -69,8 +69,12 @@ function parseIcaStrong(html, { variant = 'new' } = {}) {
       continue;
     }
     if (!mode) continue;   // page chrome and editorial prose live before the first <h1>
-    // runs: split on <br> or </p>; an entry starts with <strong>Level</strong>:
-    for (const raw of part.split(/<br\s*\/?>|<\/p>/i)) {
+    // Rows are separated by <br>, </p> or <hr> — except in an award block printed with
+    // no paragraph wrapper at all (Américas 2020-21 separates its national awards with a
+    // bare newline and closes the block with a bare <hr>), so an entry's own
+    // "<strong>Level</strong>:" opener is a boundary too. Anchoring on the colon is what
+    // keeps the product's <strong> — never followed by one — attached to its own row.
+    for (const raw of part.split(/<br\s*\/?>|<\/p>|<hr\s*\/?>|(?=<strong>[^<]*<\/strong>\s*:)/i)) {
       if (!/<strong>/i.test(raw)) continue;
       const text = clean(strip(raw));
       if (!text) continue;

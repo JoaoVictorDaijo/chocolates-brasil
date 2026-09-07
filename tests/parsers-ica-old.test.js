@@ -135,3 +135,24 @@ test('an <h3> names the category, so the run below it keeps its level', () => {
     ['bronze', 'Plain/origin dark chocolate bars', ["Chocolate Tasters' Special Prizes: Nicaragua"]],
   ]);
 });
+
+// The 2020-21 Américas page prints its National awards with no paragraph wrapper: rows
+// are separated by a bare newline and the block ends at an <hr /> followed by the page
+// footnotes. Splitting on <br>/</p> alone reads the whole block as one row, so 13 of its
+// 15 national golds never reach the medal they qualify.
+test('rows separated by a bare newline are separate runs, and an <hr /> ends the last one', () => {
+  const medals = '<h1>Plain/origin bars</h1><h2>Plain/origin dark chocolate bars</h2>'
+    + '<p><strong>Gold</strong>: Maker A (Ecuador) – <strong>Bar One</strong></p>'
+    + '<p><strong>Silver</strong>: Maker B (Peru) – <strong>Bar Two</strong></p>';
+  const national = '<h1>National awards</h1><h2>Plain/origin dark chocolate bars</h2>'
+    + '<strong>Gold – Ecuador</strong>: Maker A (Ecuador) – <strong>Bar One</strong>\n\n'
+    + '<strong>Gold – Peru</strong>: Maker B (Peru) – <strong>Bar Two</strong>\n'
+    + '<hr /><em>(*) Declared chocolate maker for private label bars.</em>';
+
+  const { entries, skipped } = parseIcaStrong(medals + national, { variant: 'old' });
+  assert.deepEqual(skipped, []);
+  assert.deepEqual(entries.map((e) => [e.maker, e.product, e.special]), [
+    ['Maker A', 'Bar One', ['National awards: Gold – Ecuador']],
+    ['Maker B', 'Bar Two', ['National awards: Gold – Peru']],
+  ]);
+});

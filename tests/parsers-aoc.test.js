@@ -69,11 +69,24 @@ test('2024 quarantines the rows with no company instead of aborting', () => {
   ]);
 });
 
-test('a row with no product is quarantined, not dropped', () => {
-  const html = '<table><tr><td>BARS</td><td>Plain Dark</td><td>Gold</td><td>Maker</td><td></td></tr></table>';
+// PACKAGING, BRAND EXPERIENCE and the early truffle categories are awarded to the maker,
+// and the page prints them with an empty product cell — 71 real awards across the 18
+// editions, which quarantining every product-less row would lose.
+test('a row with a category but no product is a maker-level award', () => {
+  const html = '<table><tr><td>PACKAGING</td><td>Bar Wrappers</td><td>GOLD</td><td>Mission Chocolate</td><td></td></tr></table>';
+  const { entries, skipped } = aoc.parse(html);
+  assert.deepEqual(skipped, []);
+  assert.equal(entries.length, 1);
+  assert.equal(entries[0].product, 'Bar Wrappers');
+  assert.equal(entries[0].product, entries[0].category);
+  assert.deepEqual(entries[0].flags, ['maker-level']);
+});
+
+test('a row with neither product nor category is quarantined, not dropped', () => {
+  const html = '<table><tr><td>BRAND EXPERIENCE</td><td></td><td>TROPHY</td><td>Table</td><td></td></tr></table>';
   const { entries, skipped } = aoc.parse(html);
   assert.equal(entries.length, 0);
-  assert.deepEqual(skipped, [{ raw: 'BARS | Plain Dark | Gold | Maker | ', reason: 'blank-product' }]);
+  assert.deepEqual(skipped, [{ raw: 'BRAND EXPERIENCE |  | TROPHY | Table | ', reason: 'blank-product' }]);
 });
 
 test('a page with no results table aborts loudly', () => {

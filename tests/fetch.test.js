@@ -19,3 +19,12 @@ test('2016 merged round is filtered by the Americas country list', async () => {
   const f = await buildAwardFile({ competition: 'ica-americas', edition, html, today: '2026-09-05' });
   assert.equal(f.entries.length, 1); assert.deepEqual(f.source.filtered, { rule: 'americas-countries', dropped: 1 });
 });
+test('a row the source prints twice is one entry and one duplicate-row', async () => {
+  const row = '<p><strong>Gold</strong>: Maker A (Brazil) – Bar One</p>';
+  const html = '<h1>Plain/origin bars</h1><h2>Dark</h2>' + row + row;
+  const edition = { slug: '2020', year: 2020, edition: '2020', title: 'Dupes', url: 'https://u', parser: 'ica-old' };
+  const f = await buildAwardFile({ competition: 'ica-world', edition, html, today: '2026-09-05' });
+  assert.deepEqual(validateAwardFile(f), []);
+  assert.equal(f.entries.length, 1);
+  assert.deepEqual(f.source.skipped, [{ raw: 'Gold: Maker A – Bar One [Dark]', reason: 'duplicate-row' }]);
+});
