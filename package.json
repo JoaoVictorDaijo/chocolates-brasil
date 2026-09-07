@@ -5,7 +5,7 @@
   "description": "Diretório curado e ranqueado por prestígio das marcas brasileiras de chocolate fino premiadas — gerador self-contained.",
   "scripts": {
     "test": "node --test 'tests/**/*.test.js'",
-    "build": "node gerar.js && mkdir -p dist && cp chocolates-brasileiros-premiados.html dist/index.html && cp og-image.png dist/og-image.png"
+    "build": "node gerar.js"
   },
   "dependencies": {
     "pdf-parse": "2.4.5"
