@@ -65,10 +65,12 @@ com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
 - **Decidir se `SHOW_NACIONAL` fica em `false`** — a flag já existe e é uma linha só.
 - **`source.fetched` guarda a data do parse, não a do download** — é ela que vira a data
   de atualização do site. Rever se um dia importar a diferença.
-- **Desempate da barra-assinatura** — `signatureOf` resolve empate de manchete pela
-  ordem dos arquivos (os dois ouros da Odle no ICA Américas 2023); e a linha nacional
-  curada da Selah ("Ao Leite") é grafada diferente do produto oficial ("Chocolate Ao
-  Leite"), então não entra nos anos da assinatura.
+- **Barra-assinatura** — `signatureOf` resolve empate de manchete pela ordem dos
+  arquivos (os dois ouros da Odle no ICA Américas 2023). E a lista de anos da manchete é
+  por competição (`a.c === star.c`), então a linha do mesmo produto em outra competição
+  fica de fora: o Cacau Fest Brasil 2025 da Selah não entra na manchete do Diploma
+  Gourmet da AVPA 2026, e o Bean to Bar Brasil 2024 da Priscyla França não entra na
+  manchete do CNA Brasil Artesanal 2021.
 - **`tests/golden/sections-before.json`** pode ser apagado quando as 15 mudanças de seção
   aceitas não valerem mais a impressão a cada build.
 
