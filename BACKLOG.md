@@ -4,6 +4,13 @@ Tarefas pendentes e ideias. Atualizar conforme avança.
 
 ---
 
+## 🔄 Rotina por edição nova
+
+`npm run fetch -- <competição> <slug>` → `npm run check` → `npm run build && npm test`
+→ commit. Detalhes e fallbacks manuais em [`data/README.md`](data/README.md).
+
+---
+
 ## 🔜 Próximos passos
 
 ### 1. Interface — trazer informações-chave para o topo
@@ -29,15 +36,53 @@ com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
 
 ---
 
+## 🍫 Marcas e curadoria
+- **Seis fabricantes brasileiros premiados no ICA sem card no site** — decidir se
+  entram: Melangeria Dimaggio (Américas 2018, ouro e prata), Adoleta (2020/21, bronze),
+  Bacio di Latte (2020/21, prata e bronze), Brüksel (2020/21, prata), Carolate (2021/22,
+  finalista) e Nuscaa Chocolate (2024, finalista). Hoje estão em `excluded` no
+  `data/brands.json`, com o motivo em cada linha.
+- **Confirmar a origem da Echocolate** — os produtos (mel de leatherwood, magnólia)
+  apontam Austrália; está excluída por origem estrangeira e três bronzes da AoC 2024–2025
+  saíram da ficha da Odle por causa disso.
+- **Logos faltantes:** JUCOLATTE, Nicolas Chocolate do Belga, DoSemente Cacau, Velmont,
+  Corumbau Cacau e Selah ainda em monograma.
+
+## 🗃️ Dados canônicos — linhas ainda não recuperadas
+- **AVPA 2024, linha 63** (Aprochok, Médaille Gourmet) — perdida pelo extrator de tabela
+  do PDF (`page-rows-incomplete`). Acrescentar à mão se o extrator melhorar.
+- **ICA Mundial 2017** — 11 reconhecimentos Triple M.M.M em quarentena `unparsed-body`:
+  a página não imprime o país, e o `ica-strong` não tem fallback sem país.
+- **ICA Mundial 2019** — 26 prêmios de degustadores em quarentena `unjoined-block-row`.
+- **AoC 2022 2ª fase** — 2 troféus do bloco BRAND EXPERIENCE, sem categoria e sem
+  produto, em quarentena `blank-product`.
+- **Reconhecimento sem produto não tem como ser guardado**: o esquema exige `product`.
+  Rever se aparecer uma competição que premia só o fabricante.
+
+## ⚙️ Infraestrutura e decisões pendentes
+- **Conferir no painel do Cloudflare Pages se há build command**; se houver, ignorar
+  `dist/` (`git rm -r --cached dist`) e deixar o build rodar no push.
+- **Decidir se `SHOW_NACIONAL` fica em `false`** — a flag já existe e é uma linha só.
+- **`source.fetched` guarda a data do parse, não a do download** — é ela que vira a data
+  de atualização do site. Rever se um dia importar a diferença.
+- **Desempate da barra-assinatura** — `signatureOf` resolve empate de manchete pela
+  ordem dos arquivos (os dois ouros da Odle no ICA Américas 2023); e a linha nacional
+  curada da Selah ("Ao Leite") é grafada diferente do produto oficial ("Chocolate Ao
+  Leite"), então não entra nos anos da assinatura.
+- **`tests/golden/sections-before.json`** pode ser apagado quando as 15 mudanças de seção
+  aceitas não valerem mais a impressão a cada build.
+
+---
+
 ## 💡 Melhorias possíveis (nice-to-have)
 - **PDF compacto** (~30 págs): só a medalheira por card, sem as listas detalhadas.
-- **Logos faltantes:** JUCOLATTE, Nicolas Chocolate do Belga, DoSemente Cacau, Velmont, Corumbau Cacau e Selah ainda em monograma.
 
 ---
 
 ## ✅ Concluído
-- Documento HTML autocontido — 72 marcas, 520 prêmios, 5 competições
-- Versão em PDF (72 páginas)
+- Documento HTML autocontido — 72 marcas, 5 competições
+- **Conjunto canônico de prêmios** em `data/`: 51 edições buscadas das páginas oficiais
+  do ICA, da Academy of Chocolate e da AVPA, com snapshot, esquema e testes
 - Logo da MOA corrigida
 - **Favicon** (tablete de chocolate com ranhuras 3×3 + estrela de ouro, cantos
   arredondados) embutido — SVG + apple-touch-icon. Alternativa com mordida na
