@@ -11,7 +11,7 @@
     "reconcile": "node data/tools/reconcile.js",
     "test": "node data/tools/check.js && node --test 'tests/**/*.test.js'"
   },
-  "dependencies": {
+  "devDependencies": {
     "pdf-parse": "2.4.5"
   }
 }
