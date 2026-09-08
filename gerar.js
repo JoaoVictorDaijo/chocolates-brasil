@@ -33,7 +33,7 @@ function medalClass(level) {
 }
 
 // ---------------- DADOS ----------------
-const SHOW_NACIONAL = String(process.env.SHOW_NACIONAL ?? 'true') !== 'false';
+const SHOW_NACIONAL = String(process.env.SHOW_NACIONAL ?? 'false') !== 'false';
 const CANON = loadAwards();
 const ATUALIZADO_EM = formatDatePt(CANON.fetchedMax);
 const MARCAS = [

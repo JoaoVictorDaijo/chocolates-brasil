@@ -72,18 +72,23 @@ function nacionalStripNames(html) {
   return [...strip[1].matchAll(/xref-name">(.*?)<\/span>/g)].map((m) => m[1]).sort();
 }
 
-test('SHOW_NACIONAL=false hides section 4 but keeps the card of a brand with a canonical award', () => {
-  execFileSync('node', ['gerar.js'], { cwd: root });
+test('the default build hides section 4 (SHOW_NACIONAL off) but keeps the card of a brand with a canonical award', () => {
+  execFileSync('node', ['gerar.js'], { cwd: root, env: { ...process.env, SHOW_NACIONAL: 'true' } });
+  const shown = fs.readFileSync(path.join(root, 'dist', 'index.html'), 'utf8');
+  assert.match(shown, /<h2[^>]*>Reconhecimento nacional<\/h2>/);
+  // A curated national row is shown without the ✓ that marks rows read from an official list.
+  const inventoShown = [...cardOf(shown, 'invento-chocolates').matchAll(/<li>[\s\S]*?<\/li>/g)].map((m) => m[0]);
+  assert.doesNotMatch(inventoShown.find((r) => /Bean to Bar Brasil 2022/.test(r)), /class="aw-src"/);
   const all = JSON.parse(fs.readFileSync(marcasPath, 'utf8'));
   const s4 = all.filter((m) => m.section === 'S4');
   const withCanon = s4.filter((m) => m.awards.some((a) => a.canonical)).map((m) => m.name).sort();
   const noCanon = s4.filter((m) => !m.awards.some((a) => a.canonical)).map((m) => m.name).sort();
   assert.ok(withCanon.length, 'the split is only meaningful while some S4 brand holds a canonical award');
 
-  execFileSync('node', ['gerar.js'], { cwd: root, encoding: 'utf8', env: { ...process.env, SHOW_NACIONAL: 'false' } });
+  execFileSync('node', ['gerar.js'], { cwd: root, encoding: 'utf8' });   // default: SHOW_NACIONAL off
   try {
     const html = fs.readFileSync(path.join(root, 'dist', 'index.html'), 'utf8');
-    assert.doesNotMatch(html, /Seção 4 — Prêmios nacionais/);
+    assert.doesNotMatch(html, /<h2[^>]*>Reconhecimento nacional<\/h2>/);
     assert.doesNotMatch(html, /Bean to Bar Brasil 20/);
     assert.match(html, /também premiadas em concursos nacionais/i);
 
@@ -109,10 +114,11 @@ test('a card shows every award it lists, marks the canonical ones and scores onl
   const marcas = JSON.parse(fs.readFileSync(marcasPath, 'utf8'));
 
   // The ✓ marks the rows read from the competition's own list; a curated national row has none.
-  const rows = [...cardOf(html, 'invento-chocolates').matchAll(/<li>[\s\S]*?<\/li>/g)].map((m) => m[0]);
-  const canonRow = rows.find((r) => /ICA Américas 2023/.test(r));
+  // Nugali lists many rows; a single-award card renders no list at all.
+  const rows = [...cardOf(html, 'nugali-chocolates').matchAll(/<li>[\s\S]*?<\/li>/g)].map((m) => m[0]);
+  const canonRow = rows.find((r) => /ICA Américas 2026/.test(r));
   assert.match(canonRow, /class="aw-src"/);
-  assert.doesNotMatch(rows.find((r) => /Bean to Bar Brasil 2022/.test(r)), /class="aw-src"/);
+  assert.ok(!rows.some((r) => /Bean to Bar Brasil/.test(r)), 'national rows are hidden in the default build');
 
   // A finalist is shown but never places, so it scores nothing: a brand whose only canonical
   // award is one stays in S4, the section for a card with no placing international award.
@@ -125,7 +131,7 @@ test('a card shows every award it lists, marks the canonical ones and scores onl
   // `data-comps` drives the competition filter, so it lists what the card shows — the
   // finalist included — even though that award never reaches the prestige index.
   assert.match(cardOf(html, 'invento-chocolates'), /data-comps="[^"]*americas/);
-  assert.match(html, /content="As marcas brasileiras de chocolate fino mais premiadas — 80 marcas e 609 prêmios verificados/);
+  assert.match(html, /content="As marcas brasileiras de chocolate fino mais premiadas — 70 marcas e 511 prêmios verificados/);
 
   // The badge follows the sources of the rows, not the card's own `src`.
   assert.match(fs.readFileSync(path.join(root, 'gerar.js'), 'utf8'), /id: 'utopia-tropical'.*src: 'imprensa'/);
@@ -133,5 +139,5 @@ test('a card shows every award it lists, marks the canonical ones and scores onl
   assert.ok(utopia.awards.length && utopia.awards.every((a) => a.canonical));
   assert.match(cardOf(html, 'utopia-tropical'), /fonte: oficial/);
 
-  assert.match(out, /^ICA Mundial 12 · Américas 29 · AoC 23 · AVPA 3 · Nacional 13$/m);
+  assert.match(out, /^ICA Mundial 12 · Américas 29 · AoC 23 · AVPA 3 · Nacional 0$/m);
 });

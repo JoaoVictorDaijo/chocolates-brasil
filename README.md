@@ -10,7 +10,9 @@ compartilhado sem dependências. No ar em <https://chocolates-brasil.pages.dev/>
 Os prêmios de ICA Mundial, ICA Américas, Academy of Chocolate e AVPA Paris vêm do
 conjunto canônico em [`data/`](data/README.md), buscado das páginas oficiais das
 competições: 51 edições, de 2005 a 2026. Os prêmios nacionais (Bean to Bar Brasil, CNA,
-Cacau Fest, Chocolat Festival) continuam curados à mão nas fichas das marcas.
+Cacau Fest, Chocolat Festival) continuam curados à mão nas fichas das marcas e, por não
+terem fonte oficial conferida pelas ferramentas, ficam fora do documento publicado até
+entrarem no conjunto canônico (ver `BACKLOG.md`).
 
 As contagens de marcas e prêmios são calculadas no build e aparecem no topo do
 documento — assim como a data de atualização, que é a mais recente entre os `fetched`
@@ -20,9 +22,10 @@ dos arquivos de prêmios.
 
 Índice de prestígio ponderado pela dificuldade da competição. Pesos por competição:
 **ICA Mundial 10 · ICA Américas 3,5 · Academy of Chocolate 3 · AVPA Paris 2,5 ·
-Nacional 1,5**; e por medalha: **Ouro > Prata > Bronze > Outros**. O documento traz
-duas seções — *reconhecimento internacional* e *reconhecimento nacional* — que nunca
-são ranqueadas uma contra a outra. Os finalistas do ICA são exibidos na ficha da marca,
+Nacional 1,5**; e por medalha: **Ouro > Prata > Bronze > Outros**. Com os prêmios
+nacionais ligados, o documento traz duas seções — *reconhecimento internacional* e
+*reconhecimento nacional* — que nunca são ranqueadas uma contra a outra; no build padrão
+só a primeira existe. Os finalistas do ICA são exibidos na ficha da marca,
 mas não pontuam nem promovem a marca de seção. A metodologia completa está dentro do
 próprio HTML.
 
@@ -48,9 +51,10 @@ npm run build
 Grava `dist/index.html` (e `dist/og-image.png`), além do `marcas.json` na raiz — um
 dump das marcas e prêmios, fora do git, usado para conferência.
 
-`SHOW_NACIONAL=false npm run build` gera o documento sem os prêmios nacionais: eles não
-pontuam, não promovem marca e a seção nacional some; as marcas que só têm prêmio
-nacional aparecem numa tira sob a seção 3.
+Por padrão o build omite os prêmios nacionais (`SHOW_NACIONAL` desligado): eles não
+pontuam, não promovem marca e a seção nacional não existe; as marcas que só têm prêmio
+nacional aparecem numa tira sob a seção 3. `SHOW_NACIONAL=true npm run build` gera o
+documento com eles.
 
 ## Atualizar prêmios
 

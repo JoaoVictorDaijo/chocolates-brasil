@@ -70,7 +70,13 @@ com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
 ## ⚙️ Infraestrutura e decisões pendentes
 - **Conferir no painel do Cloudflare Pages se há build command**; se houver, ignorar
   `dist/` (`git rm -r --cached dist`) e deixar o build rodar no push.
-- **Decidir se `SHOW_NACIONAL` fica em `false`** — a flag já existe e é uma linha só.
+- **Competições nacionais como fonte canônica** — `SHOW_NACIONAL` está desligada por
+  padrão porque as 98 linhas nacionais curadas (Bean to Bar Brasil 2017–2026, CNA 2019 e
+  2021, Cacau Fest 2025, Chocolat Festival) não têm fonte oficial conferida pelas
+  ferramentas. Próximo passo: definir quais concursos publicam resultados completos por
+  edição (o Bean to Bar Brasil publica 2025 e 2026; 2017–2022 a confirmar), indexá-los em
+  `data/editions/`, escrever o parser e reconciliar as linhas curadas como se fez com as
+  internacionais — só então religar a flag.
 - **`source.fetched` guarda a data do parse, não a do download** — é ela que vira a data
   de atualização do site. Rever se um dia importar a diferença.
 - **Barra-assinatura** — `signatureOf` resolve empate de manchete pela ordem dos
