@@ -125,7 +125,7 @@ test('a card shows every award it lists, marks the canonical ones and scores onl
   // `data-comps` drives the competition filter, so it lists what the card shows — the
   // finalist included — even though that award never reaches the prestige index.
   assert.match(cardOf(html, 'invento-chocolates'), /data-comps="[^"]*americas/);
-  assert.match(html, /content="As marcas brasileiras de chocolate fino mais premiadas — 72 marcas e 601 prêmios verificados/);
+  assert.match(html, /content="As marcas brasileiras de chocolate fino mais premiadas — 80 marcas e 609 prêmios verificados/);
 
   // The badge follows the sources of the rows, not the card's own `src`.
   assert.match(fs.readFileSync(path.join(root, 'gerar.js'), 'utf8'), /id: 'utopia-tropical'.*src: 'imprensa'/);
@@ -133,5 +133,5 @@ test('a card shows every award it lists, marks the canonical ones and scores onl
   assert.ok(utopia.awards.length && utopia.awards.every((a) => a.canonical));
   assert.match(cardOf(html, 'utopia-tropical'), /fonte: oficial/);
 
-  assert.match(out, /^ICA Mundial 12 · Américas 25 · AoC 21 · AVPA 3 · Nacional 11$/m);
+  assert.match(out, /^ICA Mundial 12 · Américas 29 · AoC 23 · AVPA 3 · Nacional 13$/m);
 });

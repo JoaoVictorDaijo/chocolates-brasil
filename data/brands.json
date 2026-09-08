@@ -1,5 +1,10 @@
 {
   "brands": {
+    "adoleta": {
+      "name": "Adoleta",
+      "aliases": [],
+      "signature": []
+    },
     "alma-chocolates": {
       "name": "Alma Chocolates",
       "aliases": [],
@@ -42,6 +47,11 @@
       "aliases": [],
       "signature": []
     },
+    "bacio-di-latte": {
+      "name": "Bacio di Latte",
+      "aliases": [],
+      "signature": []
+    },
     "baiani-chocolates": {
       "name": "Baianí Chocolates",
       "aliases": [],
@@ -57,6 +67,11 @@
       "aliases": [
         "Benevides Chocolates Finos"
       ],
+      "signature": []
+    },
+    "bruksel": {
+      "name": "Brüksel",
+      "aliases": [],
       "signature": []
     },
     "c-alma-chocolate": {
@@ -84,6 +99,11 @@
     },
     "cacau-dourado-chocolates": {
       "name": "Cacau Dourado Chocolates",
+      "aliases": [],
+      "signature": []
+    },
+    "carolate": {
+      "name": "Carolate",
       "aliases": [],
       "signature": []
     },
@@ -210,6 +230,11 @@
       "aliases": [],
       "signature": []
     },
+    "kakaw-spices": {
+      "name": "Kakaw Spices",
+      "aliases": [],
+      "signature": []
+    },
     "kalapa-chocolate": {
       "name": "Kalapa Chocolate",
       "aliases": [
@@ -258,6 +283,11 @@
       "aliases": [
         "Martinus Chocolate de Origem"
       ],
+      "signature": []
+    },
+    "melangeria-dimaggio": {
+      "name": "Melangeria Dimaggio",
+      "aliases": [],
       "signature": []
     },
     "mendoa-chocolate": {
@@ -335,6 +365,11 @@
       "aliases": [
         "Nugali"
       ],
+      "signature": []
+    },
+    "nuscaa-chocolate": {
+      "name": "Nuscaa Chocolate",
+      "aliases": [],
       "signature": []
     },
     "ocan-chocolate": {
@@ -436,6 +471,11 @@
       "aliases": [],
       "signature": []
     },
+    "vila-chocolat": {
+      "name": "Vila Chocolat",
+      "aliases": [],
+      "signature": []
+    },
     "zaad-chocolates": {
       "name": "ZAAD Chocolates",
       "aliases": [
@@ -446,22 +486,17 @@
     }
   },
   "excluded": {
-    "Adoleta": "Brasil — sem card no site; ICA Américas 2020/21 (bronze)",
     "Ara Chocolat": "França",
-    "Bacio di Latte": "Brasil — sem card no site; ICA Américas 2020/21 (prata e bronze)",
-    "Brüksel": "Brasil — sem card no site; ICA Américas 2020/21 (prata)",
+    "Billy&Bugga Handcrafted Chocolates": "Origem não confirmada — coleção \"Brasil em Aquarelas\" (AoC 2020, menção em Brand Experience, nível que não posiciona)",
     "ca ca o": "Japão — marca \"ca ca o\", linha Fresh Chocolate (AoC 2018–2019); mesma chave de \"Cacao\"",
     "Cacao": "Estados Unidos — Cacao Atlanta (\"Atlanta Love Bar\", AoC 2011)",
-    "Carolate": "Brasil — sem card no site; ICA Américas 2021/22 (finalista)",
     "CHOCOLAT-E": "Estados Unidos",
     "Chokola": "Estados Unidos — Chokolá Bean to Bar, Taos NM (AoC 2025 \"Tranquilidad, 75%\"); a brasileira grafa-se CHoKolaH",
     "Co Chocolat": "Filipinas — cacau de Mindanao, sede em Dubai (AoC 2022 2ª fase)",
-    "Echocolate": "Origem não confirmada (mel de leatherwood e magnólia apontam Tasmânia/Austrália); não é a Almadoré nem a Odle, apesar de o site listar seus bombons de 2024–2025 na Odle",
+    "Echocolate": "China (Shenzhen) segundo o Google AI Mode, sem fonte primária citada — não é a Almadoré nem a Odle, apesar de o site listar seus bombons de 2024–2025 na Odle",
     "Feitoria do Cacao": "Portugal",
     "Legado Cacao": "Colômbia",
     "Les Carrés d’Alexandre": "França — o Brésil do AVPA é a origem do cacau (Rio Purus), não o fabricante",
-    "Melangeria Dimaggio": "Brasil — sem card no site; ICA Américas 2018 (ouro e prata)",
-    "Nuscaa Chocolate": "Brasil — sem card no site; ICA Américas 2024 (finalista)",
     "Q'uma Chocolate": "Peru"
   }
 }

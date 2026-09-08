@@ -44,16 +44,17 @@ com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
 ---
 
 ## 🍫 Marcas e curadoria
-- **Seis fabricantes brasileiros premiados no ICA sem card no site** — decidir se
-  entram: Melangeria Dimaggio (Américas 2018, ouro e prata), Adoleta (2020/21, bronze),
-  Bacio di Latte (2020/21, prata e bronze), Brüksel (2020/21, prata), Carolate (2021/22,
-  finalista) e Nuscaa Chocolate (2024, finalista). Hoje estão em `excluded` no
-  `data/brands.json`, com o motivo em cada linha.
-- **Confirmar a origem da Echocolate** — os produtos (mel de leatherwood, magnólia)
-  apontam Austrália; está excluída por origem estrangeira e três bronzes da AoC 2024–2025
-  saíram da ficha da Odle por causa disso.
+- **Fichas novas escritas por pesquisa na web (Google AI Mode, sem fonte primária):**
+  Melangeria Dimaggio, Adoleta, Bacio di Latte, Brüksel, Carolate, Nuscaa Chocolate,
+  Vila Chocolat e Kakaw Spices (hoje Legria). Conferir cidade, ano de fundação, canais e
+  situação atual (Adoleta e Brüksel podem estar inativas) antes de dar os dados como certos.
+- **Confirmar a origem da Billy&Bugga Handcrafted Chocolates** — coleção "Brasil em
+  Aquarelas" com menção na AoC 2020 (Brand Experience); nenhuma pesquisa localizou a marca.
+- **Confirmar a origem da Echocolate** — o Google AI Mode aponta Shenzhen, China (sem
+  fonte primária); segue excluída, e os três bronzes da AoC 2024–2025 saíram da ficha da Odle.
 - **Logos faltantes:** JUCOLATTE, Nicolas Chocolate do Belga, DoSemente Cacau, Velmont,
-  Corumbau Cacau e Selah ainda em monograma.
+  Corumbau Cacau, Selah, Melangeria Dimaggio, Adoleta, Bacio di Latte, Brüksel, Carolate,
+  Nuscaa Chocolate, Vila Chocolat e Kakaw Spices ainda em monograma.
 
 ## 🗃️ Dados canônicos — linhas ainda não recuperadas
 - **AVPA 2024, linha 63** (Aprochok, Médaille Gourmet) — perdida pelo extrator de tabela
