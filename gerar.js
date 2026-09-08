@@ -723,7 +723,7 @@ function traitsHtml(m) {
 }
 
 function cardBr(m, rank) {
-  return `<article class="card" id="${slug(m.name)}" data-comps="${compsOf(m).join(' ')}">
+  return `<article class="card" id="${slug(m.name)}" data-comps="${compsShown(m).join(' ')}">
   <div class="card-head">
     ${logoHtml(m)}
     <div class="id">
@@ -748,7 +748,7 @@ function cardBr(m, rank) {
 }
 
 function cardIntl(m, rank) {
-  return `<article class="card" id="${slug(m.name)}" data-comps="${compsOf(m).join(' ')}">
+  return `<article class="card" id="${slug(m.name)}" data-comps="${compsShown(m).join(' ')}">
   <div class="card-head">
     ${logoHtml(m)}
     <div class="id">
@@ -789,13 +789,17 @@ const t2 = bySection('S1N2').sort(sortBy(reAmericas));
 const AOC = bySection('S2').sort(sortBy(reAoC));
 const AVPA = bySection('S3').sort(sortBy(reAvpa));
 const NACIONAL = SHOW_NACIONAL ? bySection('S4').sort(sortBy(reNac)) : [];
-// A section-4 brand has only national awards, so with SHOW_NACIONAL off it has
-// nothing left to fill a card: it is named in a strip instead.
-const NACIONAL_ONLY = SHOW_NACIONAL ? [] : bySection('S4');
+// Only a scoring award places a card, so a section-4 brand can still hold a canonical
+// one — an international finalist, shown but never a medal. With SHOW_NACIONAL off it
+// keeps its card; a brand whose every award is national has nothing left to fill one
+// and is named in a strip instead.
+const hasCanon = (m) => (m.awards || []).some((a) => a.canonical);
+const S4_CANON = SHOW_NACIONAL ? [] : bySection('S4').filter(hasCanon);
+const NACIONAL_ONLY = SHOW_NACIONAL ? [] : bySection('S4').filter((m) => !hasCanon(m));
 
 // Field-wide medal tally for the masthead (somente competições brasileiras cobertas)
-const ALL_MAKERS = SHOW_NACIONAL ? MARCAS : MARCAS.filter((m) => m.section !== 'S4');
-const TOTAL_BR = t1.length + t2.length + AOC.length + AVPA.length + NACIONAL.length;
+const ALL_MAKERS = SHOW_NACIONAL ? MARCAS : MARCAS.filter((m) => m.section !== 'S4' || S4_CANON.includes(m));
+const TOTAL_BR = t1.length + t2.length + AOC.length + AVPA.length + NACIONAL.length + S4_CANON.length;
 const FIELD = { g: 0, s: 0, b: 0, o: 0 };
 for (const m of ALL_MAKERS) for (const a of m.awards) FIELD[medalClass(a.l)]++;
 const FIELD_TOTAL = FIELD.g + FIELD.s + FIELD.b + FIELD.o;
@@ -812,9 +816,12 @@ function compKey(c) {
   return 'outro';
 }
 const COMP_LABEL = { mundial: 'ICA Mundial', americas: 'ICA Américas', aoc: 'Academy of Chocolate', avpa: 'AVPA Paris', nacional: 'Nacional', outro: 'Outro' };
+/** The competitions that score the card — the set the prestige index and the section rest on. */
 function compsOf(m) { return [...new Set((m.awards || []).filter((a) => a.scored !== false).map((a) => compKey(a.c)))]; }
+/** Every competition the card lists, scoring or not, so the tags and the filters match what a reader sees. */
+function compsShown(m) { return [...new Set((m.awards || []).map((a) => compKey(a.c)))]; }
 function compTagsHtml(m) {
-  const ks = compsOf(m);
+  const ks = compsShown(m);
   if (ks.length < 2) return '';
   return `<div class="comptags">${ks.map((k) => `<span class="ctag ${k}">${COMP_LABEL[k]}</span>`).join('')}</div>`;
 }
@@ -838,7 +845,8 @@ t2.forEach((m) => HOME.set(m, 'Seção 1 · Nível 2'));
 AOC.forEach((m) => HOME.set(m, 'Seção 2'));
 AVPA.forEach((m) => HOME.set(m, 'Seção 3'));
 NACIONAL.forEach((m) => HOME.set(m, 'Seção 4'));
-const ALL_UNIQUE = [...t1, ...t2, ...AOC, ...AVPA, ...NACIONAL];
+S4_CANON.forEach((m) => HOME.set(m, 'Finalistas'));
+const ALL_UNIQUE = [...t1, ...t2, ...AOC, ...AVPA, ...NACIONAL, ...S4_CANON];
 const TOTAL_AWARDS = ALL_UNIQUE.reduce((s, m) => s + m.awards.filter((a) => a.scored !== false).length, 0);
 const OG_DESC = `As marcas brasileiras de chocolate fino mais premiadas — ${ALL_UNIQUE.length} marcas e ${TOTAL_AWARDS} prêmios verificados (ICA, Academy of Chocolate, AVPA e nacionais), ranqueadas por um índice de prestígio.`;
 const unifiedRanked = [...ALL_UNIQUE].sort((a, b) => strengthAll(b) - strengthAll(a));
@@ -851,6 +859,20 @@ function crossStripHtml(pred, primaryArr) {
       <span class="xref-main"><span class="xref-name">${esc(m.name)}</span><span class="xref-discs">${discsHtml((m.awards || []).filter((a) => pred(a.c)))}</span></span>
       <span class="xref-home">${HOME.get(m)} ↗</span></a>`).join('');
   return `<div class="xrefs"><p class="xrefs-title">Também premiadas aqui <em>· ficha completa em outra seção</em></p><div class="xrefs-list">${items}</div></div>`;
+}
+
+/**
+ * The cards `nacionalOnlyHtml` does not cover: with SHOW_NACIONAL off, a section-4 brand
+ * whose canonical award is an international finalist still has a full record to show.
+ */
+function finalistasHtml() {
+  if (!S4_CANON.length) return '';
+  let r = 0;
+  return `<section class="usection">
+    <div class="section-title"><h2>Finalistas em competições internacionais</h2><span class="count">${S4_CANON.length} marca${S4_CANON.length > 1 ? 's' : ''}</span></div>
+    <p class="section-intro">Marcas que chegaram à final de uma competição internacional sem levar medalha — a distinção consta na ficha, mas não pontua no índice de prestígio.</p>
+    <div class="grid">${S4_CANON.map((m) => cardBr(m, ++r)).join('\n')}</div>
+  </section>`;
 }
 
 function nacionalOnlyHtml() {
@@ -1299,6 +1321,7 @@ const mainSectioned = `
   <p class="section-intro">O concurso “Chocolats transformés à l'origine” da AVPA (Paris) premia exclusivamente chocolates feitos nos <strong>países de origem do cacau</strong> — feito sob medida para marcas brasileiras de terroir.</p>
   ${sectionAvpa}
   ${crossStripHtml(reAvpa, AVPA)}
+  ${finalistasHtml()}
   ${nacionalOnlyHtml()}
 ${SHOW_NACIONAL ? `
   <div class="section-title"><h2>Seção 4 — Prêmios nacionais</h2><span class="count">${NACIONAL.length} marcas · Bean to Bar Brasil &amp; CNA</span></div>
@@ -1389,7 +1412,7 @@ const mainUnified = `
     <div class="section-title"><h2>Reconhecimento nacional</h2><span class="count">${nacBrands.length} marcas · Bean to Bar Brasil &amp; CNA</span></div>
     <p class="section-intro">Ótimas marcas cujo reconhecimento, até aqui, vem de <strong>competições nacionais</strong> — sem medalha internacional confirmada. Grandes nomes que merecem estar no mapa.</p>
     <div class="grid">${nacBrands.map((m) => cardBr(m, ++rnac)).join('\n')}</div>
-  </section>` : nacionalOnlyHtml()}
+  </section>` : `${finalistasHtml()}${nacionalOnlyHtml()}`}
 
   <p class="empty" id="empty" hidden>Nenhuma marca premiada nesta competição.</p>
 
