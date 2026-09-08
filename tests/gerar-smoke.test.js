@@ -141,3 +141,29 @@ test('a card shows every award it lists, marks the canonical ones and scores onl
 
   assert.match(out, /^ICA Mundial 12 · Américas 29 · AoC 23 · AVPA 3 · Nacional 0$/m);
 });
+
+test('medal discs carry a popover of their awards and the award list is grouped by competition', () => {
+  execFileSync('node', ['gerar.js'], { cwd: root });
+  const html = fs.readFileSync(path.join(root, 'dist', 'index.html'), 'utf8');
+  const marcas = JSON.parse(fs.readFileSync(marcasPath, 'utf8'));
+  const nugali = marcas.find((m) => m.id === 'nugali-chocolates');
+  const card = cardOf(html, 'nugali-chocolates');
+
+  // One popover per (competition, medal level) disc; every award appears in exactly one popover.
+  const pairs = new Set(nugali.awards.map((a) => `${a.c}|${a.l}`));
+  const medalPairs = new Set([...pairs].map((p) => { const [c, l] = p.split('|'); return `${c}|${/Ouro/.test(l) ? 'g' : /Prata/.test(l) ? 's' : /Bronze/.test(l) ? 'b' : 'o'}`; }));
+  assert.equal((card.match(/class="discw"/g) || []).length, medalPairs.size);
+  assert.equal((card.match(/class="pop-row"/g) || []).length, nugali.awards.length);
+
+  // One group per competition, in the medal-row order, each with an id a disc can jump to.
+  const comps = [...new Set(nugali.awards.map((a) => a.c))];
+  const groups = [...card.matchAll(/<div class="agrp" id="ag-nugali-chocolates-([a-z]+)"/g)].map((m) => m[1]);
+  assert.equal(groups.length, comps.length);
+  assert.deepEqual(groups, ['mundial', 'americas', 'aoc', 'avpa'].filter((k) => groups.includes(k)));
+  for (const k of groups) assert.match(card, new RegExp(`<button type="button" class="disc [gsbo]" data-target="ag-nugali-chocolates-${k}"`));
+
+  // Rows inside a group run newest edition first.
+  const americas = /<div class="agrp" id="ag-nugali-chocolates-americas"[\s\S]*?<\/ul>/.exec(card)[0];
+  const years = [...americas.matchAll(/aw-comp">(?:<span class="aw-src"[^<]*<\/span>)?ICA Américas ([0-9/]+)/g)].map((m) => parseInt(m[1], 10));
+  assert.deepEqual(years, [...years].sort((a, b) => b - a));
+});

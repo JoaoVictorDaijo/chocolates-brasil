@@ -612,16 +612,20 @@ function logoHtml(m) {
   return `<div class="logo mono">${esc(initials || '?')}</div>`;
 }
 
+function awardRowHtml(a) {
+  const star = a.star ? '<span class="star" title="Chocolate com múltiplas premiações">★</span>' : '';
+  const srcMark = a.canonical ? '<span class="aw-src" title="Fonte oficial da competição">✓</span>' : '';
+  return `<li><span class="medal ${medalClass(a.l)}">${esc(a.l)}</span>` +
+    `<span class="aw-body"><span class="aw-comp">${srcMark}${esc(a.c)} ${esc(a.y)}</span>` +
+    `<span class="aw-prod">${star}${esc(a.p)}</span></span></li>`;
+}
+/** The award list grouped by competition, in the medal-row order, newest edition first inside each group. */
 function awardsHtml(m) {
-  const rows = m.awards.map((a) => {
-    const cls = medalClass(a.l);
-    const star = a.star ? '<span class="star" title="Chocolate com múltiplas premiações">★</span>' : '';
-    const srcMark = a.canonical ? '<span class="aw-src" title="Fonte oficial da competição">✓</span>' : '';
-    return `<li><span class="medal ${cls}">${esc(a.l)}</span>` +
-      `<span class="aw-body"><span class="aw-comp">${srcMark}${esc(a.c)} ${esc(a.y)}</span>` +
-      `<span class="aw-prod">${star}${esc(a.p)}</span></span></li>`;
-  }).join('');
-  return `<ul class="awards">${rows}</ul>`;
+  const byComp = {};
+  for (const a of m.awards) { const k = compKey(a.c); (byComp[k] = byComp[k] || []).push(a); }
+  return COMP_ORDER.filter((k) => byComp[k]).map((k) =>
+    `<div class="agrp" id="ag-${m.id}-${k}"><div class="agrp-h"><span class="ctag ${k}">${COMP_LABEL[k]}</span><span class="tdiscs">${discsHtml(byComp[k])}</span></div>` +
+    `<ul class="awards">${sortAwards(byComp[k]).map(awardRowHtml).join('')}</ul></div>`).join('');
 }
 
 function srcBadge(src) {
@@ -697,10 +701,30 @@ function signatureOf(m) {
   const best = bestAward(aw);
   return { p: best.p, sub: `${best.l} · ${best.c} ${best.y}` };
 }
+const MEDAL_RANK = { g: 0, s: 1, b: 2, o: 3 };
+/** Newest edition first, then gold → silver → bronze → other, then product name. */
+function sortAwards(awards) {
+  return awards.slice().sort((a, b) => editionYear(b.y) - editionYear(a.y)
+    || MEDAL_RANK[medalClass(a.l)] - MEDAL_RANK[medalClass(b.l)] || String(a.p).localeCompare(String(b.p), 'pt'));
+}
 function discsHtml(awards, xl) {
   const c = tallyOf(awards);
   return ['g', 's', 'b', 'o'].filter((k) => c[k] > 0).map((k) =>
     `<span class="disc ${k}${xl ? ' xl' : ''}" title="${c[k]} ${MEDAL_LABEL[k]}"><b>${c[k]}</b></span>`).join('');
+}
+/**
+ * The medal-row discs of one competition: each is a button whose popover lists the awards
+ * behind the count, and whose `data-target` names the matching group in the award list.
+ */
+function discButtonsHtml(awards, compLabel, target) {
+  const byClass = {};
+  for (const a of sortAwards(awards)) (byClass[medalClass(a.l)] = byClass[medalClass(a.l)] || []).push(a);
+  return ['g', 's', 'b', 'o'].filter((k) => byClass[k]).map((k) => {
+    const list = byClass[k];
+    const rows = list.map((a) => `<span class="pop-row"><span class="pop-p">${a.star ? '<span class="star">★</span>' : ''}${esc(a.p)}</span><span class="pop-y">${esc(a.y)}</span></span>`).join('');
+    return `<span class="discw"><button type="button" class="disc ${k}" data-target="${target}" aria-label="${list.length} ${MEDAL_LABEL[k]} · ${esc(compLabel)}"><b>${list.length}</b></button>` +
+      `<span class="pop" role="tooltip"><span class="pop-t">${list.length} ${MEDAL_LABEL[k]} · ${esc(compLabel)}</span>${rows}</span></span>`;
+  }).join('');
 }
 const COMP_ORDER = ['mundial', 'americas', 'aoc', 'avpa', 'nacional', 'outro'];
 function medalheiraHtml(m) {
@@ -708,7 +732,7 @@ function medalheiraHtml(m) {
   const byComp = {};
   for (const a of aw) { const k = compKey(a.c); (byComp[k] = byComp[k] || []).push(a); }
   const rows = COMP_ORDER.filter((k) => byComp[k]).map((k) =>
-    `<div class="trow"><span class="ctag ${k}">${COMP_LABEL[k]}</span><span class="tdiscs">${discsHtml(byComp[k])}</span></div>`).join('');
+    `<div class="trow"><span class="ctag ${k}">${COMP_LABEL[k]}</span><span class="tdiscs">${discButtonsHtml(byComp[k], COMP_LABEL[k], `ag-${m.id}-${k}`)}</span></div>`).join('');
   const sig = signatureOf(m);
   return `<div class="medalheira">
     <div class="tally">${rows}</div>
@@ -1035,6 +1059,20 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
   .disc.o{background:radial-gradient(circle at 36% 28%,#75a187,#2f5d49 64%,#1f4334);color:#e9f3ec}
   .disc.xl{width:48px;height:48px;font-size:1.25rem}
   .disc b{line-height:1}
+  button.disc{border:0;padding:0;cursor:pointer;font:inherit;font-family:var(--mono);font-weight:700;font-size:.76rem}
+  button.disc:focus-visible{outline:2px solid var(--cabruca);outline-offset:2px}
+  .discw{position:relative;display:inline-flex}
+  .pop{display:none;position:absolute;left:50%;top:calc(100% + 8px);transform:translateX(-50%);z-index:30;min-width:220px;max-width:300px;
+    padding:8px 10px;background:var(--ink);color:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.28);font-size:.74rem;line-height:1.35;text-align:left}
+  .pop::before{content:"";position:absolute;bottom:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-bottom-color:var(--ink)}
+  .discw:hover .pop,.discw:focus-within .pop,.discw.open .pop{display:block}
+  .pop-t{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;opacity:.75;margin-bottom:5px}
+  .pop-row{display:flex;justify-content:space-between;gap:10px;padding:2px 0;border-top:1px solid rgba(255,255,255,.12)}
+  .pop-p{flex:1 1 auto}
+  .pop-p .star{color:var(--ouro);margin-right:3px}
+  .pop-y{flex:0 0 auto;font-family:var(--mono);font-size:.68rem;opacity:.8;white-space:nowrap}
+  .trow:first-child .pop{left:0;transform:none}
+  .trow:first-child .pop::before{left:13px;transform:none}
   .awn{margin-left:3px;font-family:var(--mono);font-size:.7rem;letter-spacing:.03em;color:var(--muted2);font-weight:600}
   .sig{margin:10px 0 0;display:flex;gap:7px;align-items:baseline}
   .sig-star{color:var(--ouro);font-size:.92rem;line-height:1}
@@ -1057,6 +1095,11 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
   .dets[open]>summary::before{transform:rotate(90deg)}
   .dets[open]>summary{margin-bottom:8px}
   .dets-body{padding-left:1px}
+  .agrp{margin:0 0 10px}
+  .agrp-h{display:flex;align-items:center;gap:8px;margin:0 0 6px;padding:0 0 4px;border-bottom:1px dashed var(--line)}
+  .agrp-h .tdiscs .disc{width:20px;height:20px;font-size:.6rem}
+  .agrp.hl{animation:agrp-hl 1.6s ease-out}
+  @keyframes agrp-hl{0%{background:rgba(194,152,58,.28)}100%{background:transparent}}
   ul.awards{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
   ul.awards li{display:grid;grid-template-columns:auto 1fr;gap:9px;align-items:start;font-size:.82rem}
   .medal{font-family:var(--mono);font-size:.62rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
@@ -1274,6 +1317,21 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
   window.addEventListener('beforeprint', _expand);
   window.addEventListener('afterprint', _restore);
   if (window.matchMedia){ var mq = window.matchMedia('print'); if (mq.addEventListener) mq.addEventListener('change', function(e){ e.matches ? _expand() : _restore(); }); }
+  // A medal disc: tap opens its popover (hover does it on desktop); click also opens the award
+  // list and jumps to that competition's group. Tapping elsewhere closes any open popover.
+  document.querySelectorAll('button.disc').forEach(function(btn){
+    btn.addEventListener('click', function(ev){
+      ev.stopPropagation();
+      var w = btn.parentNode, open = w.classList.contains('open');
+      document.querySelectorAll('.discw.open').forEach(function(o){ o.classList.remove('open'); });
+      if (!open) w.classList.add('open');
+      var g = document.getElementById(btn.dataset.target); if (!g) return;
+      var d = g.closest('details'); if (d) d.open = true;
+      g.classList.remove('hl'); void g.offsetWidth; g.classList.add('hl');
+      g.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  });
+  document.addEventListener('click', function(){ document.querySelectorAll('.discw.open').forEach(function(o){ o.classList.remove('open'); }); });
   // Filter cards by competition; hide a whole section when nothing in it matches.
   document.querySelectorAll('.filterbar .fchip').forEach(function(btn){
     btn.addEventListener('click', function(){
