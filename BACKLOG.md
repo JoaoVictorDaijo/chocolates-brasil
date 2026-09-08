@@ -47,11 +47,11 @@ com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
 - **Fichas novas escritas por pesquisa na web (Google AI Mode, sem fonte primária):**
   Melangeria Dimaggio, Adoleta, Bacio di Latte, Brüksel, Carolate, Nuscaa Chocolate,
   Vila Chocolat e Kakaw Spices (hoje Legria). Conferir cidade, ano de fundação, canais e
-  situação atual (Adoleta e Brüksel podem estar inativas) antes de dar os dados como certos.
+  situação atual (Adoleta e Brüksel podem estar inativas) antes de dar os dados como certos. Issue: #2.
 - **Confirmar a origem da Billy&Bugga Handcrafted Chocolates** — coleção "Brasil em
-  Aquarelas" com menção na AoC 2020 (Brand Experience); nenhuma pesquisa localizou a marca.
+  Aquarelas" com menção na AoC 2020 (Brand Experience); nenhuma pesquisa localizou a marca. Issue: #3.
 - **Confirmar a origem da Echocolate** — o Google AI Mode aponta Shenzhen, China (sem
-  fonte primária); segue excluída, e os três bronzes da AoC 2024–2025 saíram da ficha da Odle.
+  fonte primária); segue excluída, e os três bronzes da AoC 2024–2025 saíram da ficha da Odle. Issue: #3.
 - **Logos faltantes:** JUCOLATTE, Nicolas Chocolate do Belga, DoSemente Cacau, Velmont,
   Corumbau Cacau, Selah, Melangeria Dimaggio, Adoleta, Bacio di Latte, Brüksel, Carolate,
   Nuscaa Chocolate, Vila Chocolat e Kakaw Spices ainda em monograma.
@@ -68,15 +68,13 @@ com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
   Rever se aparecer uma competição que premia só o fabricante.
 
 ## ⚙️ Infraestrutura e decisões pendentes
-- **Conferir no painel do Cloudflare Pages se há build command**; se houver, ignorar
-  `dist/` (`git rm -r --cached dist`) e deixar o build rodar no push.
 - **Competições nacionais como fonte canônica** — `SHOW_NACIONAL` está desligada por
   padrão porque as 98 linhas nacionais curadas (Bean to Bar Brasil 2017–2026, CNA 2019 e
   2021, Cacau Fest 2025, Chocolat Festival) não têm fonte oficial conferida pelas
   ferramentas. Próximo passo: definir quais concursos publicam resultados completos por
   edição (o Bean to Bar Brasil publica 2025 e 2026; 2017–2022 a confirmar), indexá-los em
   `data/editions/`, escrever o parser e reconciliar as linhas curadas como se fez com as
-  internacionais — só então religar a flag.
+  internacionais — só então religar a flag. Issue: #1.
 - **`source.fetched` guarda a data do parse, não a do download** — é ela que vira a data
   de atualização do site. Rever se um dia importar a diferença.
 - **Barra-assinatura** — `signatureOf` resolve empate de manchete pela ordem dos
