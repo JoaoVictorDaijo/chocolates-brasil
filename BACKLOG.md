@@ -19,12 +19,19 @@ feito", créditos). Trazer para perto do topo o essencial — em especial a **le
 o card **"Como o índice de prestígio é calculado"** (que já agrada). A definir na
 conversa de design: o que sobe, para onde, e o que pode virar algo recolhível.
 
-### 2. Interface — colapsar os cards de forma elegante (desktop + mobile)
+### 2. Interface — legenda do ✓ e de "Finalista"
+A ficha imprime dois sinais que a página não explica: o **✓** antes do nome da
+competição, que marca a linha lida na lista oficial do concurso, e o nível
+**"Finalista"**, que aparece na medalheira mas não é medalha — não pontua no índice e
+não coloca a marca numa seção. Acrescentar as duas entradas à legenda (ou ao glossário
+do rodapé), junto com as das medalhas.
+
+### 3. Interface — colapsar os cards de forma elegante (desktop + mobile)
 Reduzir o comprimento da página deixando cada ficha de marca recolhível/condensada,
 com solução boa tanto no desktop quanto no mobile. A discutir: estado padrão
 (aberto/fechado), o que fica visível no card fechado, expandir-um vs expandir-todos.
 
-### 3. Post no Reddit
+### 4. Post no Reddit
 - **Hospedagem:** já no ar em https://chocolates-brasil.pages.dev/
 - **Tabela markdown** do top 15-20 (rank · marca · cidade · nº de medalhas · pontos).
 - **Título + TL;DR** em PT e em inglês.

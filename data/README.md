@@ -45,8 +45,10 @@ data/
     reconcile.js                  confere o conjunto canônico contra a auditoria
     transcribe-avpa.js            rascunho de transcrição manual dos PDFs da AVPA
     export-audit.js               congela o `marcas.json` curado como auditoria
-    lib/                          snapshot, retry, esquema, chave, níveis
-    parsers/                      ica-new, ica-old, ica-2012, aoc, avpa
+    lib/                          snapshot, esquema, chave, níveis, texto (text.js)
+                                  e os blocos do ICA (ica-blocks.json)
+    parsers/                      ica-new, ica-old, ica-2012, ica-strong,
+                                  ica-finalists, aoc, avpa
     americas-countries.json       filtro da rodada de 2016 (Américas + Ásia-Pacífico)
 ```
 
@@ -79,7 +81,7 @@ depende da fonte.
     "fetched": "2026-09-07",                        ✱ data ISO
     "method": "parser",                             ✱ parser | manual-transcription
     "skipped": [ { "raw": "…", "reason": "blank-level" } ],
-    "filtered": { "rule": "americas-countries", "dropped": 68 }
+    "filtered": { "rule": "americas-countries", "dropped": 76 }
   },
   "entries": [
     {
@@ -195,7 +197,7 @@ Uma linha que o parser não conseguiu ler não some nem derruba a edição: fica
 |---|---|
 | `blank-level` | linha da tabela sem palavra de nível: separador ("BARS", "FILLED CHOCOLATES"), categoria sem premiado ("No Awards Given") e a linha de cabeçalho "Overall Winner" da AoC 2023 |
 | `blank-maker` | linha com nível, sem fabricante |
-| `blank-product` | linha com nível e fabricante, sem produto |
+| `blank-product` | linha com nível e fabricante, sem produto; na AoC só quando a categoria também está vazia, porque a linha sem produto mas com categoria é prêmio ao fabricante (`maker-level`) e o produto guardado é a categoria |
 | `repeated-header` | a linha de cabeçalho que o extrator de PDF repete em toda página (AVPA) |
 | `duplicate-row` | a fonte publicou o mesmo (nível, categoria, fabricante, produto) duas vezes |
 | `empty-key` | fabricante ou produto cuja chave de comparação é vazia |
@@ -235,7 +237,10 @@ Liga a grafia que a fonte publica à ficha do site.
 - **`aliases`** acrescenta as outras grafias que as fontes imprimem, comparadas por
   chave. Marca que se renomeou lista o nome antigo.
 - **`signature`** guarda os nomes de produto, **exatamente como a fonte os grafa**, que
-  ganham a ★ de barra assinatura na ficha.
+  ganham a ★ de barra assinatura na ficha. O loader só compara com os produtos dos
+  arquivos de prêmios, então um `signature` que nomeia produto de premiação nacional não
+  tem efeito nenhum aqui: as sete fichas nesse caso trazem `star: true` na própria linha
+  do card, em `gerar.js`.
 - **`excluded`** são fabricantes que o `check.js` acusaria, cada um com o motivo numa
   linha. Fabricante brasileiro sem ficha no site segue a convenção
   `"Brasil — sem card no site; <edição> (<medalhas>)"`, para que a exclusão seja um
@@ -265,11 +270,11 @@ seguem. O site da Academy of Chocolate fica atrás de um WAF por taxa, então as
 requisições levam cabeçalhos de navegador, esperam dois segundos entre chamadas e
 tentam três vezes com backoff.
 
-`npm run check` imprime quatro listas e sai com erro quando as duas primeiras não estão
-vazias: (1) fabricante brasileiro sem marca e sem exclusão; (2) provável variação de
-grafia — chave que contém, ou está contida em, a chave de uma marca; (3) pista de
-fabricante possivelmente brasileiro (origem Brésil na AVPA, produto com palavra em
-português na AoC); (4) apelido morto, que nenhum arquivo grafa.
+`npm run check` imprime quatro listas e sai com erro quando **qualquer uma** das duas
+primeiras listas não estiver vazia: (1) fabricante brasileiro sem marca e sem exclusão;
+(2) provável variação de grafia — chave que contém, ou está contida em, a chave de uma
+marca; (3) pista de fabricante possivelmente brasileiro (origem Brésil na AVPA, produto
+com palavra em português na AoC); (4) apelido morto, que nenhum arquivo grafa.
 
 ## Quando o automático não dá conta
 
@@ -286,9 +291,11 @@ npm run fetch -- aoc 2021 --offline
 **AVPA 2021–2023.** Nesses três PDFs a extração de tabela devolve células vazias ou
 tabela nenhuma, então as edições são transcritas à mão. O `transcribe-avpa.js` faz o
 rascunho — quebra o texto nas palavras de medalha e deixa `maker` e `product` como `??`
-ao lado do trecho cru:
+ao lado do trecho cru. O dump é a camada de texto do próprio PDF, extraída com o
+`getText()` do `pdf-parse`:
 
 ```bash
+node -e "const fs=require('fs'),{PDFParse}=require('pdf-parse');(async()=>{const p=new PDFParse({data:fs.readFileSync('data/raw/avpa/2021.pdf')});fs.writeFileSync('dump.txt',(await p.getText()).text);await p.destroy();})()"
 node data/tools/transcribe-avpa.js 2021 dump.txt <url-do-pdf>   # → data/awards/avpa/2021.draft.json
 # preencha cada linha a partir de `_raw`, apague `_raw`, salve como 2021.json
 ```
@@ -331,8 +338,11 @@ canônicos acrescentam nunca é falha.
 4. **Índice de edições** em `data/editions/<competição>.json`, à mão ou a partir de um
    crawler novo em `crawl-editions.js`.
 5. **Rótulos** em `awards-loader.js`: `COMP_LABEL_PT` para a competição e
-   `LEVEL_LABEL_PT` para cada nível novo, e a regra de seção em `placeBrand()`; o peso
-   da competição fica no `CW` de `gerar.js`.
+   `LEVEL_LABEL_PT` para cada nível novo, e a regra de seção em `placeBrand()`. Em
+   `gerar.js`, o rótulo tem de virar chave em `compKey()` e entrar em `COMP_LABEL` e
+   `COMP_ORDER`, com o peso da competição no `CW`. E o mesmo rótulo entra no `COMP` de
+   `data/tools/reconcile.js` e de `data/tools/export-audit.js`, senão a auditoria e a
+   reconciliação ignoram a competição nova.
 6. **Fixture e teste** em `tests/fixtures/` e `tests/parsers-<nome>.test.js`: uma página
    real, aparada, com as contagens esperadas de entradas e de quarentena e três a cinco
    linhas conhecidas.
