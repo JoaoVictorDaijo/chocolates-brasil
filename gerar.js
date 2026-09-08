@@ -712,7 +712,7 @@ function discButtonsHtml(awards, compLabel, target) {
     const list = byClass[k];
     const rows = list.map((a) => `<span class="pop-row"><span class="pop-p">${a.star ? '<span class="star">★</span>' : ''}${esc(a.p)}</span><span class="pop-y">${esc(a.y)}</span></span>`).join('');
     return `<span class="discw"><button type="button" class="disc ${k}" data-target="${target}" aria-label="${list.length} ${MEDAL_LABEL[k]} · ${esc(compLabel)}"><b>${list.length}</b></button>` +
-      `<span class="pop" role="tooltip"><span class="pop-t">${list.length} ${MEDAL_LABEL[k]} · ${esc(compLabel)}</span>${rows}</span></span>`;
+      `<span class="pop" role="tooltip"><span class="pop-t">${list.length} ${MEDAL_LABEL[k]} · ${esc(compLabel)}</span><span class="pop-list">${rows}</span></span></span>`;
   }).join('');
 }
 const COMP_ORDER = ['mundial', 'americas', 'aoc', 'avpa', 'nacional', 'outro'];
@@ -1056,6 +1056,7 @@ ${FAVICON_PNG ? `<link rel="apple-touch-icon" href="${FAVICON_PNG}">\n<link rel=
   .pop::before{content:"";position:absolute;bottom:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-bottom-color:var(--ink)}
   .discw:hover .pop,.discw:focus-within .pop,.discw.open .pop{display:block}
   .pop-t{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;opacity:.75;margin-bottom:5px}
+  .pop-list{display:block;max-height:min(260px,40vh);overflow-y:auto;overscroll-behavior:contain;padding-right:4px;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.35) transparent}
   .pop-row{display:flex;justify-content:space-between;gap:10px;padding:2px 0;border-top:1px solid rgba(255,255,255,.12)}
   .pop-p{flex:1 1 auto}
   .pop-p .star{color:var(--ouro);margin-right:3px}
