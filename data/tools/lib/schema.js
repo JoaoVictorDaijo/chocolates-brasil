@@ -11,7 +11,7 @@ function entryKey(e) { return `${e.level}|${key(e.category || '')}|${key(e.maker
 
 /**
  * Checks an award file against the schema of
- * docs/superpowers/specs/2026-09-04-canonical-awards-data-design.md §3.
+ * data/README.md (Esquema do arquivo de prêmios).
  * Returns every problem found as a message; an empty array means valid. Fields
  * beyond the schema are left alone, so a source may carry its own extras.
  * What a failure costs — quarantining one file or aborting the run — is the caller's call.

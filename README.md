@@ -12,7 +12,7 @@ conjunto canônico em [`data/`](data/README.md), buscado das páginas oficiais d
 competições: 51 edições, de 2005 a 2026. Os prêmios nacionais (Bean to Bar Brasil, CNA,
 Cacau Fest, Chocolat Festival) continuam curados à mão nas fichas das marcas e, por não
 terem fonte oficial conferida pelas ferramentas, ficam fora do documento publicado até
-entrarem no conjunto canônico (ver `BACKLOG.md`).
+entrarem no conjunto canônico (ver [issue #1](https://github.com/JoaoVictorDaijo/chocolates-brasil/issues/1)).
 
 As contagens de marcas e prêmios são calculadas no build e aparecem no topo do
 documento — assim como a data de atualização, que é a mais recente entre os `fetched`
@@ -28,6 +28,10 @@ nacionais ligados, o documento traz duas seções — *reconhecimento internacio
 só a primeira existe. Os finalistas do ICA são exibidos na ficha da marca,
 mas não pontuam nem promovem a marca de seção. A metodologia completa está dentro do
 próprio HTML.
+
+A manchete da barra assinatura reúne os anos apenas da competição escolhida, mesmo
+que o produto tenha prêmios em outras. Em empate de medalha, competição e ano, vale a
+primeira linha na ordem dos dados.
 
 ## Estrutura
 
