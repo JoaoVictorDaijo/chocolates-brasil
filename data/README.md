@@ -211,6 +211,34 @@ Uma linha que o parser não conseguiu ler não some nem derruba a edição: fica
 para o post do arquivo do ICA que não é lista de vencedores nem de finalistas. Ele fica
 no `notes` da proposta de edição, não em `source.skipped`.
 
+### Limitações de cobertura
+
+- **AVPA 2024:** falta a linha 63 (Aprochok, Médaille Gourmet); a primeira página
+  registra 13 linhas extraídas para 14 medalhas impressas (`page-rows-incomplete`).
+- **ICA Mundial 2017:** 11 reconhecimentos Triple M.M.M ficam em `unparsed-body`,
+  porque a fonte omite o país e a gramática do `ica-strong` exige esse campo.
+- **ICA Mundial 2019:** 26 prêmios de degustadores ficam em `unjoined-block-row` por
+  não encontrarem uma entrada de medalha correspondente.
+- **AoC 2022 2ª fase:** os troféus de Table e Cartografie no bloco BRAND EXPERIENCE
+  ficam em `blank-product`, sem categoria nem produto. O esquema exige `product`;
+  na AoC a categoria pode ocupar esse campo em prêmios ao fabricante, mas ambos vazios
+  impedem guardar a linha.
+
+Essas perdas estão registradas em `source.skipped`; o conjunto canônico não representa
+essas linhas como prêmios.
+
+## Blocos de prêmios do ICA
+
+O `ica-strong` classifica cada título `<h1>` pelo registro `tools/lib/ica-blocks.json`;
+um título desconhecido aborta a edição, para que um bloco novo não vire medalha por
+engano. Blocos de prêmios especiais são unidos à medalha pelo fabricante e produto e
+guardados em `special`, sem criar outra medalha. Reconhecimentos são entradas próprias
+e não servem de alvo dessa união.
+
+Duas linhas com o mesmo nível, categoria, chave de fabricante e chave de produto são
+duplicatas: a repetição fica em `duplicate-row`. O mesmo produto premiado em categorias
+diferentes continua sendo duas entradas.
+
 ## `data/brands.json`
 
 Liga a grafia que a fonte publica à ficha do site.

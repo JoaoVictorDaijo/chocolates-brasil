@@ -1,3 +1,14 @@
+---
+title: Canonical competition results as the source of truth
+status: implemented
+date: 2026-09-04
+areas: [data, site]
+prs: []
+issues: []
+superseded_by: null
+summary: Official competition results form a standalone canonical dataset that supplies the site's international awards and determines brand placement.
+---
+
 # Canonical competition results as the source of truth
 
 **Status:** draft for review (IAR round 1 applied, owner decisions recorded) ·

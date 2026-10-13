@@ -15,7 +15,7 @@ const { key } = require('./lib/key.js');
  *
  * The snapshot is what the source published; the award file is what the parser read
  * from it, and never ships unless it passes the schema of
- * docs/superpowers/specs/2026-09-04-canonical-awards-data-design.md §3. Rows the
+ * data/README.md (Esquema do arquivo de prêmios). Rows the
  * parser could not read stay in `source.skipped` with the reason, so an edition is
  * never quietly short. An edition marked `manual-transcription` in the index is
  * hand-written and is left alone. A failing edition costs that edition only — the

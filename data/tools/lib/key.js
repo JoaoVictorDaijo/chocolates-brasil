@@ -4,7 +4,7 @@
  * Matching key: comparisons only, never stored. Folds case, accents and every
  * non-alphanumeric character so the spelling variants three sources print for
  * one name collapse, while CJK and Cyrillic names keep a non-empty key.
- * Definition: docs/superpowers/specs/2026-09-04-canonical-awards-data-design.md §3.
+ * Definition: data/README.md (Chave de comparação).
  */
 function key(s) {
   return foldDashes(String(s || '').toLowerCase().normalize('NFD').replace(/\p{M}/gu, ''))
