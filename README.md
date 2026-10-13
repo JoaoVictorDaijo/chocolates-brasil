@@ -81,7 +81,7 @@ O repositório está ligado ao **Cloudflare Pages**: um push na `main` publica o
 `dist/index.html` como `index.html` do site. Por isso o `dist/` é versionado. Se o
 projeto no Cloudflare tiver um build command configurado, ele deve ser `npm run build`.
 
-Para que outras branches não gerem build, em **Workers & Pages → chocolates-brasil → Settings → Builds → Branch control**, mantenha **Production branch** em `main` com os deploys automáticos ativos e escolha **Preview branch: None**. Commits com `[CF-Pages-Skip]` na mensagem também não geram build. As regras para agentes estão em [AGENTS.md](AGENTS.md).
+Para que outras branches não gerem build, em **Workers & Pages → chocolates-brasil → Settings → Builds → Branch control**, mantenha **Production branch** em `main` com os deploys automáticos ativos e escolha **Preview branch: Custom branches**, com apenas `develop` em **Include**. Trabalho novo entra por PR em `develop`, que gera a prévia em `develop.chocolates-brasil.pages.dev`; `main` recebe `develop` por PR de promoção. Commits com `[CF-Pages-Skip]` na mensagem não geram build. As regras para agentes estão em [AGENTS.md](AGENTS.md).
 
 O documento é um único HTML autocontido, então também serve em qualquer host estático —
 o **Netlify Drop** (`app.netlify.com/drop`), por exemplo, aceita o arquivo arrastado.
